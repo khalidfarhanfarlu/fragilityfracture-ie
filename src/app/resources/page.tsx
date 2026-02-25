@@ -1,0 +1,144 @@
+import type { Metadata } from "next";
+import { ExternalLink } from "lucide-react";
+import PageLayout from "@/components/PageLayout";
+
+export const metadata: Metadata = {
+  title: "Resources & Support",
+  description:
+    "Useful resources and support organisations for people with osteoporosis in Ireland — including the Irish Osteoporosis Society, HSE, and international resources.",
+};
+
+const resources = [
+  {
+    category: "Irish Organisations",
+    items: [
+      {
+        name: "Irish Osteoporosis Society",
+        desc: "The leading Irish charity for people with osteoporosis. Provides a helpline, patient information, and advocacy for better osteoporosis services in Ireland.",
+        url: "https://www.irishosteoporosis.ie",
+        note: "Helpline: 01 637 5050",
+      },
+      {
+        name: "HSE — Health Service Executive",
+        desc: "The HSE website provides information on accessing bone density testing, GP services, specialist referrals, and public hospital services across Ireland.",
+        url: "https://www.hse.ie",
+      },
+      {
+        name: "FSAI — Food Safety Authority of Ireland",
+        desc: "Provides Irish dietary reference values for calcium, Vitamin D, and other nutrients relevant to bone health.",
+        url: "https://www.fsai.ie",
+      },
+      {
+        name: "Quit.ie",
+        desc: "Free HSE smoking cessation service. Smoking is a significant risk factor for osteoporosis — quitting helps protect your bones.",
+        url: "https://www.quit.ie",
+      },
+    ],
+  },
+  {
+    category: "International Resources",
+    items: [
+      {
+        name: "International Osteoporosis Foundation (IOF)",
+        desc: "The world's leading non-governmental organisation dedicated to osteoporosis prevention. Provides extensive patient education resources.",
+        url: "https://www.osteoporosis.foundation",
+      },
+      {
+        name: "Bone Health & Osteoporosis Foundation (BHOF)",
+        desc: "US-based organisation with comprehensive patient education resources on osteoporosis, treatment, and nutrition.",
+        url: "https://www.bonehealthandosteoporosis.org",
+      },
+      {
+        name: "FRAX — Fracture Risk Assessment Tool",
+        desc: "WHO fracture risk assessment tool. Calculate your 10-year fracture probability. Select Ireland as your country.",
+        url: "https://www.sheffield.ac.uk/FRAX/",
+      },
+      {
+        name: "National Osteoporosis Society (UK)",
+        desc: "Provides high-quality patient information resources, including guides to DXA scans, medication, and living with osteoporosis.",
+        url: "https://theros.org.uk",
+      },
+    ],
+  },
+  {
+    category: "Mental Health & Wellbeing",
+    items: [
+      {
+        name: "Aware",
+        desc: "Irish mental health charity providing support for depression and anxiety, which can accompany a chronic condition like osteoporosis.",
+        url: "https://www.aware.ie",
+      },
+      {
+        name: "Age Action Ireland",
+        desc: "Information and advocacy for older people in Ireland, including advice on home care, benefits, and community support.",
+        url: "https://www.ageaction.ie",
+      },
+      {
+        name: "Samaritans Ireland",
+        desc: "Free, confidential emotional support available 24/7. Call 116 123.",
+        url: "https://www.samaritans.org/ireland/",
+        note: "Freephone: 116 123 (24/7)",
+      },
+    ],
+  },
+];
+
+export default function ResourcesPage() {
+  return (
+    <PageLayout
+      breadcrumbs={[{ label: "Resources & Support" }]}
+      showGPCTA={false}
+      showDisclaimer={false}
+    >
+      <h1 className="text-4xl font-extrabold text-slate-900 mb-4">Resources &amp; Support</h1>
+      <p className="text-lg text-slate-600 mb-10 leading-relaxed max-w-2xl">
+        A curated list of trustworthy organisations, tools, and services for people with osteoporosis and their
+        families in Ireland. We are not affiliated with any of these organisations.
+      </p>
+
+      <div className="space-y-10">
+        {resources.map(({ category, items }) => (
+          <div key={category}>
+            <h2 className="text-xl font-bold text-slate-800 mb-5">{category}</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {items.map(({ name, desc, url, note }) => (
+                <div key={name} className="bg-white border border-slate-200 rounded-xl p-5 hover:border-teal-300 hover:shadow-sm transition-all">
+                  <div className="flex items-start justify-between gap-2 mb-2">
+                    <h3 className="font-bold text-slate-800 text-base">{name}</h3>
+                    <a
+                      href={url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={`Visit ${name} website (opens in new tab)`}
+                      className="text-teal-600 hover:text-teal-800 shrink-0 mt-0.5"
+                    >
+                      <ExternalLink className="w-4 h-4" />
+                    </a>
+                  </div>
+                  <p className="text-sm text-slate-600 leading-relaxed mb-2">{desc}</p>
+                  {note && <p className="text-xs font-semibold text-teal-700">{note}</p>}
+                  <a
+                    href={url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs text-slate-400 hover:text-teal-600 break-all"
+                  >
+                    {url}
+                  </a>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mt-10">
+        <p className="text-slate-600 text-sm">
+          <strong>Note:</strong> FragilityFracture.ie is an independent educational resource and is not affiliated
+          with or endorsed by any of the organisations listed above. Links are provided as a convenience to
+          visitors. We cannot be responsible for the content of external websites.
+        </p>
+      </div>
+    </PageLayout>
+  );
+}

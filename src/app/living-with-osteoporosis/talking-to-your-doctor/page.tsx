@@ -1,0 +1,145 @@
+import type { Metadata } from "next";
+import PageLayout from "@/components/PageLayout";
+
+export const metadata: Metadata = {
+  title: "Talking to Your Doctor About Osteoporosis",
+  description:
+    "Questions to ask your GP about bone health, DXA results, and treatment options. A guide to getting the most from your appointments.",
+};
+
+const questionSets = [
+  {
+    title: "At Your First Appointment (Bone Health Discussion)",
+    colour: "bg-teal-50 border-teal-200",
+    questions: [
+      "Based on my age, medical history, and risk factors, am I at risk of osteoporosis?",
+      "Should I have a bone density (DXA) scan? If not, why not?",
+      "My mother/father had a hip fracture — does this affect my own risk?",
+      "I am taking [medication] — could this be affecting my bone density?",
+      "What can I do now to protect my bone health?",
+      "How much calcium and Vitamin D should I be taking each day?",
+      "Should I be taking a Vitamin D supplement?",
+    ],
+  },
+  {
+    title: "After Receiving Your DXA Scan Results",
+    colour: "bg-blue-50 border-blue-200",
+    questions: [
+      "What is my T-score and what does it mean for me specifically?",
+      "What is my 10-year fracture risk? (FRAX score)",
+      "Do I have osteoporosis or osteopenia?",
+      "Do I need medication, or is lifestyle management sufficient at this stage?",
+      "When should I have another DXA scan?",
+      "Should I see a specialist — a rheumatologist or endocrinologist?",
+    ],
+  },
+  {
+    title: "About Treatment Options",
+    colour: "bg-violet-50 border-violet-200",
+    questions: [
+      "Why are you recommending [this particular medication] for me?",
+      "How does this medication work, and how effective is it?",
+      "What are the most common side effects, and what should I watch out for?",
+      "Are there any serious risks I should be aware of?",
+      "How long will I need to take this medication?",
+      "How will we know if the medication is working?",
+      "Are there any interactions with my other medications?",
+      "What happens if I stop the medication?",
+      "Is there a generic (non-branded) version available?",
+    ],
+  },
+  {
+    title: "After a Fragility Fracture",
+    colour: "bg-amber-50 border-amber-200",
+    questions: [
+      "Was this fracture related to osteoporosis?",
+      "Should I have a bone density scan if I haven't had one?",
+      "Should I be referred to a Fracture Liaison Service?",
+      "What treatment will reduce my risk of another fracture?",
+      "Will I need physiotherapy, and can you arrange a referral?",
+      "Are there any exercises I should avoid during recovery?",
+      "When can I expect to return to normal activities?",
+    ],
+  },
+];
+
+export default function TalkingToYourDoctorPage() {
+  return (
+    <PageLayout
+      breadcrumbs={[
+        { label: "Living With Osteoporosis", href: "/living-with-osteoporosis" },
+        { label: "Talking to Your Doctor" },
+      ]}
+      showGPCTA={false}
+    >
+      <h1 className="text-4xl font-extrabold text-slate-900 mb-6">Talking to Your Doctor</h1>
+
+      <p className="text-lg text-slate-600 mb-6 leading-relaxed">
+        GP appointments can feel short, and it is easy to forget important questions in the moment. Coming prepared
+        with the right questions can help you get the information you need and take an active role in your bone health.
+        Below are questions grouped by situation — pick the ones that are most relevant to you.
+      </p>
+
+      <div className="bg-teal-50 border border-teal-200 rounded-xl p-5 mb-8">
+        <p className="text-teal-900 text-sm">
+          <strong>Tip:</strong> Write down your questions before your appointment. If you have a lot of concerns, let
+          the receptionist know when booking so a longer appointment can be arranged. You can also bring a family
+          member or carer for support.
+        </p>
+      </div>
+
+      <div className="space-y-6">
+        {questionSets.map(({ title, colour, questions }) => (
+          <div key={title} className={`rounded-2xl border p-6 ${colour}`}>
+            <h2 className="text-lg font-bold text-slate-800 mt-0 mb-4">{title}</h2>
+            <ul className="space-y-3">
+              {questions.map((q) => (
+                <li key={q} className="flex items-start gap-3 text-sm text-slate-700">
+                  <span className="text-teal-600 font-bold mt-0.5 shrink-0">Q:</span>
+                  <span>{q}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+
+      <h2>General Tips for GP Appointments</h2>
+      <ul>
+        <li><strong>Bring a list of all your medications</strong> — including over-the-counter drugs and supplements. Some interactions are relevant to osteoporosis treatment.</li>
+        <li><strong>Bring previous scan results</strong> — if you have had a previous DXA scan elsewhere, bring the report so your GP can compare results.</li>
+        <li><strong>Be honest about lifestyle factors</strong> — your GP needs accurate information about smoking, alcohol, and activity levels to assess your risk properly. There is no judgment; it helps them help you.</li>
+        <li><strong>Ask for written information</strong> — if your GP gives you important information verbally, ask if they can write it down or print a summary.</li>
+        <li><strong>Ask about your GP&apos;s clinical experience</strong> — if your GP is not a specialist in bone health, ask about referral to a rheumatologist, endocrinologist, or metabolic bone clinic for complex cases.</li>
+        <li><strong>Follow up</strong> — if you were told you would be referred somewhere, or that a letter would be sent, check in with the surgery if you have not heard within a few weeks.</li>
+      </ul>
+
+      <h2>Your Rights as a Patient</h2>
+      <p>
+        In Ireland, you have the right to:
+      </p>
+      <ul>
+        <li>Be involved in decisions about your own care</li>
+        <li>Receive clear information about your diagnosis and treatment options in a way you understand</li>
+        <li>Seek a second opinion from another GP or specialist</li>
+        <li>Refuse a treatment (though your doctor will explain any risks of doing so)</li>
+        <li>Access your medical records on request</li>
+      </ul>
+      <p>
+        If you feel your concerns are not being taken seriously, or if you have been dismissed when asking about bone
+        health, it is entirely appropriate to seek a second opinion or to ask for a specialist referral.
+      </p>
+
+      <div className="bg-slate-100 rounded-2xl p-6 mt-6">
+        <h3 className="font-bold text-slate-800 mb-2">Printable Question Card</h3>
+        <p className="text-sm text-slate-600 mb-3">
+          You can print this page before your appointment and bring it with you. Simply select the questions most
+          relevant to your situation and tick them off as you go.
+        </p>
+        <p className="text-xs text-slate-500">
+          Tip: Use your browser&apos;s print function (Ctrl+P / Cmd+P) to print this page.
+        </p>
+      </div>
+    </PageLayout>
+  );
+}
