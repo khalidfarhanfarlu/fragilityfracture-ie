@@ -44,6 +44,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: "/fragility-fractures/after-a-fracture", priority: 0.8, changeFrequency: "monthly" },
     { url: "/fragility-fractures/secondary-fracture-prevention", priority: 0.8, changeFrequency: "monthly" },
     // Other
+    { url: "/am-i-at-risk", priority: 0.9, changeFrequency: "monthly" },
     { url: "/resources", priority: 0.7, changeFrequency: "monthly" },
     { url: "/blog", priority: 0.8, changeFrequency: "weekly" },
     { url: "/contact", priority: 0.5, changeFrequency: "yearly" },
