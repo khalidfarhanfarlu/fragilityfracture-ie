@@ -16,9 +16,9 @@ export default function MentalHealthPage() {
       ]}
       gpCTAContext="If you are feeling anxious, depressed, or isolated because of osteoporosis, speak to your GP. They can provide support, refer you to a counsellor or psychologist, or connect you with appropriate services."
     >
-      <h1 className="text-4xl font-extrabold text-slate-900 mb-6">Mental Health &amp; Wellbeing</h1>
+      <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Mental Health &amp; Wellbeing</h1>
 
-      <p className="text-lg text-slate-600 mb-6 leading-relaxed">
+      <p className="text-lg text-[#666666] mb-6 leading-relaxed">
         Living with osteoporosis — especially after a fracture — can affect your emotional wellbeing as well as your
         physical health. Fear of falling, anxiety about activity, and concerns about independence are all common
         and understandable responses. Addressing these emotional aspects is an important part of living well with
@@ -106,10 +106,10 @@ export default function MentalHealthPage() {
             href: "https://www.ageaction.ie",
           },
         ].map(({ org, desc, href }) => (
-          <div key={org} className="bg-slate-50 border border-slate-200 rounded-xl p-5">
-            <h3 className="font-bold text-slate-800 text-base mb-1">{org}</h3>
-            <p className="text-sm text-slate-600 mb-2">{desc}</p>
-            <a href={href} target="_blank" rel="noopener noreferrer" className="text-xs text-slate-600 font-semibold hover:text-slate-800">
+          <div key={org} className="bg-slate-50 border border-[#e0e0e0] rounded-xl p-5">
+            <h3 className="font-bold text-[#434343] text-base mb-1">{org}</h3>
+            <p className="text-sm text-[#666666] mb-2">{desc}</p>
+            <a href={href} target="_blank" rel="noopener noreferrer" className="text-xs text-[#666666] font-semibold hover:text-[#434343]">
               {href} ↗
             </a>
           </div>

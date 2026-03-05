@@ -24,8 +24,8 @@ export default function LivingWithOsteoporosisPage() {
       showGPCTA={false}
       showDisclaimer={false}
     >
-      <h1 className="text-4xl font-extrabold text-slate-900 mb-4">Living With Osteoporosis</h1>
-      <p className="text-lg text-slate-600 mb-10 leading-relaxed max-w-2xl">
+      <h1 className="text-4xl font-extrabold text-[#434343] mb-4">Living With Osteoporosis</h1>
+      <p className="text-lg text-[#666666] mb-10 leading-relaxed max-w-2xl">
         Being diagnosed with osteoporosis can feel daunting. But with the right treatment, lifestyle adjustments,
         and support, most people with osteoporosis can live well and significantly reduce their fracture risk.
         This section covers everything you need to know.
@@ -35,11 +35,11 @@ export default function LivingWithOsteoporosisPage() {
           <Link
             key={page.href}
             href={page.href}
-            className="group flex flex-col gap-3 p-6 bg-white rounded-2xl border border-slate-200 hover:border-[#E7D549] hover:shadow-md transition-all"
+            className="group flex flex-col gap-3 p-6 bg-white rounded-2xl border border-[#e0e0e0] hover:border-[#E7D549] hover:shadow-md transition-all"
           >
-            <h2 className="text-lg font-bold text-slate-800 group-hover:text-slate-700 transition-colors">{page.title}</h2>
-            <p className="text-sm text-slate-500 leading-relaxed flex-1">{page.desc}</p>
-            <span className="inline-flex items-center gap-1 text-sm text-slate-600 font-semibold">
+            <h2 className="text-lg font-bold text-[#434343] group-hover:text-[#555555] transition-colors">{page.title}</h2>
+            <p className="text-sm text-[#888888] leading-relaxed flex-1">{page.desc}</p>
+            <span className="inline-flex items-center gap-1 text-sm text-[#666666] font-semibold">
               Read more <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
             </span>
           </Link>

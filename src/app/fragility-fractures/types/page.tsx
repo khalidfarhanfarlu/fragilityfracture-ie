@@ -48,17 +48,17 @@ export default function TypesOfFragilityFracturesPage() {
       ]}
       gpCTAContext="If you have had any fracture from a low-energy impact, please discuss this with your GP — it should prompt an assessment of your bone density regardless of your age."
     >
-      <h1 className="text-4xl font-extrabold text-slate-900 mb-6">Types of Fragility Fractures</h1>
+      <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Types of Fragility Fractures</h1>
 
-      <p className="text-lg text-slate-600 mb-6 leading-relaxed">
+      <p className="text-lg text-[#666666] mb-6 leading-relaxed">
         A <strong>fragility fracture</strong> is a broken bone that results from a force that would not normally break
         a healthy bone — such as a fall from standing height, a minor bump, or in some cases, no obvious impact at
         all. Fragility fractures can occur at many sites in the body, but four are particularly common in people
         with osteoporosis.
       </p>
 
-      <div className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-8">
-        <p className="text-slate-700 text-sm">
+      <div className="bg-slate-50 border border-[#e0e0e0] rounded-xl p-5 mb-8">
+        <p className="text-[#555555] text-sm">
           <strong>Important:</strong> In Ireland, an estimated 20,000 osteoporotic fractures occur each year. A first
           fracture significantly increases the risk of a second — research shows that someone who has had one vertebral
           fracture has a five-fold increased risk of another within the next year. Every fragility fracture should
@@ -68,12 +68,12 @@ export default function TypesOfFragilityFracturesPage() {
 
       <div className="space-y-6 mt-4">
         {types.map(({ name, description, urgency, urgencyColour, href }) => (
-          <div key={name} className="bg-white border border-slate-200 rounded-2xl overflow-hidden">
-            <div className="bg-slate-800 px-6 py-4">
+          <div key={name} className="bg-white border border-[#e0e0e0] rounded-2xl overflow-hidden">
+            <div className="bg-[#434343] px-6 py-4">
               <h2 className="text-white font-bold text-xl m-0">{name}</h2>
             </div>
             <div className="px-6 py-5">
-              <p className="text-slate-600 text-sm leading-relaxed mb-4">{description}</p>
+              <p className="text-[#666666] text-sm leading-relaxed mb-4">{description}</p>
               <div className="flex flex-wrap items-center justify-between gap-3">
                 <span className={`text-xs font-semibold px-3 py-1.5 rounded-full ${urgencyColour}`}>
                   {urgency}
@@ -81,7 +81,7 @@ export default function TypesOfFragilityFracturesPage() {
                 {href !== "#" && (
                   <Link
                     href={href}
-                    className="text-sm text-slate-600 font-semibold hover:text-slate-800 transition-colors"
+                    className="text-sm text-[#666666] font-semibold hover:text-[#434343] transition-colors"
                   >
                     Read more →
                   </Link>

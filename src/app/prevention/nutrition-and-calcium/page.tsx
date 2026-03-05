@@ -30,9 +30,9 @@ export default function NutritionAndCalciumPage() {
       ]}
       gpCTAContext="If you are unsure whether your calcium intake is adequate, or whether you need a supplement, speak to your GP or a registered dietitian."
     >
-      <h1 className="text-4xl font-extrabold text-slate-900 mb-6">Nutrition &amp; Calcium</h1>
+      <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Nutrition &amp; Calcium</h1>
 
-      <p className="text-lg text-slate-600 mb-6 leading-relaxed">
+      <p className="text-lg text-[#666666] mb-6 leading-relaxed">
         Calcium is the most important mineral for bone health. About 99% of the body&apos;s calcium is stored in
         the bones and teeth. Getting enough calcium throughout life — especially in childhood, adolescence, and
         after menopause — is one of the most effective things you can do to protect your bones.
@@ -53,7 +53,7 @@ export default function NutritionAndCalciumPage() {
       <div className="overflow-x-auto my-6">
         <table className="w-full text-sm border-collapse">
           <thead>
-            <tr className="bg-slate-800 text-white">
+            <tr className="bg-[#434343] text-white">
               <th className="px-4 py-3 text-left">Life Stage</th>
               <th className="px-4 py-3 text-left">Recommended Daily Calcium</th>
             </tr>
@@ -67,14 +67,14 @@ export default function NutritionAndCalciumPage() {
               ["Pregnant/breastfeeding women", "1,000–1,200 mg/day"],
             ].map(([stage, amount], i) => (
               <tr key={stage} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
-                <td className="px-4 py-3 border-b border-slate-100">{stage}</td>
-                <td className="px-4 py-3 border-b border-slate-100 font-semibold text-slate-700">{amount}</td>
+                <td className="px-4 py-3 border-b border-[#eeeeee]">{stage}</td>
+                <td className="px-4 py-3 border-b border-[#eeeeee] font-semibold text-[#555555]">{amount}</td>
               </tr>
             ))}
           </tbody>
         </table>
       </div>
-      <p className="text-xs text-slate-500">
+      <p className="text-xs text-[#888888]">
         Based on FSAI (Food Safety Authority of Ireland) and European Food Safety Authority recommendations. Always
         discuss your personal requirements with your GP or dietitian.
       </p>
@@ -89,7 +89,7 @@ export default function NutritionAndCalciumPage() {
       <div className="overflow-x-auto my-6">
         <table className="w-full text-sm border-collapse">
           <thead>
-            <tr className="bg-slate-700 text-white">
+            <tr className="bg-[#555555] text-white">
               <th className="px-4 py-3 text-left">Food</th>
               <th className="px-4 py-3 text-left">Serving</th>
               <th className="px-4 py-3 text-left">Approx. Calcium</th>
@@ -98,15 +98,15 @@ export default function NutritionAndCalciumPage() {
           <tbody>
             {calciumSources.map(({ food, serving, calcium }, i) => (
               <tr key={food} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
-                <td className="px-4 py-3 border-b border-slate-100">{food}</td>
-                <td className="px-4 py-3 border-b border-slate-100 text-slate-600">{serving}</td>
-                <td className="px-4 py-3 border-b border-slate-100 font-semibold text-slate-700">{calcium}</td>
+                <td className="px-4 py-3 border-b border-[#eeeeee]">{food}</td>
+                <td className="px-4 py-3 border-b border-[#eeeeee] text-[#666666]">{serving}</td>
+                <td className="px-4 py-3 border-b border-[#eeeeee] font-semibold text-[#555555]">{calcium}</td>
               </tr>
             ))}
           </tbody>
         </table>
       </div>
-      <p className="text-xs text-slate-500">Values are approximate. Check food labels for exact figures, especially for fortified products.</p>
+      <p className="text-xs text-[#888888]">Values are approximate. Check food labels for exact figures, especially for fortified products.</p>
 
       <h2>Do I Need a Calcium Supplement?</h2>
       <p>

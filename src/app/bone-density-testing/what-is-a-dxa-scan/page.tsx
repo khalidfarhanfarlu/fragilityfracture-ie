@@ -16,9 +16,9 @@ export default function WhatIsADxaScanPage() {
       ]}
       gpCTAContext="If you think you may benefit from a DXA scan, speak to your GP. They can assess whether a referral is appropriate based on your risk factors."
     >
-      <h1 className="text-4xl font-extrabold text-slate-900 mb-6">What Is a DXA Scan?</h1>
+      <h1 className="text-4xl font-extrabold text-[#434343] mb-6">What Is a DXA Scan?</h1>
 
-      <p className="text-lg text-slate-600 mb-6 leading-relaxed">
+      <p className="text-lg text-[#666666] mb-6 leading-relaxed">
         A DXA scan is the standard medical test used to measure bone density. It is the only way to reliably diagnose
         osteoporosis and is used to assess fracture risk and monitor the response to treatment over time.
       </p>
@@ -29,9 +29,9 @@ export default function WhatIsADxaScanPage() {
           { label: "Very low radiation", detail: "Less radiation than a chest X-ray or transatlantic flight." },
           { label: "10–20 minutes", detail: "Quick and straightforward. Usually done as an outpatient." },
         ].map(({ label, detail }) => (
-          <div key={label} className="bg-[#F9F9F9] border border-slate-200 rounded-xl p-5 text-center">
-            <p className="font-bold text-slate-800 mb-1">{label}</p>
-            <p className="text-xs text-slate-700">{detail}</p>
+          <div key={label} className="bg-[#F9F9F9] border border-[#e0e0e0] rounded-xl p-5 text-center">
+            <p className="font-bold text-[#434343] mb-1">{label}</p>
+            <p className="text-xs text-[#555555]">{detail}</p>
           </div>
         ))}
       </div>

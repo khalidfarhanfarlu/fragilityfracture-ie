@@ -90,8 +90,8 @@ export default function ResourcesPage() {
       showGPCTA={false}
       showDisclaimer={false}
     >
-      <h1 className="text-4xl font-extrabold text-slate-900 mb-4">Resources &amp; Support</h1>
-      <p className="text-lg text-slate-600 mb-10 leading-relaxed max-w-2xl">
+      <h1 className="text-4xl font-extrabold text-[#434343] mb-4">Resources &amp; Support</h1>
+      <p className="text-lg text-[#666666] mb-10 leading-relaxed max-w-2xl">
         A curated list of trustworthy organisations, tools, and services for people with osteoporosis and their
         families in Ireland. We are not affiliated with any of these organisations.
       </p>
@@ -99,29 +99,29 @@ export default function ResourcesPage() {
       <div className="space-y-10">
         {resources.map(({ category, items }) => (
           <div key={category}>
-            <h2 className="text-xl font-bold text-slate-800 mb-5">{category}</h2>
+            <h2 className="text-xl font-bold text-[#434343] mb-5">{category}</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {items.map(({ name, desc, url, note }) => (
-                <div key={name} className="bg-white border border-slate-200 rounded-xl p-5 hover:border-[#E7D549] hover:shadow-sm transition-all">
+                <div key={name} className="bg-white border border-[#e0e0e0] rounded-xl p-5 hover:border-[#E7D549] hover:shadow-sm transition-all">
                   <div className="flex items-start justify-between gap-2 mb-2">
-                    <h3 className="font-bold text-slate-800 text-base">{name}</h3>
+                    <h3 className="font-bold text-[#434343] text-base">{name}</h3>
                     <a
                       href={url}
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label={`Visit ${name} website (opens in new tab)`}
-                      className="text-slate-600 hover:text-slate-800 shrink-0 mt-0.5"
+                      className="text-[#666666] hover:text-[#434343] shrink-0 mt-0.5"
                     >
                       <ExternalLink className="w-4 h-4" />
                     </a>
                   </div>
-                  <p className="text-sm text-slate-600 leading-relaxed mb-2">{desc}</p>
-                  {note && <p className="text-xs font-semibold text-slate-700">{note}</p>}
+                  <p className="text-sm text-[#666666] leading-relaxed mb-2">{desc}</p>
+                  {note && <p className="text-xs font-semibold text-[#555555]">{note}</p>}
                   <a
                     href={url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-xs text-slate-400 hover:text-slate-600 break-all"
+                    className="text-xs text-[#999999] hover:text-[#666666] break-all"
                   >
                     {url}
                   </a>
@@ -132,8 +132,8 @@ export default function ResourcesPage() {
         ))}
       </div>
 
-      <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mt-10">
-        <p className="text-slate-600 text-sm">
+      <div className="bg-slate-50 border border-[#e0e0e0] rounded-xl p-6 mt-10">
+        <p className="text-[#666666] text-sm">
           <strong>Note:</strong> FragilityFracture.ie is an independent educational resource and is not affiliated
           with or endorsed by any of the organisations listed above. Links are provided as a convenience to
           visitors. We cannot be responsible for the content of external websites.

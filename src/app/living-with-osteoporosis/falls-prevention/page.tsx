@@ -25,16 +25,16 @@ export default function FallsPreventionPage() {
       ]}
       gpCTAContext="If you are worried about your risk of falling, ask your GP for a falls assessment. They may refer you to a physiotherapist, occupational therapist, or a structured falls prevention programme."
     >
-      <h1 className="text-4xl font-extrabold text-slate-900 mb-6">Falls Prevention</h1>
+      <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Falls Prevention</h1>
 
-      <p className="text-lg text-slate-600 mb-6 leading-relaxed">
+      <p className="text-lg text-[#666666] mb-6 leading-relaxed">
         The vast majority of fragility fractures are caused by falls. Preventing falls is therefore just as important
         as treating bone density when it comes to reducing fracture risk. The good news is that many falls are
         preventable, and simple changes can make a significant difference.
       </p>
 
-      <div className="bg-[#F9F9F9] border border-slate-200 rounded-xl p-5 mb-8">
-        <p className="text-slate-900 text-sm">
+      <div className="bg-[#F9F9F9] border border-[#e0e0e0] rounded-xl p-5 mb-8">
+        <p className="text-[#434343] text-sm">
           <strong>Key fact:</strong> A person with osteoporosis who falls has a significantly higher probability of
           fracturing than someone with normal bone density who falls in the same way. Reducing fall risk and
           maintaining bone strength together provide the greatest protection.
@@ -77,15 +77,15 @@ export default function FallsPreventionPage() {
 
       <div className="space-y-5 mt-5">
         {homeChecklist.map(({ area, items }) => (
-          <div key={area} className="bg-white border border-slate-200 rounded-xl overflow-hidden">
-            <div className="bg-slate-100 px-5 py-3 border-b border-slate-200">
-              <h3 className="font-bold text-slate-800 m-0">{area}</h3>
+          <div key={area} className="bg-white border border-[#e0e0e0] rounded-xl overflow-hidden">
+            <div className="bg-[#f0f0f0] px-5 py-3 border-b border-[#e0e0e0]">
+              <h3 className="font-bold text-[#434343] m-0">{area}</h3>
             </div>
             <div className="px-5 py-4 space-y-2">
               {items.map((item) => (
                 <div key={item} className="flex items-start gap-3">
-                  <CheckCircle className="w-4 h-4 text-slate-500 shrink-0 mt-0.5" aria-hidden="true" />
-                  <p className="text-sm text-slate-600">{item}</p>
+                  <CheckCircle className="w-4 h-4 text-[#888888] shrink-0 mt-0.5" aria-hidden="true" />
+                  <p className="text-sm text-[#666666]">{item}</p>
                 </div>
               ))}
             </div>

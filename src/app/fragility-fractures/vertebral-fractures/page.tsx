@@ -16,9 +16,9 @@ export default function VertebralFracturesPage() {
       ]}
       gpCTAContext="If you have persistent back pain, loss of height, or a stooped posture — especially if you have risk factors for osteoporosis — speak to your GP. You may have a vertebral fracture that has not been diagnosed."
     >
-      <h1 className="text-4xl font-extrabold text-slate-900 mb-6">Vertebral (Spinal) Fractures</h1>
+      <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Vertebral (Spinal) Fractures</h1>
 
-      <p className="text-lg text-slate-600 mb-6 leading-relaxed">
+      <p className="text-lg text-[#666666] mb-6 leading-relaxed">
         Vertebral fractures — fractures of the bones of the spine (vertebrae) — are the most common type of
         osteoporotic fracture. Yet they are also the most frequently missed, because they can occur without obvious
         trauma and their symptoms are often attributed to normal ageing or general back pain.

@@ -15,9 +15,9 @@ export default function OsteopeniaVsOsteoporosisPage() {
         { label: "Osteopenia vs Osteoporosis" },
       ]}
     >
-      <h1 className="text-4xl font-extrabold text-slate-900 mb-6">Osteopenia vs Osteoporosis</h1>
+      <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Osteopenia vs Osteoporosis</h1>
 
-      <p className="text-lg text-slate-600 mb-6 leading-relaxed">
+      <p className="text-lg text-[#666666] mb-6 leading-relaxed">
         Both osteopenia and osteoporosis refer to a reduction in bone density — but they describe different levels of
         severity. Understanding the difference can help you know what your DXA scan results mean and what action to take.
       </p>
@@ -50,7 +50,7 @@ export default function OsteopeniaVsOsteoporosisPage() {
       <p>The World Health Organization (WHO) defines the categories as follows:</p>
 
       {/* Visual T-score range */}
-      <div className="my-8 rounded-2xl overflow-hidden border border-slate-200">
+      <div className="my-8 rounded-2xl overflow-hidden border border-[#e0e0e0]">
         <div className="grid grid-cols-1 sm:grid-cols-4">
           <div className="bg-emerald-500 p-5 text-white">
             <p className="font-bold text-lg mb-1">Normal</p>
@@ -124,11 +124,11 @@ export default function OsteopeniaVsOsteoporosisPage() {
         preparing for your appointment.
       </p>
 
-      <div className="bg-[#F9F9F9] border border-slate-200 rounded-xl p-6 mt-6">
-        <p className="text-slate-900">
+      <div className="bg-[#F9F9F9] border border-[#e0e0e0] rounded-xl p-6 mt-6">
+        <p className="text-[#434343]">
           <strong>Remember:</strong> Your T-score is just one part of the picture. Your GP will also consider your
           overall fracture risk using tools like the{" "}
-          <a href="/bone-density-testing/frax-fracture-risk-tool" className="text-slate-700">FRAX tool</a>, your
+          <a href="/bone-density-testing/frax-fracture-risk-tool" className="text-[#555555]">FRAX tool</a>, your
           history of previous fractures, and your individual health circumstances before recommending any treatment.
         </p>
       </div>

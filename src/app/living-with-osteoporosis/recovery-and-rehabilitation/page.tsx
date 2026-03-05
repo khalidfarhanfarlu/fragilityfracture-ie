@@ -16,9 +16,9 @@ export default function RecoveryRehabPage() {
       ]}
       gpCTAContext="After a fragility fracture, ask your hospital team or GP about referral to a Fracture Liaison Service. Getting assessed and treated promptly can significantly reduce your risk of a second fracture."
     >
-      <h1 className="text-4xl font-extrabold text-slate-900 mb-6">Recovery &amp; Rehabilitation</h1>
+      <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Recovery &amp; Rehabilitation</h1>
 
-      <p className="text-lg text-slate-600 mb-6 leading-relaxed">
+      <p className="text-lg text-[#666666] mb-6 leading-relaxed">
         Recovering from a fragility fracture takes time, patience, and the right support. But recovery is possible —
         and with appropriate rehabilitation, many people return to their previous levels of activity. Equally
         important is ensuring that treatment is started to prevent a second fracture.
@@ -84,9 +84,9 @@ export default function RecoveryRehabPage() {
         prevent a second fracture. FLS is a &ldquo;secondary fracture prevention&rdquo; initiative.
       </p>
 
-      <div className="bg-[#F9F9F9] border border-slate-200 rounded-xl p-6 my-6">
-        <h3 className="text-slate-800 font-bold text-base mb-3">What an FLS typically does:</h3>
-        <ul className="space-y-2 text-sm text-slate-900">
+      <div className="bg-[#F9F9F9] border border-[#e0e0e0] rounded-xl p-6 my-6">
+        <h3 className="text-[#434343] font-bold text-base mb-3">What an FLS typically does:</h3>
+        <ul className="space-y-2 text-sm text-[#434343]">
           <li>&#x2714;&nbsp; Identifies patients who have had a fragility fracture</li>
           <li>&#x2714;&nbsp; Arranges or reviews a DXA bone density scan</li>
           <li>&#x2714;&nbsp; Assesses fall risk factors</li>

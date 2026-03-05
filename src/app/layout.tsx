@@ -51,7 +51,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en-IE">
-      <body className="antialiased bg-white text-slate-800">
+      <body className="antialiased bg-white text-[#434343]">
         <a href="#main-content" className="skip-link">
           Skip to main content
         </a>

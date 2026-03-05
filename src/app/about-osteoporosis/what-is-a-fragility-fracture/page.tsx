@@ -16,9 +16,9 @@ export default function WhatIsAFragilityFracturePage() {
       ]}
       gpCTAContext="If you have had a fracture from a low-energy impact, talk to your GP. It may be the first sign of osteoporosis, and getting tested and treated promptly can prevent future fractures."
     >
-      <h1 className="text-4xl font-extrabold text-slate-900 mb-6">What Is a Fragility Fracture?</h1>
+      <h1 className="text-4xl font-extrabold text-[#434343] mb-6">What Is a Fragility Fracture?</h1>
 
-      <p className="text-lg text-slate-600 mb-6 leading-relaxed">
+      <p className="text-lg text-[#666666] mb-6 leading-relaxed">
         A <strong>fragility fracture</strong> is a broken bone that results from an impact that would not normally
         break a healthy bone. It might be a fall from standing height, a trip, a minor bump — or in some cases, no
         obvious injury at all, such as a fracture that occurs simply from coughing, sneezing, or bending forward.
@@ -59,11 +59,11 @@ export default function WhatIsAFragilityFracturePage() {
             href: "#",
           },
         ].map(({ site, detail, href }) => (
-          <div key={site} className="bg-slate-50 rounded-xl p-5 border border-slate-200">
-            <h3 className="font-bold text-slate-800 mb-2">{site}</h3>
-            <p className="text-sm text-slate-600 leading-relaxed mb-3">{detail}</p>
+          <div key={site} className="bg-slate-50 rounded-xl p-5 border border-[#e0e0e0]">
+            <h3 className="font-bold text-[#434343] mb-2">{site}</h3>
+            <p className="text-sm text-[#666666] leading-relaxed mb-3">{detail}</p>
             {href !== "#" && (
-              <a href={href} className="text-xs text-slate-600 font-semibold hover:text-slate-800">
+              <a href={href} className="text-xs text-[#666666] font-semibold hover:text-[#434343]">
                 Read more →
               </a>
             )}

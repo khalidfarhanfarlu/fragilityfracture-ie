@@ -13,8 +13,8 @@ export default function MedicalDisclaimerPage() {
       showGPCTA={false}
       showDisclaimer={false}
     >
-      <h1 className="text-4xl font-extrabold text-slate-900 mb-6">Medical Disclaimer</h1>
-      <p className="text-sm text-slate-400 mb-8">Last updated: February 2026</p>
+      <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Medical Disclaimer</h1>
+      <p className="text-sm text-[#999999] mb-8">Last updated: February 2026</p>
 
       <div className="bg-amber-50 border border-amber-300 rounded-2xl p-6 mb-8">
         <p className="font-bold text-amber-900 text-lg mb-2">Important: Please Read</p>

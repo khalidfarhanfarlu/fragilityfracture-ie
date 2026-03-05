@@ -13,10 +13,10 @@ export default function AccessibilityStatementPage() {
       showGPCTA={false}
       showDisclaimer={false}
     >
-      <h1 className="text-4xl font-extrabold text-slate-900 mb-6">Accessibility Statement</h1>
-      <p className="text-sm text-slate-400 mb-8">Last updated: February 2026</p>
+      <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Accessibility Statement</h1>
+      <p className="text-sm text-[#999999] mb-8">Last updated: February 2026</p>
 
-      <p className="text-slate-600 mb-6">
+      <p className="text-[#666666] mb-6">
         FragilityFracture.ie is committed to making this website accessible to everyone, including people with
         disabilities. We aim to meet the <strong>Web Content Accessibility Guidelines (WCAG) 2.1 Level AA</strong>.
       </p>

@@ -16,9 +16,9 @@ export default function WristFracturesPage() {
       ]}
       gpCTAContext="If you have broken your wrist after a fall, talk to your GP about having a bone density assessment. A wrist fracture is an important warning sign and should not be treated in isolation."
     >
-      <h1 className="text-4xl font-extrabold text-slate-900 mb-6">Wrist Fractures</h1>
+      <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Wrist Fractures</h1>
 
-      <p className="text-lg text-slate-600 mb-6 leading-relaxed">
+      <p className="text-lg text-[#666666] mb-6 leading-relaxed">
         A wrist fracture — specifically a fracture of the distal radius, the lower end of the larger forearm bone —
         is one of the most common fragility fractures. It is often the first fracture a person with osteoporosis
         experiences, and it should be taken seriously as a warning sign of underlying bone fragility.
@@ -102,8 +102,8 @@ export default function WristFracturesPage() {
         This gap in care is preventable — and the consequences of a subsequent hip fracture can be devastating.
       </p>
 
-      <div className="bg-[#F9F9F9] border border-slate-200 rounded-xl p-5 mt-4">
-        <p className="text-slate-900 text-sm">
+      <div className="bg-[#F9F9F9] border border-[#e0e0e0] rounded-xl p-5 mt-4">
+        <p className="text-[#434343] text-sm">
           <strong>What to say to your GP:</strong> &ldquo;I broke my wrist in a fall and I haven&apos;t been assessed
           for osteoporosis. Could I be referred for a bone density (DXA) scan?&rdquo;
         </p>

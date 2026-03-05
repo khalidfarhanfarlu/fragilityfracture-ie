@@ -16,9 +16,9 @@ export default function LifestylePage() {
       ]}
       gpCTAContext="If you are taking medications that affect bone health, do not stop them without speaking to your GP first. Your GP can advise on bone protection measures alongside your existing treatment."
     >
-      <h1 className="text-4xl font-extrabold text-slate-900 mb-6">Lifestyle Factors</h1>
+      <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Lifestyle Factors</h1>
 
-      <p className="text-lg text-slate-600 mb-6 leading-relaxed">
+      <p className="text-lg text-[#666666] mb-6 leading-relaxed">
         Alongside nutrition and exercise, several lifestyle factors significantly influence bone density and fracture
         risk. The good news is that these are largely within your control.
       </p>
@@ -40,7 +40,7 @@ export default function LifestylePage() {
       </p>
       <p>
         If you would like support to quit smoking, the HSE&apos;s free service{" "}
-        <a href="https://www.quit.ie" target="_blank" rel="noopener noreferrer" className="text-slate-700 underline">Quit.ie</a>{" "}
+        <a href="https://www.quit.ie" target="_blank" rel="noopener noreferrer" className="text-[#555555] underline">Quit.ie</a>{" "}
         offers online tools, a quitline, and text support.
       </p>
 
@@ -58,16 +58,16 @@ export default function LifestylePage() {
         The Irish low-risk drinking guidelines recommend:
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 my-5">
-        <div className="bg-slate-50 border border-slate-200 rounded-xl p-5">
-          <p className="font-bold text-slate-800 mb-1">Women</p>
-          <p className="text-sm text-slate-600">No more than 11 standard drinks per week, with at least 2 alcohol-free days</p>
+        <div className="bg-slate-50 border border-[#e0e0e0] rounded-xl p-5">
+          <p className="font-bold text-[#434343] mb-1">Women</p>
+          <p className="text-sm text-[#666666]">No more than 11 standard drinks per week, with at least 2 alcohol-free days</p>
         </div>
-        <div className="bg-slate-50 border border-slate-200 rounded-xl p-5">
-          <p className="font-bold text-slate-800 mb-1">Men</p>
-          <p className="text-sm text-slate-600">No more than 17 standard drinks per week, with at least 2 alcohol-free days</p>
+        <div className="bg-slate-50 border border-[#e0e0e0] rounded-xl p-5">
+          <p className="font-bold text-[#434343] mb-1">Men</p>
+          <p className="text-sm text-[#666666]">No more than 17 standard drinks per week, with at least 2 alcohol-free days</p>
         </div>
       </div>
-      <p className="text-sm text-slate-500">
+      <p className="text-sm text-[#888888]">
         One standard drink in Ireland contains approximately 10g of alcohol — roughly half a pint of beer, a small
         glass of wine, or a pub measure of spirits.
       </p>
@@ -128,15 +128,15 @@ export default function LifestylePage() {
             detail: "Overtreatment of hypothyroidism (supraphysiological doses) can cause bone loss. Dose should be regularly reviewed to ensure it is not excessive.",
           },
         ].map(({ med, detail }) => (
-          <div key={med} className="bg-slate-50 rounded-xl p-5 border border-slate-200">
-            <p className="font-bold text-slate-800 text-sm mb-2">{med}</p>
-            <p className="text-sm text-slate-600 leading-relaxed">{detail}</p>
+          <div key={med} className="bg-slate-50 rounded-xl p-5 border border-[#e0e0e0]">
+            <p className="font-bold text-[#434343] text-sm mb-2">{med}</p>
+            <p className="text-sm text-[#666666] leading-relaxed">{detail}</p>
           </div>
         ))}
       </div>
 
-      <div className="bg-[#F9F9F9] border border-slate-200 rounded-xl p-5 mt-4">
-        <p className="text-slate-900 text-sm">
+      <div className="bg-[#F9F9F9] border border-[#e0e0e0] rounded-xl p-5 mt-4">
+        <p className="text-[#434343] text-sm">
           <strong>Key message:</strong> If you are taking any of the medications above, ask your GP at your next
           appointment whether your bone health is being monitored and whether any preventive measures are in place.
           You should not have to wait for a fracture to find out.

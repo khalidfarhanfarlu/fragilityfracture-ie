@@ -56,17 +56,17 @@ export default function WhatIsOsteoporosisPage() {
           { label: "What Is Osteoporosis?" },
         ]}
       >
-        <h1 className="text-4xl font-extrabold text-slate-900 mb-6">What Is Osteoporosis?</h1>
+        <h1 className="text-4xl font-extrabold text-[#434343] mb-6">What Is Osteoporosis?</h1>
 
-        <p className="text-lg text-slate-600 mb-6 leading-relaxed">
+        <p className="text-lg text-[#666666] mb-6 leading-relaxed">
           Osteoporosis is a condition in which bones lose density and become porous, fragile, and much more likely to
           break. The word comes from the Greek for &ldquo;porous bones&rdquo; — and that is exactly what happens.
           Healthy bones are dense and strong; osteoporotic bones, when viewed under a microscope, look like a
           honeycomb with larger holes than normal.
         </p>
 
-        <div className="bg-[#F9F9F9] border border-slate-200 rounded-xl p-6 mb-8">
-          <p className="text-slate-900 font-semibold text-base">
+        <div className="bg-[#F9F9F9] border border-[#e0e0e0] rounded-xl p-6 mb-8">
+          <p className="text-[#434343] font-semibold text-base">
             In Ireland, an estimated 300,000 to 500,000 people have osteoporosis — yet most are undiagnosed because
             the condition causes no symptoms until a fracture occurs.
           </p>
@@ -146,13 +146,13 @@ export default function WhatIsOsteoporosisPage() {
           {faqJsonLd.mainEntity.map((faq) => (
             <details
               key={faq.name}
-              className="border border-slate-200 rounded-xl overflow-hidden group"
+              className="border border-[#e0e0e0] rounded-xl overflow-hidden group"
             >
-              <summary className="flex items-center justify-between px-5 py-4 font-semibold text-slate-800 cursor-pointer hover:bg-[#F9F9F9] transition-colors list-none">
+              <summary className="flex items-center justify-between px-5 py-4 font-semibold text-[#434343] cursor-pointer hover:bg-[#F9F9F9] transition-colors list-none">
                 {faq.name}
-                <span className="text-slate-600 text-xl group-open:rotate-45 transition-transform shrink-0 ml-3">+</span>
+                <span className="text-[#666666] text-xl group-open:rotate-45 transition-transform shrink-0 ml-3">+</span>
               </summary>
-              <div className="px-5 pb-4 pt-2 text-slate-600 text-sm leading-relaxed bg-slate-50">
+              <div className="px-5 pb-4 pt-2 text-[#666666] text-sm leading-relaxed bg-slate-50">
                 {faq.acceptedAnswer.text}
               </div>
             </details>

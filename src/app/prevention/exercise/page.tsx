@@ -16,16 +16,16 @@ export default function ExercisePage() {
       ]}
       gpCTAContext="Before starting a new exercise programme, especially if you have been diagnosed with osteoporosis or have had a recent fracture, speak to your GP or physiotherapist. They can recommend the right exercises for your situation."
     >
-      <h1 className="text-4xl font-extrabold text-slate-900 mb-6">Exercise &amp; Physical Activity</h1>
+      <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Exercise &amp; Physical Activity</h1>
 
-      <p className="text-lg text-slate-600 mb-6 leading-relaxed">
+      <p className="text-lg text-[#666666] mb-6 leading-relaxed">
         Exercise is one of the most powerful tools for protecting your bones. Regular physical activity stimulates
         bone formation, slows bone loss, strengthens muscles, and improves balance — all of which reduce your risk
         of fractures. It is never too early or too late to start.
       </p>
 
-      <div className="bg-[#F9F9F9] border border-slate-200 rounded-xl p-5 mb-8">
-        <p className="text-slate-900 text-sm">
+      <div className="bg-[#F9F9F9] border border-[#e0e0e0] rounded-xl p-5 mb-8">
+        <p className="text-[#434343] text-sm">
           <strong>Key message:</strong> Bones respond to the forces placed on them. Just as muscles grow stronger
           when exercised, bones become denser when subject to mechanical loading. This is sometimes called the
           &ldquo;use it or lose it&rdquo; principle.
@@ -134,10 +134,10 @@ export default function ExercisePage() {
         <li>Check if your local leisure centre or sports partnership offers supervised classes for older adults or those with health conditions</li>
       </ul>
 
-      <div className="bg-[#F9F9F9] border border-slate-200 rounded-xl p-5 mt-6">
-        <p className="text-slate-900 text-sm">
+      <div className="bg-[#F9F9F9] border border-[#e0e0e0] rounded-xl p-5 mt-6">
+        <p className="text-[#434343] text-sm">
           <strong>Falls Prevention:</strong> Exercise for falls prevention is just as important as exercise for bone
-          density. See our <a href="/living-with-osteoporosis/falls-prevention" className="text-slate-700 underline">Falls Prevention page</a>{" "}
+          density. See our <a href="/living-with-osteoporosis/falls-prevention" className="text-[#555555] underline">Falls Prevention page</a>{" "}
           for more specific balance and strength exercises.
         </p>
       </div>

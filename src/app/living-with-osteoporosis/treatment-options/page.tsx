@@ -16,9 +16,9 @@ export default function TreatmentOptionsPage() {
       ]}
       gpCTAContext="All treatment decisions must be made with your GP or specialist. This page provides general information only. If you have been diagnosed with osteoporosis, ask your GP what treatment options are right for you."
     >
-      <h1 className="text-4xl font-extrabold text-slate-900 mb-6">Treatment Options</h1>
+      <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Treatment Options</h1>
 
-      <p className="text-lg text-slate-600 mb-4 leading-relaxed">
+      <p className="text-lg text-[#666666] mb-4 leading-relaxed">
         Osteoporosis is a treatable condition. While bone density cannot be fully restored to its original level,
         effective treatments can significantly slow or halt bone loss, reduce fracture risk, and in some cases
         modestly increase bone density.
@@ -88,19 +88,19 @@ export default function TreatmentOptionsPage() {
             notes: "Less effective than bisphosphonates for hip fracture prevention. Associated with increased risk of deep vein thrombosis (blood clots) — not suitable for those with a history of DVT.",
           },
         ].map(({ name, examples, how, notes }) => (
-          <div key={name} className="bg-white border border-slate-200 rounded-2xl overflow-hidden">
-            <div className="bg-slate-800 px-6 py-4">
+          <div key={name} className="bg-white border border-[#e0e0e0] rounded-2xl overflow-hidden">
+            <div className="bg-[#434343] px-6 py-4">
               <h3 className="text-white font-bold text-lg m-0">{name}</h3>
-              <p className="text-slate-300 text-sm mt-1"><em>Examples: {examples}</em></p>
+              <p className="text-[#bbbbbb] text-sm mt-1"><em>Examples: {examples}</em></p>
             </div>
             <div className="px-6 py-5 space-y-3">
               <div>
-                <p className="font-semibold text-slate-700 text-sm mb-1">How it works:</p>
-                <p className="text-sm text-slate-600 leading-relaxed">{how}</p>
+                <p className="font-semibold text-[#555555] text-sm mb-1">How it works:</p>
+                <p className="text-sm text-[#666666] leading-relaxed">{how}</p>
               </div>
               <div>
-                <p className="font-semibold text-slate-700 text-sm mb-1">What you should know:</p>
-                <p className="text-sm text-slate-600 leading-relaxed">{notes}</p>
+                <p className="font-semibold text-[#555555] text-sm mb-1">What you should know:</p>
+                <p className="text-sm text-[#666666] leading-relaxed">{notes}</p>
               </div>
             </div>
           </div>
@@ -118,11 +118,11 @@ export default function TreatmentOptionsPage() {
         abruptly (particularly denosumab) can have significant effects on bone density.
       </p>
 
-      <div className="bg-[#F9F9F9] border border-slate-200 rounded-xl p-5 mt-4">
-        <p className="text-slate-900 text-sm">
+      <div className="bg-[#F9F9F9] border border-[#e0e0e0] rounded-xl p-5 mt-4">
+        <p className="text-[#434343] text-sm">
           For a guide on how to talk to your GP about these options, including questions to ask about any recommended
           medication, visit our{" "}
-          <a href="/living-with-osteoporosis/talking-to-your-doctor" className="text-slate-700 underline">
+          <a href="/living-with-osteoporosis/talking-to-your-doctor" className="text-[#555555] underline">
             Talking to Your Doctor page
           </a>.
         </p>

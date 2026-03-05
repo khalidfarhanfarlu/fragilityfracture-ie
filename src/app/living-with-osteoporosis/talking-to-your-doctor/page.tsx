@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 const questionSets = [
   {
     title: "At Your First Appointment (Bone Health Discussion)",
-    colour: "bg-[#F9F9F9] border-slate-200",
+    colour: "bg-[#F9F9F9] border-[#e0e0e0]",
     questions: [
       "Based on my age, medical history, and risk factors, am I at risk of osteoporosis?",
       "Should I have a bone density (DXA) scan? If not, why not?",
@@ -72,16 +72,16 @@ export default function TalkingToYourDoctorPage() {
       ]}
       showGPCTA={false}
     >
-      <h1 className="text-4xl font-extrabold text-slate-900 mb-6">Talking to Your Doctor</h1>
+      <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Talking to Your Doctor</h1>
 
-      <p className="text-lg text-slate-600 mb-6 leading-relaxed">
+      <p className="text-lg text-[#666666] mb-6 leading-relaxed">
         GP appointments can feel short, and it is easy to forget important questions in the moment. Coming prepared
         with the right questions can help you get the information you need and take an active role in your bone health.
         Below are questions grouped by situation — pick the ones that are most relevant to you.
       </p>
 
-      <div className="bg-[#F9F9F9] border border-slate-200 rounded-xl p-5 mb-8">
-        <p className="text-slate-900 text-sm">
+      <div className="bg-[#F9F9F9] border border-[#e0e0e0] rounded-xl p-5 mb-8">
+        <p className="text-[#434343] text-sm">
           <strong>Tip:</strong> Write down your questions before your appointment. If you have a lot of concerns, let
           the receptionist know when booking so a longer appointment can be arranged. You can also bring a family
           member or carer for support.
@@ -91,11 +91,11 @@ export default function TalkingToYourDoctorPage() {
       <div className="space-y-6">
         {questionSets.map(({ title, colour, questions }) => (
           <div key={title} className={`rounded-2xl border p-6 ${colour}`}>
-            <h2 className="text-lg font-bold text-slate-800 mt-0 mb-4">{title}</h2>
+            <h2 className="text-lg font-bold text-[#434343] mt-0 mb-4">{title}</h2>
             <ul className="space-y-3">
               {questions.map((q) => (
-                <li key={q} className="flex items-start gap-3 text-sm text-slate-700">
-                  <span className="text-slate-600 font-bold mt-0.5 shrink-0">Q:</span>
+                <li key={q} className="flex items-start gap-3 text-sm text-[#555555]">
+                  <span className="text-[#666666] font-bold mt-0.5 shrink-0">Q:</span>
                   <span>{q}</span>
                 </li>
               ))}
@@ -130,13 +130,13 @@ export default function TalkingToYourDoctorPage() {
         health, it is entirely appropriate to seek a second opinion or to ask for a specialist referral.
       </p>
 
-      <div className="bg-slate-100 rounded-2xl p-6 mt-6">
-        <h3 className="font-bold text-slate-800 mb-2">Printable Question Card</h3>
-        <p className="text-sm text-slate-600 mb-3">
+      <div className="bg-[#f0f0f0] rounded-2xl p-6 mt-6">
+        <h3 className="font-bold text-[#434343] mb-2">Printable Question Card</h3>
+        <p className="text-sm text-[#666666] mb-3">
           You can print this page before your appointment and bring it with you. Simply select the questions most
           relevant to your situation and tick them off as you go.
         </p>
-        <p className="text-xs text-slate-500">
+        <p className="text-xs text-[#888888]">
           Tip: Use your browser&apos;s print function (Ctrl+P / Cmd+P) to print this page.
         </p>
       </div>

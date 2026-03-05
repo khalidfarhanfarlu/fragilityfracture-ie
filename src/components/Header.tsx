@@ -78,16 +78,16 @@ export default function Header() {
   const [mobileExpanded, setMobileExpanded] = useState<string | null>(null);
 
   return (
-    <header className="bg-white shadow-sm border-b border-slate-200 sticky top-0 z-50">
+    <header className="bg-white shadow-sm border-b border-[#e0e0e0] sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link
             href="/"
-            className="flex items-center gap-2 text-slate-900 font-bold text-lg md:text-xl shrink-0"
+            className="flex items-center gap-2 text-[#434343] font-bold text-lg md:text-xl shrink-0"
             aria-label="FragilityFracture.ie — Home"
           >
-            <span className="bg-[#E7D549] text-slate-900 rounded-lg px-2 py-1 text-sm font-bold tracking-tight">FF</span>
+            <span className="bg-[#E7D549] text-[#434343] rounded-lg px-2 py-1 text-sm font-bold tracking-tight">FF</span>
             <span className="hidden sm:inline">FragilityFracture<span className="text-[#c8a800]">.ie</span></span>
           </Link>
 
@@ -102,19 +102,19 @@ export default function Header() {
               >
                 <Link
                   href={item.href}
-                  className="flex items-center gap-1 px-3 py-2 rounded-md text-sm font-medium text-slate-700 hover:text-slate-900 hover:bg-[#F9F9F9] transition-colors"
+                  className="flex items-center gap-1 px-3 py-2 rounded-md text-sm font-medium text-[#555555] hover:text-[#434343] hover:bg-[#F9F9F9] transition-colors"
                   aria-expanded={openDropdown === item.href}
                 >
                   {item.label}
                   {item.children.length > 0 && <ChevronDown className="w-3.5 h-3.5" aria-hidden="true" />}
                 </Link>
                 {item.children.length > 0 && openDropdown === item.href && (
-                  <div className="absolute top-full left-0 w-64 bg-white rounded-lg shadow-lg border border-slate-200 py-2 mt-1">
+                  <div className="absolute top-full left-0 w-64 bg-white rounded-lg shadow-lg border border-[#e0e0e0] py-2 mt-1">
                     {item.children.map((child) => (
                       <Link
                         key={child.href}
                         href={child.href}
-                        className="block px-4 py-2 text-sm text-slate-700 hover:bg-[#F9F9F9] hover:text-slate-900 transition-colors"
+                        className="block px-4 py-2 text-sm text-[#555555] hover:bg-[#F9F9F9] hover:text-[#434343] transition-colors"
                       >
                         {child.label}
                       </Link>
@@ -129,13 +129,13 @@ export default function Header() {
           <div className="flex items-center gap-3">
             <Link
               href="/am-i-at-risk"
-              className="hidden md:inline-flex items-center gap-2 bg-[#E7D549] hover:bg-[#d4c43e] text-slate-900 font-semibold px-4 py-2 rounded-lg text-sm transition-colors"
+              className="hidden md:inline-flex items-center gap-2 bg-[#E7D549] hover:bg-[#d4c43e] text-[#434343] font-semibold px-4 py-2 rounded-lg text-sm transition-colors"
             >
               Am I at Risk?
             </Link>
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
-              className="lg:hidden p-2 rounded-md text-slate-600 hover:text-slate-900 hover:bg-[#F9F9F9] transition-colors"
+              className="lg:hidden p-2 rounded-md text-[#666666] hover:text-[#434343] hover:bg-[#F9F9F9] transition-colors"
               aria-expanded={mobileOpen}
               aria-controls="mobile-menu"
               aria-label={mobileOpen ? "Close menu" : "Open menu"}
@@ -148,14 +148,14 @@ export default function Header() {
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div id="mobile-menu" className="lg:hidden bg-white border-t border-slate-200">
+        <div id="mobile-menu" className="lg:hidden bg-white border-t border-[#e0e0e0]">
           <nav aria-label="Mobile navigation" className="max-w-7xl mx-auto px-4 py-4 space-y-1">
             {navItems.map((item) => (
               <div key={item.href}>
                 <div className="flex items-center justify-between">
                   <Link
                     href={item.href}
-                    className="flex-1 py-2 text-base font-semibold text-slate-800 hover:text-slate-900"
+                    className="flex-1 py-2 text-base font-semibold text-[#434343] hover:text-[#434343]"
                     onClick={() => setMobileOpen(false)}
                   >
                     {item.label}
@@ -163,7 +163,7 @@ export default function Header() {
                   {item.children.length > 0 && (
                     <button
                       onClick={() => setMobileExpanded(mobileExpanded === item.href ? null : item.href)}
-                      className="p-2 text-slate-500"
+                      className="p-2 text-[#888888]"
                       aria-label={`Toggle ${item.label} submenu`}
                     >
                       <ChevronDown
@@ -178,7 +178,7 @@ export default function Header() {
                       <Link
                         key={child.href}
                         href={child.href}
-                        className="block py-1.5 text-sm text-slate-600 hover:text-slate-900"
+                        className="block py-1.5 text-sm text-[#666666] hover:text-[#434343]"
                         onClick={() => setMobileOpen(false)}
                       >
                         {child.label}
@@ -188,10 +188,10 @@ export default function Header() {
                 )}
               </div>
             ))}
-            <div className="pt-3 border-t border-slate-200">
+            <div className="pt-3 border-t border-[#e0e0e0]">
               <Link
                 href="/am-i-at-risk"
-                className="block w-full text-center bg-[#E7D549] hover:bg-[#d4c43e] text-slate-900 font-semibold px-4 py-3 rounded-lg transition-colors"
+                className="block w-full text-center bg-[#E7D549] hover:bg-[#d4c43e] text-[#434343] font-semibold px-4 py-3 rounded-lg transition-colors"
                 onClick={() => setMobileOpen(false)}
               >
                 Am I at Risk?

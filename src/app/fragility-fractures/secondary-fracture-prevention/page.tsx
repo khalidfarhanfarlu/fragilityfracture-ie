@@ -16,16 +16,16 @@ export default function SecondaryFracturePreventionPage() {
       ]}
       gpCTAContext="After a fracture, speak to your GP about secondary fracture prevention. Ask for a referral to a Fracture Liaison Service if one is available. Treatment can significantly reduce your risk of a second fracture."
     >
-      <h1 className="text-4xl font-extrabold text-slate-900 mb-6">Secondary Fracture Prevention</h1>
+      <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Secondary Fracture Prevention</h1>
 
-      <p className="text-lg text-slate-600 mb-6 leading-relaxed">
+      <p className="text-lg text-[#666666] mb-6 leading-relaxed">
         Secondary fracture prevention refers to all the steps taken after an initial fragility fracture to prevent a
         second one. It is one of the most important and unfortunately one of the most neglected areas of
         osteoporosis care — but you can take an active role in making sure it happens for you.
       </p>
 
-      <div className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-8">
-        <p className="text-slate-700 text-sm">
+      <div className="bg-slate-50 border border-[#e0e0e0] rounded-xl p-5 mb-8">
+        <p className="text-[#555555] text-sm">
           <strong>The gap in care:</strong> International data consistently shows that only around 20% of people who
           have a fragility fracture go on to receive appropriate assessment and treatment for their underlying
           osteoporosis. The goal of secondary fracture prevention programmes is to close this &ldquo;care gap&rdquo;.
@@ -59,8 +59,8 @@ export default function SecondaryFracturePreventionPage() {
         treatment and subsequent DXA scanning.
       </p>
 
-      <div className="bg-[#F9F9F9] border border-slate-200 rounded-xl p-6 my-6">
-        <h3 className="text-slate-800 font-bold text-base mb-3 mt-0">What a well-functioning FLS provides:</h3>
+      <div className="bg-[#F9F9F9] border border-[#e0e0e0] rounded-xl p-6 my-6">
+        <h3 className="text-[#434343] font-bold text-base mb-3 mt-0">What a well-functioning FLS provides:</h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           {[
             "Systematic identification of all fragility fracture patients",
@@ -72,8 +72,8 @@ export default function SecondaryFracturePreventionPage() {
             "Communication with GP for ongoing monitoring",
             "Follow-up to ensure treatment compliance",
           ].map((item) => (
-            <div key={item} className="flex items-start gap-2 text-sm text-slate-900">
-              <span className="text-slate-500 mt-0.5 shrink-0">&#x2714;</span>
+            <div key={item} className="flex items-start gap-2 text-sm text-[#434343]">
+              <span className="text-[#888888] mt-0.5 shrink-0">&#x2714;</span>
               <span>{item}</span>
             </div>
           ))}

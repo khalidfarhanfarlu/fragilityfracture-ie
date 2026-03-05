@@ -16,9 +16,9 @@ export default function OsteoporosisInMenPage() {
       ]}
       gpCTAContext="If you are a man over 50 with risk factors for osteoporosis, speak to your GP. Ask whether a bone density (DXA) scan would be appropriate. Osteoporosis in men is treatable — but only if it is diagnosed."
     >
-      <h1 className="text-4xl font-extrabold text-slate-900 mb-6">Osteoporosis in Men</h1>
+      <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Osteoporosis in Men</h1>
 
-      <p className="text-lg text-slate-600 mb-6 leading-relaxed">
+      <p className="text-lg text-[#666666] mb-6 leading-relaxed">
         Osteoporosis is often thought of as a &ldquo;women&apos;s disease&rdquo; — but this is a dangerous
         misconception. One in five men over the age of 50 will experience an osteoporosis-related fracture in their
         lifetime. In Ireland, men account for approximately 25% of all hip fractures, and their outcomes are often
@@ -77,9 +77,9 @@ export default function OsteoporosisInMenPage() {
             desc: "A BMI below 20 is associated with significantly higher fracture risk in men.",
           },
         ].map(({ title, desc }) => (
-          <div key={title} className="bg-slate-50 rounded-xl p-5 border border-slate-200">
-            <h3 className="font-bold text-slate-800 text-base mb-2">{title}</h3>
-            <p className="text-sm text-slate-600 leading-relaxed">{desc}</p>
+          <div key={title} className="bg-slate-50 rounded-xl p-5 border border-[#e0e0e0]">
+            <h3 className="font-bold text-[#434343] text-base mb-2">{title}</h3>
+            <p className="text-sm text-[#666666] leading-relaxed">{desc}</p>
           </div>
         ))}
       </div>

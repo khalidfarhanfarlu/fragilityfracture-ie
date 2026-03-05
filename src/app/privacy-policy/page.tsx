@@ -13,8 +13,8 @@ export default function PrivacyPolicyPage() {
       showGPCTA={false}
       showDisclaimer={false}
     >
-      <h1 className="text-4xl font-extrabold text-slate-900 mb-6">Privacy Policy</h1>
-      <p className="text-sm text-slate-400 mb-8">Last updated: February 2026</p>
+      <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Privacy Policy</h1>
+      <p className="text-sm text-[#999999] mb-8">Last updated: February 2026</p>
 
       <h2>1. Who We Are</h2>
       <p>

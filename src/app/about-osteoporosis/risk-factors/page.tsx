@@ -49,9 +49,9 @@ export default function RiskFactorsPage() {
       ]}
       gpCTAContext="If you recognise several risk factors that apply to you, speak to your GP. They can assess your risk and arrange a bone density (DXA) scan if appropriate."
     >
-      <h1 className="text-4xl font-extrabold text-slate-900 mb-6">Osteoporosis Risk Factors</h1>
+      <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Osteoporosis Risk Factors</h1>
 
-      <p className="text-lg text-slate-600 mb-4 leading-relaxed">
+      <p className="text-lg text-[#666666] mb-4 leading-relaxed">
         Several factors influence your risk of developing osteoporosis and sustaining a fragility fracture. Some of
         these you cannot change (non-modifiable), but many others you can actively address. Understanding your risk
         is the first step.
@@ -70,11 +70,11 @@ export default function RiskFactorsPage() {
 
       <div className="space-y-3 my-5">
         {nonModifiable.map(({ factor, detail }) => (
-          <div key={factor} className="flex gap-3 items-start bg-slate-50 rounded-xl p-4 border border-slate-200">
-            <AlertCircle className="w-5 h-5 text-slate-400 shrink-0 mt-0.5" aria-hidden="true" />
+          <div key={factor} className="flex gap-3 items-start bg-slate-50 rounded-xl p-4 border border-[#e0e0e0]">
+            <AlertCircle className="w-5 h-5 text-[#999999] shrink-0 mt-0.5" aria-hidden="true" />
             <div>
-              <p className="font-semibold text-slate-800 text-sm">{factor}</p>
-              <p className="text-sm text-slate-600 mt-0.5">{detail}</p>
+              <p className="font-semibold text-[#434343] text-sm">{factor}</p>
+              <p className="text-sm text-[#666666] mt-0.5">{detail}</p>
             </div>
           </div>
         ))}
@@ -88,11 +88,11 @@ export default function RiskFactorsPage() {
 
       <div className="space-y-3 my-5">
         {modifiable.map(({ factor, detail }) => (
-          <div key={factor} className="flex gap-3 items-start bg-[#F9F9F9] rounded-xl p-4 border border-slate-200">
-            <CheckCircle className="w-5 h-5 text-slate-500 shrink-0 mt-0.5" aria-hidden="true" />
+          <div key={factor} className="flex gap-3 items-start bg-[#F9F9F9] rounded-xl p-4 border border-[#e0e0e0]">
+            <CheckCircle className="w-5 h-5 text-[#888888] shrink-0 mt-0.5" aria-hidden="true" />
             <div>
-              <p className="font-semibold text-slate-800 text-sm">{factor}</p>
-              <p className="text-sm text-slate-600 mt-0.5">{detail}</p>
+              <p className="font-semibold text-[#434343] text-sm">{factor}</p>
+              <p className="text-sm text-[#666666] mt-0.5">{detail}</p>
             </div>
           </div>
         ))}

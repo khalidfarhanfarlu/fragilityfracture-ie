@@ -231,8 +231,8 @@ export default function RiskQuiz() {
                 {result.label}
               </span>
               <p className={`text-lg font-semibold mb-3 ${result.textColour}`}>{result.summary}</p>
-              <p className="text-slate-700 leading-relaxed mb-4">{result.advice}</p>
-              <p className="text-slate-800 font-semibold">{result.cta}</p>
+              <p className="text-[#555555] leading-relaxed mb-4">{result.advice}</p>
+              <p className="text-[#434343] font-semibold">{result.cta}</p>
             </div>
           </div>
         </div>
@@ -241,19 +241,19 @@ export default function RiskQuiz() {
         <div className="flex flex-col sm:flex-row gap-3 mb-8">
           <Link
             href="/living-with-osteoporosis/talking-to-your-doctor"
-            className="flex-1 text-center bg-slate-800 hover:bg-slate-900 text-white font-semibold px-6 py-3 rounded-xl transition-colors"
+            className="flex-1 text-center bg-[#434343] hover:bg-[#434343] text-white font-semibold px-6 py-3 rounded-xl transition-colors"
           >
             Questions to Ask Your GP
           </Link>
           <Link
             href="/bone-density-testing/what-is-a-dxa-scan"
-            className="flex-1 text-center bg-white hover:bg-slate-50 text-slate-700 font-semibold px-6 py-3 rounded-xl border border-slate-200 transition-colors"
+            className="flex-1 text-center bg-white hover:bg-[#f8f8f8] text-[#555555] font-semibold px-6 py-3 rounded-xl border border-[#e0e0e0] transition-colors"
           >
             About DXA Scans
           </Link>
           <button
             onClick={handleRetake}
-            className="flex items-center justify-center gap-2 px-6 py-3 rounded-xl border border-slate-200 text-slate-600 hover:bg-slate-50 font-medium transition-colors"
+            className="flex items-center justify-center gap-2 px-6 py-3 rounded-xl border border-[#e0e0e0] text-[#666666] hover:bg-[#f8f8f8] font-medium transition-colors"
           >
             <RotateCcw className="w-4 h-4" aria-hidden="true" />
             Retake Quiz
@@ -261,8 +261,8 @@ export default function RiskQuiz() {
         </div>
 
         {/* Disclaimer */}
-        <div className="bg-slate-50 border border-slate-200 rounded-xl p-5 text-sm text-slate-600 leading-relaxed">
-          <p className="font-semibold text-slate-700 mb-1">Important Note</p>
+        <div className="bg-slate-50 border border-[#e0e0e0] rounded-xl p-5 text-sm text-[#666666] leading-relaxed">
+          <p className="font-semibold text-[#555555] mb-1">Important Note</p>
           <p>
             This quiz provides a general educational indication only — it is{" "}
             <strong>not a medical diagnosis</strong>. It is based on established
@@ -280,13 +280,13 @@ export default function RiskQuiz() {
     <div className="max-w-2xl mx-auto">
       {/* Progress bar */}
       <div className="mb-8">
-        <div className="flex justify-between text-sm text-slate-500 mb-2">
+        <div className="flex justify-between text-sm text-[#888888] mb-2">
           <span>Question {currentQ + 1} of {questions.length}</span>
           <span>{Math.round(progress)}% complete</span>
         </div>
         <div className="h-2 bg-slate-200 rounded-full overflow-hidden">
           <div
-            className="h-full bg-slate-700 rounded-full transition-all duration-300"
+            className="h-full bg-[#555555] rounded-full transition-all duration-300"
             style={{ width: `${progress}%` }}
             role="progressbar"
             aria-valuenow={currentQ + 1}
@@ -298,10 +298,10 @@ export default function RiskQuiz() {
       </div>
 
       {/* Question card */}
-      <div className="bg-white rounded-2xl border border-slate-200 shadow-sm p-8 mb-6">
-        <h2 className="text-xl font-bold text-slate-900 mb-2">{question.text}</h2>
+      <div className="bg-white rounded-2xl border border-[#e0e0e0] shadow-sm p-8 mb-6">
+        <h2 className="text-xl font-bold text-[#434343] mb-2">{question.text}</h2>
         {question.subtext && (
-          <p className="text-sm text-slate-500 leading-relaxed mb-6">{question.subtext}</p>
+          <p className="text-sm text-[#888888] leading-relaxed mb-6">{question.subtext}</p>
         )}
         {!question.subtext && <div className="mb-6" />}
 
@@ -315,13 +315,13 @@ export default function RiskQuiz() {
                 onClick={() => handleSelect(idx)}
                 className={`w-full text-left px-5 py-4 rounded-xl border-2 transition-all font-medium text-base ${
                   isSelected
-                    ? "border-[#E7D549] bg-[#F9F9F9] text-slate-800"
-                    : "border-slate-200 text-slate-700 hover:border-[#E7D549] hover:bg-[#F9F9F9]/50"
+                    ? "border-[#E7D549] bg-[#F9F9F9] text-[#434343]"
+                    : "border-[#e0e0e0] text-[#555555] hover:border-[#E7D549] hover:bg-[#F9F9F9]/50"
                 }`}
                 aria-pressed={isSelected}
               >
                 <span className={`inline-flex items-center justify-center w-6 h-6 rounded-full border-2 mr-3 shrink-0 align-middle transition-all ${
-                  isSelected ? "border-[#E7D549] bg-slate-700" : "border-slate-300"
+                  isSelected ? "border-[#E7D549] bg-[#555555]" : "border-slate-300"
                 }`}>
                   {isSelected && (
                     <span className="block w-2 h-2 rounded-full bg-white" />
@@ -339,7 +339,7 @@ export default function RiskQuiz() {
         <button
           onClick={handleBack}
           disabled={currentQ === 0}
-          className="flex items-center gap-2 px-5 py-2.5 rounded-xl border border-slate-200 text-slate-600 hover:bg-slate-50 disabled:opacity-30 disabled:cursor-not-allowed font-medium transition-colors"
+          className="flex items-center gap-2 px-5 py-2.5 rounded-xl border border-[#e0e0e0] text-[#666666] hover:bg-[#f8f8f8] disabled:opacity-30 disabled:cursor-not-allowed font-medium transition-colors"
         >
           <ChevronLeft className="w-4 h-4" aria-hidden="true" />
           Back
@@ -347,7 +347,7 @@ export default function RiskQuiz() {
         <button
           onClick={handleNext}
           disabled={selected === null}
-          className="flex items-center gap-2 bg-slate-800 hover:bg-slate-900 disabled:bg-slate-300 disabled:cursor-not-allowed text-white font-semibold px-6 py-2.5 rounded-xl transition-colors"
+          className="flex items-center gap-2 bg-[#434343] hover:bg-[#434343] disabled:bg-[#bbbbbb] disabled:cursor-not-allowed text-white font-semibold px-6 py-2.5 rounded-xl transition-colors"
         >
           {currentQ === questions.length - 1 ? "See My Result" : "Next"}
           <ChevronRight className="w-4 h-4" aria-hidden="true" />

@@ -17,19 +17,19 @@ export default function FraxToolPage() {
       ]}
       gpCTAContext="Your FRAX score should be interpreted by your GP alongside other clinical information. Discuss your result at your next appointment."
     >
-      <h1 className="text-4xl font-extrabold text-slate-900 mb-6">The FRAX Fracture Risk Tool</h1>
+      <h1 className="text-4xl font-extrabold text-[#434343] mb-6">The FRAX Fracture Risk Tool</h1>
 
-      <p className="text-lg text-slate-600 mb-6 leading-relaxed">
+      <p className="text-lg text-[#666666] mb-6 leading-relaxed">
         The FRAX tool is a free, online calculator developed by the World Health Organization (WHO) at the University
         of Sheffield. It estimates your <strong>10-year probability</strong> of sustaining a major osteoporotic
         fracture (hip, spine, wrist, or shoulder) based on a combination of risk factors.
       </p>
 
-      <div className="bg-[#F9F9F9] border border-slate-200 rounded-xl p-6 mb-8 flex items-start gap-4">
-        <ExternalLink className="w-6 h-6 text-slate-600 shrink-0 mt-0.5" aria-hidden="true" />
+      <div className="bg-[#F9F9F9] border border-[#e0e0e0] rounded-xl p-6 mb-8 flex items-start gap-4">
+        <ExternalLink className="w-6 h-6 text-[#666666] shrink-0 mt-0.5" aria-hidden="true" />
         <div>
-          <p className="font-bold text-slate-900 mb-1">Access the FRAX Tool</p>
-          <p className="text-slate-800 text-sm mb-3">
+          <p className="font-bold text-[#434343] mb-1">Access the FRAX Tool</p>
+          <p className="text-[#434343] text-sm mb-3">
             The official FRAX tool is freely available online. Select &ldquo;Ireland&rdquo; as your country for the
             most relevant fracture probability data.
           </p>
@@ -37,7 +37,7 @@ export default function FraxToolPage() {
             href="https://www.sheffield.ac.uk/FRAX/"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-slate-800 hover:bg-slate-900 text-white font-semibold px-4 py-2 rounded-lg text-sm transition-colors"
+            className="inline-flex items-center gap-2 bg-[#434343] hover:bg-[#434343] text-white font-semibold px-4 py-2 rounded-lg text-sm transition-colors"
           >
             Open FRAX Calculator <ExternalLink className="w-4 h-4" />
           </a>
@@ -73,9 +73,9 @@ export default function FraxToolPage() {
           { label: "Alcohol", note: "3+ units/day increases risk" },
           { label: "Femoral neck BMD", note: "Optional but improves accuracy if DXA available" },
         ].map(({ label, note }) => (
-          <div key={label} className="bg-slate-50 rounded-lg p-3 border border-slate-200 text-sm">
-            <p className="font-semibold text-slate-800">{label}</p>
-            <p className="text-slate-500 text-xs mt-0.5">{note}</p>
+          <div key={label} className="bg-slate-50 rounded-lg p-3 border border-[#e0e0e0] text-sm">
+            <p className="font-semibold text-[#434343]">{label}</p>
+            <p className="text-[#888888] text-xs mt-0.5">{note}</p>
           </div>
         ))}
       </div>

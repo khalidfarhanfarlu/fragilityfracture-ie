@@ -13,10 +13,10 @@ export default function CookiePolicyPage() {
       showGPCTA={false}
       showDisclaimer={false}
     >
-      <h1 className="text-4xl font-extrabold text-slate-900 mb-6">Cookie Policy</h1>
-      <p className="text-sm text-slate-400 mb-8">Last updated: February 2026</p>
+      <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Cookie Policy</h1>
+      <p className="text-sm text-[#999999] mb-8">Last updated: February 2026</p>
 
-      <p className="text-slate-600 mb-6">
+      <p className="text-[#666666] mb-6">
         This Cookie Policy explains what cookies are, which cookies FragilityFracture.ie uses, and how you can
         manage your preferences.
       </p>
@@ -33,7 +33,7 @@ export default function CookiePolicyPage() {
       <div className="overflow-x-auto my-6">
         <table className="w-full text-sm border-collapse">
           <thead>
-            <tr className="bg-slate-800 text-white">
+            <tr className="bg-[#434343] text-white">
               <th className="px-4 py-3 text-left">Category</th>
               <th className="px-4 py-3 text-left">Name / Provider</th>
               <th className="px-4 py-3 text-left">Purpose</th>
@@ -49,11 +49,11 @@ export default function CookiePolicyPage() {
               ["Analytics", "_gid (Google Analytics)", "Used to distinguish users", "24 hours", "Yes"],
             ].map(([cat, name, purpose, duration, consent], i) => (
               <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
-                <td className="px-4 py-3 border-b border-slate-100 font-semibold text-slate-700">{cat}</td>
-                <td className="px-4 py-3 border-b border-slate-100 font-mono text-xs">{name}</td>
-                <td className="px-4 py-3 border-b border-slate-100 text-slate-600">{purpose}</td>
-                <td className="px-4 py-3 border-b border-slate-100 text-slate-500">{duration}</td>
-                <td className="px-4 py-3 border-b border-slate-100">{consent}</td>
+                <td className="px-4 py-3 border-b border-[#eeeeee] font-semibold text-[#555555]">{cat}</td>
+                <td className="px-4 py-3 border-b border-[#eeeeee] font-mono text-xs">{name}</td>
+                <td className="px-4 py-3 border-b border-[#eeeeee] text-[#666666]">{purpose}</td>
+                <td className="px-4 py-3 border-b border-[#eeeeee] text-[#888888]">{duration}</td>
+                <td className="px-4 py-3 border-b border-[#eeeeee]">{consent}</td>
               </tr>
             ))}
           </tbody>

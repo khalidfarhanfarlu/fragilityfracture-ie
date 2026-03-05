@@ -4,11 +4,11 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-slate-900 text-slate-300">
+    <footer className="bg-[#434343] text-[#bbbbbb]">
       {/* Medical disclaimer strip */}
-      <div className="bg-slate-950 border-b border-slate-800">
+      <div className="bg-[#2d2d2d] border-b border-[#555555]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4">
-          <p className="text-sm text-slate-300 text-center">
+          <p className="text-sm text-[#bbbbbb] text-center">
             <strong className="text-white">Medical Disclaimer:</strong> The information on this site is for educational
             purposes only and does not constitute medical advice. Always consult your GP or qualified healthcare
             provider.
@@ -25,13 +25,13 @@ export default function Footer() {
               className="inline-flex items-center gap-2 text-white font-bold text-lg mb-4"
               aria-label="FragilityFracture.ie — Home"
             >
-              <span className="bg-[#E7D549] text-slate-900 rounded-lg px-2 py-1 text-sm font-bold">FF</span>
+              <span className="bg-[#E7D549] text-[#434343] rounded-lg px-2 py-1 text-sm font-bold">FF</span>
               FragilityFracture<span className="text-[#E7D549]">.ie</span>
             </Link>
-            <p className="text-sm text-slate-400 leading-relaxed">
+            <p className="text-sm text-[#999999] leading-relaxed">
               Ireland&apos;s plain-language guide to osteoporosis, bone density, and fragility fractures.
             </p>
-            <p className="text-xs text-slate-500 mt-3">Last site review: February 2026</p>
+            <p className="text-xs text-[#888888] mt-3">Last site review: February 2026</p>
           </div>
 
           {/* About */}
@@ -75,11 +75,11 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-slate-800 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-xs text-slate-500">
+        <div className="border-t border-[#555555] pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <p className="text-xs text-[#888888]">
             &copy; {currentYear} FragilityFracture.ie — All content is for general educational information only.
           </p>
-          <p className="text-xs text-slate-500">
+          <p className="text-xs text-[#888888]">
             Not a substitute for professional medical advice. Always consult your GP.
           </p>
         </div>

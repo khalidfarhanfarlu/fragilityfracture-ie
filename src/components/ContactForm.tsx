@@ -49,7 +49,7 @@ export default function ContactForm() {
     <form onSubmit={handleSubmit(onSubmit)} noValidate className="space-y-6">
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
         <div>
-          <label htmlFor="name" className="block text-sm font-semibold text-slate-700 mb-1.5">
+          <label htmlFor="name" className="block text-sm font-semibold text-[#555555] mb-1.5">
             Full Name <span aria-hidden="true" className="text-red-500">*</span>
           </label>
           <input
@@ -57,7 +57,7 @@ export default function ContactForm() {
             type="text"
             autoComplete="name"
             {...register("name")}
-            className="w-full border border-slate-300 rounded-lg px-4 py-2.5 text-sm text-slate-800 focus:outline-none focus:ring-2 focus:ring-[#E7D549] focus:border-transparent"
+            className="w-full border border-slate-300 rounded-lg px-4 py-2.5 text-sm text-[#434343] focus:outline-none focus:ring-2 focus:ring-[#E7D549] focus:border-transparent"
             aria-describedby={errors.name ? "name-error" : undefined}
             aria-invalid={!!errors.name}
           />
@@ -69,7 +69,7 @@ export default function ContactForm() {
         </div>
 
         <div>
-          <label htmlFor="email" className="block text-sm font-semibold text-slate-700 mb-1.5">
+          <label htmlFor="email" className="block text-sm font-semibold text-[#555555] mb-1.5">
             Email Address <span aria-hidden="true" className="text-red-500">*</span>
           </label>
           <input
@@ -77,7 +77,7 @@ export default function ContactForm() {
             type="email"
             autoComplete="email"
             {...register("email")}
-            className="w-full border border-slate-300 rounded-lg px-4 py-2.5 text-sm text-slate-800 focus:outline-none focus:ring-2 focus:ring-[#E7D549] focus:border-transparent"
+            className="w-full border border-slate-300 rounded-lg px-4 py-2.5 text-sm text-[#434343] focus:outline-none focus:ring-2 focus:ring-[#E7D549] focus:border-transparent"
             aria-describedby={errors.email ? "email-error" : undefined}
             aria-invalid={!!errors.email}
           />
@@ -90,13 +90,13 @@ export default function ContactForm() {
       </div>
 
       <div>
-        <label htmlFor="subject" className="block text-sm font-semibold text-slate-700 mb-1.5">
+        <label htmlFor="subject" className="block text-sm font-semibold text-[#555555] mb-1.5">
           Subject <span aria-hidden="true" className="text-red-500">*</span>
         </label>
         <select
           id="subject"
           {...register("subject")}
-          className="w-full border border-slate-300 rounded-lg px-4 py-2.5 text-sm text-slate-800 focus:outline-none focus:ring-2 focus:ring-[#E7D549] focus:border-transparent bg-white"
+          className="w-full border border-slate-300 rounded-lg px-4 py-2.5 text-sm text-[#434343] focus:outline-none focus:ring-2 focus:ring-[#E7D549] focus:border-transparent bg-white"
           aria-describedby={errors.subject ? "subject-error" : undefined}
           aria-invalid={!!errors.subject}
         >
@@ -115,18 +115,18 @@ export default function ContactForm() {
       </div>
 
       <div>
-        <label htmlFor="message" className="block text-sm font-semibold text-slate-700 mb-1.5">
+        <label htmlFor="message" className="block text-sm font-semibold text-[#555555] mb-1.5">
           Message <span aria-hidden="true" className="text-red-500">*</span>
         </label>
         <textarea
           id="message"
           rows={6}
           {...register("message")}
-          className="w-full border border-slate-300 rounded-lg px-4 py-2.5 text-sm text-slate-800 focus:outline-none focus:ring-2 focus:ring-[#E7D549] focus:border-transparent resize-y"
+          className="w-full border border-slate-300 rounded-lg px-4 py-2.5 text-sm text-[#434343] focus:outline-none focus:ring-2 focus:ring-[#E7D549] focus:border-transparent resize-y"
           aria-describedby={errors.message ? "message-error" : "message-hint"}
           aria-invalid={!!errors.message}
         />
-        <p id="message-hint" className="text-xs text-slate-400 mt-1">Maximum 2,000 characters</p>
+        <p id="message-hint" className="text-xs text-[#999999] mt-1">Maximum 2,000 characters</p>
         {errors.message && (
           <p id="message-error" role="alert" className="text-red-600 text-xs mt-1.5">
             {errors.message.message}
@@ -144,9 +144,9 @@ export default function ContactForm() {
           aria-invalid={!!errors.consent}
         />
         <div>
-          <label htmlFor="consent" className="text-sm text-slate-600 cursor-pointer">
+          <label htmlFor="consent" className="text-sm text-[#666666] cursor-pointer">
             I agree to the processing of my personal data in accordance with the{" "}
-            <a href="/privacy-policy" className="text-slate-600 underline hover:text-slate-800">
+            <a href="/privacy-policy" className="text-[#666666] underline hover:text-[#434343]">
               Privacy Policy
             </a>
             . <span aria-hidden="true" className="text-red-500">*</span>
@@ -162,7 +162,7 @@ export default function ContactForm() {
       <button
         type="submit"
         disabled={isSubmitting}
-        className="inline-flex items-center gap-2 bg-[#E7D549] hover:bg-[#d4c43e] disabled:bg-slate-300 text-white font-semibold px-6 py-3 rounded-lg transition-colors text-sm"
+        className="inline-flex items-center gap-2 bg-[#E7D549] hover:bg-[#d4c43e] disabled:bg-[#bbbbbb] text-white font-semibold px-6 py-3 rounded-lg transition-colors text-sm"
       >
         {isSubmitting ? (
           <>Sending...</>

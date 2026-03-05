@@ -16,9 +16,9 @@ export default function AfterAFracturePage() {
       ]}
       gpCTAContext="After any fragility fracture, speak to your GP or hospital team about bone density assessment and secondary fracture prevention. Do not leave the hospital without asking about this."
     >
-      <h1 className="text-4xl font-extrabold text-slate-900 mb-6">After a Fracture: What Next?</h1>
+      <h1 className="text-4xl font-extrabold text-[#434343] mb-6">After a Fracture: What Next?</h1>
 
-      <p className="text-lg text-slate-600 mb-6 leading-relaxed">
+      <p className="text-lg text-[#666666] mb-6 leading-relaxed">
         Experiencing a fragility fracture is a significant health event. Beyond treating the fracture itself,
         the most important thing to happen next is a thorough assessment of your bone health and a plan to prevent
         a second fracture. Unfortunately, this does not always happen automatically — so knowing what to ask for is
@@ -70,12 +70,12 @@ export default function AfterAFracturePage() {
           },
         ].map(({ step, title, detail }) => (
           <div key={step} className="flex gap-4 items-start">
-            <div className="bg-slate-800 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">
+            <div className="bg-[#434343] text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">
               {step}
             </div>
             <div>
-              <p className="font-bold text-slate-800 text-base mb-1">{title}</p>
-              <p className="text-sm text-slate-600 leading-relaxed">{detail}</p>
+              <p className="font-bold text-[#434343] text-base mb-1">{title}</p>
+              <p className="text-sm text-[#666666] leading-relaxed">{detail}</p>
             </div>
           </div>
         ))}

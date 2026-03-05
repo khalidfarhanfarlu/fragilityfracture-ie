@@ -27,7 +27,7 @@ export default function PageLayout({
         {showDisclaimer && <MedicalDisclaimer />}
         <div className="content-body">{children}</div>
         {showGPCTA && <TalkToGPCTA context={gpCTAContext} />}
-        <p className="text-xs text-slate-400 mt-6 text-right">
+        <p className="text-xs text-[#999999] mt-6 text-right">
           Last reviewed: {lastReviewed} — FragilityFracture.ie Editorial Team
         </p>
       </div>

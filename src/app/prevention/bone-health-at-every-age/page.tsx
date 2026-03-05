@@ -72,8 +72,8 @@ const stages = [
   },
   {
     age: "80s and Beyond",
-    colour: "bg-slate-50 border-slate-200",
-    headerColour: "text-slate-800",
+    colour: "bg-slate-50 border-[#e0e0e0]",
+    headerColour: "text-[#434343]",
     content: [
       "In the oldest age groups, falls prevention is the single most important focus. Even a small reduction in fall risk can significantly reduce hip fractures.",
       "Maintaining mobility and muscle strength through gentle exercise (chair-based if needed) remains beneficial.",
@@ -95,9 +95,9 @@ export default function BoneHealthAtEveryAgePage() {
       showGPCTA={true}
       gpCTAContext="Whatever your age, it is never too early or too late to discuss your bone health with your GP. Book an appointment to talk about your individual risk and what you can do."
     >
-      <h1 className="text-4xl font-extrabold text-slate-900 mb-6">Bone Health at Every Age</h1>
+      <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Bone Health at Every Age</h1>
 
-      <p className="text-lg text-slate-600 mb-8 leading-relaxed">
+      <p className="text-lg text-[#666666] mb-8 leading-relaxed">
         Bone health is a lifelong concern — not just something to worry about in older age. The habits you build
         early in life, and the steps you take at each stage, all contribute to your bone strength and fracture risk
         later on. It is never too early to start — and never too late to make a difference.
@@ -108,14 +108,14 @@ export default function BoneHealthAtEveryAgePage() {
           <div key={age} className={`rounded-2xl border p-6 ${colour}`}>
             <h2 className={`text-xl font-bold mb-4 mt-0 ${headerColour}`}>{age}</h2>
             {content.map((para, i) => (
-              <p key={i} className="text-sm text-slate-700 leading-relaxed mb-3">{para}</p>
+              <p key={i} className="text-sm text-[#555555] leading-relaxed mb-3">{para}</p>
             ))}
             <div className="mt-4 pt-4 border-t border-black/10">
-              <p className="font-semibold text-slate-800 text-sm mb-2">Key actions at this stage:</p>
+              <p className="font-semibold text-[#434343] text-sm mb-2">Key actions at this stage:</p>
               <ul className="space-y-1">
                 {actions.map((a) => (
-                  <li key={a} className="text-sm text-slate-700 flex items-start gap-2">
-                    <span className="text-slate-600 mt-0.5">&#x2714;</span> {a}
+                  <li key={a} className="text-sm text-[#555555] flex items-start gap-2">
+                    <span className="text-[#666666] mt-0.5">&#x2714;</span> {a}
                   </li>
                 ))}
               </ul>

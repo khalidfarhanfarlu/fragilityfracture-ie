@@ -16,9 +16,9 @@ export default function HipFracturesPage() {
       ]}
       gpCTAContext="If you or a family member have had a hip fracture, ensure that bone density assessment and secondary fracture prevention treatment are arranged before or after discharge. Ask the hospital team or your GP."
     >
-      <h1 className="text-4xl font-extrabold text-slate-900 mb-6">Hip Fractures</h1>
+      <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Hip Fractures</h1>
 
-      <p className="text-lg text-slate-600 mb-6 leading-relaxed">
+      <p className="text-lg text-[#666666] mb-6 leading-relaxed">
         A hip fracture is the most serious type of fragility fracture. It requires emergency surgery, carries
         significant risks, and can have a profound impact on independence and quality of life. In Ireland, hip
         fractures place a major burden on both individuals and the healthcare system.

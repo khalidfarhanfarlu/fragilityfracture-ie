@@ -16,9 +16,9 @@ export default function VitaminDPage() {
       ]}
       gpCTAContext="If you are unsure whether you are getting enough Vitamin D, or if you think you may be deficient, speak to your GP. A simple blood test can measure your Vitamin D level."
     >
-      <h1 className="text-4xl font-extrabold text-slate-900 mb-6">Vitamin D</h1>
+      <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Vitamin D</h1>
 
-      <p className="text-lg text-slate-600 mb-6 leading-relaxed">
+      <p className="text-lg text-[#666666] mb-6 leading-relaxed">
         Vitamin D is essential for bone health — without it, your body cannot properly absorb calcium, no matter how
         much you consume. In Ireland, Vitamin D deficiency is common due to our northern latitude and limited sunlight
         for much of the year.
@@ -65,7 +65,7 @@ export default function VitaminDPage() {
       <div className="overflow-x-auto my-6">
         <table className="w-full text-sm border-collapse">
           <thead>
-            <tr className="bg-slate-800 text-white">
+            <tr className="bg-[#434343] text-white">
               <th className="px-4 py-3 text-left">Group</th>
               <th className="px-4 py-3 text-left">Recommended Daily Amount</th>
             </tr>
@@ -78,14 +78,14 @@ export default function VitaminDPage() {
               ["Pregnant/breastfeeding women", "10 micrograms (400 IU)/day minimum"],
             ].map(([group, amount], i) => (
               <tr key={group} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
-                <td className="px-4 py-3 border-b border-slate-100">{group}</td>
-                <td className="px-4 py-3 border-b border-slate-100 font-semibold text-slate-700">{amount}</td>
+                <td className="px-4 py-3 border-b border-[#eeeeee]">{group}</td>
+                <td className="px-4 py-3 border-b border-[#eeeeee] font-semibold text-[#555555]">{amount}</td>
               </tr>
             ))}
           </tbody>
         </table>
       </div>
-      <p className="text-xs text-slate-500">
+      <p className="text-xs text-[#888888]">
         Based on FSAI recommendations. Higher doses may be recommended for people with osteoporosis, those with
         confirmed deficiency, or those on bone-protective medications — always discuss with your GP.
       </p>

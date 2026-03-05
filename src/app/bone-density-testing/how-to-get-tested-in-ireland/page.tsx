@@ -16,9 +16,9 @@ export default function HowToGetTestedPage() {
       ]}
       gpCTAContext="Start with your GP. Tell them you are concerned about your bone health and would like to discuss whether a DXA scan is appropriate for you."
     >
-      <h1 className="text-4xl font-extrabold text-slate-900 mb-6">How to Get Tested in Ireland</h1>
+      <h1 className="text-4xl font-extrabold text-[#434343] mb-6">How to Get Tested in Ireland</h1>
 
-      <p className="text-lg text-slate-600 mb-6 leading-relaxed">
+      <p className="text-lg text-[#666666] mb-6 leading-relaxed">
         Getting a bone density (DXA) scan in Ireland requires either a GP referral into the public system, or
         self-referral to a private clinic. This page explains both pathways and what to expect.
       </p>
@@ -44,8 +44,8 @@ export default function HowToGetTestedPage() {
         If you are referred through the public system, your GP will send a referral to a DXA service at a public
         hospital. DXA scanning is available at most large public hospitals in Ireland.
       </p>
-      <div className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-4">
-        <ul className="space-y-2 text-sm text-slate-700">
+      <div className="bg-slate-50 border border-[#e0e0e0] rounded-xl p-5 mb-4">
+        <ul className="space-y-2 text-sm text-[#555555]">
           <li>&#x2714;&nbsp; No upfront cost for public patients with a valid referral</li>
           <li>&#x2714;&nbsp; Medical card holders are entitled to public hospital services free of charge</li>
           <li>&#x26A0;&nbsp; Waiting times can vary — typically weeks to a few months depending on location and urgency</li>
@@ -54,7 +54,7 @@ export default function HowToGetTestedPage() {
       </div>
       <p>
         To find your nearest HSE radiology service, visit{" "}
-        <a href="https://www.hse.ie" target="_blank" rel="noopener noreferrer" className="text-slate-700 underline">
+        <a href="https://www.hse.ie" target="_blank" rel="noopener noreferrer" className="text-[#555555] underline">
           hse.ie
         </a>{" "}
         and search for bone density or DXA services in your area.
