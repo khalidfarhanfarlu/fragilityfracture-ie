@@ -33,8 +33,8 @@ export default function FallsPreventionPage() {
         preventable, and simple changes can make a significant difference.
       </p>
 
-      <div className="bg-teal-50 border border-teal-200 rounded-xl p-5 mb-8">
-        <p className="text-teal-900 text-sm">
+      <div className="bg-[#F9F9F9] border border-slate-200 rounded-xl p-5 mb-8">
+        <p className="text-slate-900 text-sm">
           <strong>Key fact:</strong> A person with osteoporosis who falls has a significantly higher probability of
           fracturing than someone with normal bone density who falls in the same way. Reducing fall risk and
           maintaining bone strength together provide the greatest protection.
@@ -84,7 +84,7 @@ export default function FallsPreventionPage() {
             <div className="px-5 py-4 space-y-2">
               {items.map((item) => (
                 <div key={item} className="flex items-start gap-3">
-                  <CheckCircle className="w-4 h-4 text-teal-500 shrink-0 mt-0.5" aria-hidden="true" />
+                  <CheckCircle className="w-4 h-4 text-slate-500 shrink-0 mt-0.5" aria-hidden="true" />
                   <p className="text-sm text-slate-600">{item}</p>
                 </div>
               ))}

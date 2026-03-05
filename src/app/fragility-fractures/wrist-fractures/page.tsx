@@ -102,8 +102,8 @@ export default function WristFracturesPage() {
         This gap in care is preventable — and the consequences of a subsequent hip fracture can be devastating.
       </p>
 
-      <div className="bg-teal-50 border border-teal-200 rounded-xl p-5 mt-4">
-        <p className="text-teal-900 text-sm">
+      <div className="bg-[#F9F9F9] border border-slate-200 rounded-xl p-5 mt-4">
+        <p className="text-slate-900 text-sm">
           <strong>What to say to your GP:</strong> &ldquo;I broke my wrist in a fall and I haven&apos;t been assessed
           for osteoporosis. Could I be referred for a bone density (DXA) scan?&rdquo;
         </p>

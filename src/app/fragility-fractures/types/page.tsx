@@ -69,7 +69,7 @@ export default function TypesOfFragilityFracturesPage() {
       <div className="space-y-6 mt-4">
         {types.map(({ name, description, urgency, urgencyColour, href }) => (
           <div key={name} className="bg-white border border-slate-200 rounded-2xl overflow-hidden">
-            <div className="bg-teal-700 px-6 py-4">
+            <div className="bg-slate-800 px-6 py-4">
               <h2 className="text-white font-bold text-xl m-0">{name}</h2>
             </div>
             <div className="px-6 py-5">
@@ -81,7 +81,7 @@ export default function TypesOfFragilityFracturesPage() {
                 {href !== "#" && (
                   <Link
                     href={href}
-                    className="text-sm text-teal-600 font-semibold hover:text-teal-800 transition-colors"
+                    className="text-sm text-slate-600 font-semibold hover:text-slate-800 transition-colors"
                   >
                     Read more →
                   </Link>

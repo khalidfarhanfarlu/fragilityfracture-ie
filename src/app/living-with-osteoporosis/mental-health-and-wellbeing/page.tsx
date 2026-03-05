@@ -109,7 +109,7 @@ export default function MentalHealthPage() {
           <div key={org} className="bg-slate-50 border border-slate-200 rounded-xl p-5">
             <h3 className="font-bold text-slate-800 text-base mb-1">{org}</h3>
             <p className="text-sm text-slate-600 mb-2">{desc}</p>
-            <a href={href} target="_blank" rel="noopener noreferrer" className="text-xs text-teal-600 font-semibold hover:text-teal-800">
+            <a href={href} target="_blank" rel="noopener noreferrer" className="text-xs text-slate-600 font-semibold hover:text-slate-800">
               {href} ↗
             </a>
           </div>

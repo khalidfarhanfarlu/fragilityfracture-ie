@@ -65,7 +65,7 @@ export default function VitaminDPage() {
       <div className="overflow-x-auto my-6">
         <table className="w-full text-sm border-collapse">
           <thead>
-            <tr className="bg-teal-700 text-white">
+            <tr className="bg-slate-800 text-white">
               <th className="px-4 py-3 text-left">Group</th>
               <th className="px-4 py-3 text-left">Recommended Daily Amount</th>
             </tr>
@@ -79,7 +79,7 @@ export default function VitaminDPage() {
             ].map(([group, amount], i) => (
               <tr key={group} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
                 <td className="px-4 py-3 border-b border-slate-100">{group}</td>
-                <td className="px-4 py-3 border-b border-slate-100 font-semibold text-teal-700">{amount}</td>
+                <td className="px-4 py-3 border-b border-slate-100 font-semibold text-slate-700">{amount}</td>
               </tr>
             ))}
           </tbody>

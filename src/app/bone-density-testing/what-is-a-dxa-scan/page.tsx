@@ -29,9 +29,9 @@ export default function WhatIsADxaScanPage() {
           { label: "Very low radiation", detail: "Less radiation than a chest X-ray or transatlantic flight." },
           { label: "10–20 minutes", detail: "Quick and straightforward. Usually done as an outpatient." },
         ].map(({ label, detail }) => (
-          <div key={label} className="bg-teal-50 border border-teal-200 rounded-xl p-5 text-center">
-            <p className="font-bold text-teal-800 mb-1">{label}</p>
-            <p className="text-xs text-teal-700">{detail}</p>
+          <div key={label} className="bg-[#F9F9F9] border border-slate-200 rounded-xl p-5 text-center">
+            <p className="font-bold text-slate-800 mb-1">{label}</p>
+            <p className="text-xs text-slate-700">{detail}</p>
           </div>
         ))}
       </div>

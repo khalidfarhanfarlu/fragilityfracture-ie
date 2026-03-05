@@ -124,11 +124,11 @@ export default function OsteopeniaVsOsteoporosisPage() {
         preparing for your appointment.
       </p>
 
-      <div className="bg-teal-50 border border-teal-200 rounded-xl p-6 mt-6">
-        <p className="text-teal-900">
+      <div className="bg-[#F9F9F9] border border-slate-200 rounded-xl p-6 mt-6">
+        <p className="text-slate-900">
           <strong>Remember:</strong> Your T-score is just one part of the picture. Your GP will also consider your
           overall fracture risk using tools like the{" "}
-          <a href="/bone-density-testing/frax-fracture-risk-tool" className="text-teal-700">FRAX tool</a>, your
+          <a href="/bone-density-testing/frax-fracture-risk-tool" className="text-slate-700">FRAX tool</a>, your
           history of previous fractures, and your individual health circumstances before recommending any treatment.
         </p>
       </div>

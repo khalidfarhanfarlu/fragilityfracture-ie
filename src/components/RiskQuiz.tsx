@@ -241,7 +241,7 @@ export default function RiskQuiz() {
         <div className="flex flex-col sm:flex-row gap-3 mb-8">
           <Link
             href="/living-with-osteoporosis/talking-to-your-doctor"
-            className="flex-1 text-center bg-teal-700 hover:bg-teal-800 text-white font-semibold px-6 py-3 rounded-xl transition-colors"
+            className="flex-1 text-center bg-slate-800 hover:bg-slate-900 text-white font-semibold px-6 py-3 rounded-xl transition-colors"
           >
             Questions to Ask Your GP
           </Link>
@@ -286,7 +286,7 @@ export default function RiskQuiz() {
         </div>
         <div className="h-2 bg-slate-200 rounded-full overflow-hidden">
           <div
-            className="h-full bg-teal-600 rounded-full transition-all duration-300"
+            className="h-full bg-slate-700 rounded-full transition-all duration-300"
             style={{ width: `${progress}%` }}
             role="progressbar"
             aria-valuenow={currentQ + 1}
@@ -315,13 +315,13 @@ export default function RiskQuiz() {
                 onClick={() => handleSelect(idx)}
                 className={`w-full text-left px-5 py-4 rounded-xl border-2 transition-all font-medium text-base ${
                   isSelected
-                    ? "border-teal-600 bg-teal-50 text-teal-800"
-                    : "border-slate-200 text-slate-700 hover:border-teal-300 hover:bg-teal-50/50"
+                    ? "border-[#E7D549] bg-[#F9F9F9] text-slate-800"
+                    : "border-slate-200 text-slate-700 hover:border-[#E7D549] hover:bg-[#F9F9F9]/50"
                 }`}
                 aria-pressed={isSelected}
               >
                 <span className={`inline-flex items-center justify-center w-6 h-6 rounded-full border-2 mr-3 shrink-0 align-middle transition-all ${
-                  isSelected ? "border-teal-600 bg-teal-600" : "border-slate-300"
+                  isSelected ? "border-[#E7D549] bg-slate-700" : "border-slate-300"
                 }`}>
                   {isSelected && (
                     <span className="block w-2 h-2 rounded-full bg-white" />
@@ -347,7 +347,7 @@ export default function RiskQuiz() {
         <button
           onClick={handleNext}
           disabled={selected === null}
-          className="flex items-center gap-2 bg-teal-700 hover:bg-teal-800 disabled:bg-slate-300 disabled:cursor-not-allowed text-white font-semibold px-6 py-2.5 rounded-xl transition-colors"
+          className="flex items-center gap-2 bg-slate-800 hover:bg-slate-900 disabled:bg-slate-300 disabled:cursor-not-allowed text-white font-semibold px-6 py-2.5 rounded-xl transition-colors"
         >
           {currentQ === questions.length - 1 ? "See My Result" : "Next"}
           <ChevronRight className="w-4 h-4" aria-hidden="true" />

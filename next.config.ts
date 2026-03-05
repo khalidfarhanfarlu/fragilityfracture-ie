@@ -4,6 +4,16 @@ const nextConfig: NextConfig = {
   // Enable strict mode for better React error detection
   reactStrictMode: true,
 
+  // Allow external images from Unsplash
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+      },
+    ],
+  },
+
   // Security headers
   async headers() {
     return [

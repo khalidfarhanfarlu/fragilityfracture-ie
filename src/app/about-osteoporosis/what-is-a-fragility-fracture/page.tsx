@@ -63,7 +63,7 @@ export default function WhatIsAFragilityFracturePage() {
             <h3 className="font-bold text-slate-800 mb-2">{site}</h3>
             <p className="text-sm text-slate-600 leading-relaxed mb-3">{detail}</p>
             {href !== "#" && (
-              <a href={href} className="text-xs text-teal-600 font-semibold hover:text-teal-800">
+              <a href={href} className="text-xs text-slate-600 font-semibold hover:text-slate-800">
                 Read more →
               </a>
             )}

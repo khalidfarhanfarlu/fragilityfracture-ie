@@ -45,15 +45,15 @@ export default function ContactPage() {
             <h2 className="text-xl font-bold text-slate-800 mb-5">Other Ways to Get Help</h2>
 
             <div className="space-y-4">
-              <div className="bg-teal-50 border border-teal-200 rounded-xl p-5">
+              <div className="bg-[#F9F9F9] border border-slate-200 rounded-xl p-5">
                 <div className="flex items-center gap-2 mb-2">
-                  <Phone className="w-4 h-4 text-teal-600" />
-                  <p className="font-bold text-teal-800 text-sm">Irish Osteoporosis Society Helpline</p>
+                  <Phone className="w-4 h-4 text-slate-600" />
+                  <p className="font-bold text-slate-800 text-sm">Irish Osteoporosis Society Helpline</p>
                 </div>
-                <p className="text-sm text-teal-700 mb-1">
+                <p className="text-sm text-slate-700 mb-1">
                   For personal support and information about osteoporosis in Ireland.
                 </p>
-                <a href="tel:016375050" className="text-teal-700 font-bold text-sm">01 637 5050</a>
+                <a href="tel:016375050" className="text-slate-700 font-bold text-sm">01 637 5050</a>
               </div>
 
               <div className="bg-slate-50 border border-slate-200 rounded-xl p-5">

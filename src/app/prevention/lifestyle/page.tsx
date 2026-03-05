@@ -40,7 +40,7 @@ export default function LifestylePage() {
       </p>
       <p>
         If you would like support to quit smoking, the HSE&apos;s free service{" "}
-        <a href="https://www.quit.ie" target="_blank" rel="noopener noreferrer" className="text-teal-700 underline">Quit.ie</a>{" "}
+        <a href="https://www.quit.ie" target="_blank" rel="noopener noreferrer" className="text-slate-700 underline">Quit.ie</a>{" "}
         offers online tools, a quitline, and text support.
       </p>
 
@@ -135,8 +135,8 @@ export default function LifestylePage() {
         ))}
       </div>
 
-      <div className="bg-teal-50 border border-teal-200 rounded-xl p-5 mt-4">
-        <p className="text-teal-900 text-sm">
+      <div className="bg-[#F9F9F9] border border-slate-200 rounded-xl p-5 mt-4">
+        <p className="text-slate-900 text-sm">
           <strong>Key message:</strong> If you are taking any of the medications above, ask your GP at your next
           appointment whether your bone health is being monitored and whether any preventive measures are in place.
           You should not have to wait for a fracture to find out.

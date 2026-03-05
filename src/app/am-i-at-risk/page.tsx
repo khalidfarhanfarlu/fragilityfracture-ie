@@ -41,7 +41,7 @@ export default function AmIAtRiskPage() {
 
       <main id="main-content" className="min-h-screen">
         {/* Hero */}
-        <div className="bg-gradient-to-br from-teal-700 to-teal-900 text-white">
+        <div className="bg-gradient-to-br from-slate-800 to-slate-900 text-white">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 py-12 md:py-16">
             <div className="flex flex-wrap gap-4 mb-5">
               <span className="flex items-center gap-1.5 bg-white/15 text-white text-sm px-3 py-1.5 rounded-full">
@@ -57,11 +57,11 @@ export default function AmIAtRiskPage() {
             <h1 className="text-3xl md:text-4xl font-extrabold leading-tight mb-4">
               Am I at Risk of Osteoporosis?
             </h1>
-            <p className="text-teal-200 text-lg leading-relaxed max-w-2xl">
+            <p className="text-slate-300 text-lg leading-relaxed max-w-2xl">
               Answer 10 quick questions based on the same risk factors used by GPs in clinical
               practice. Your answers stay on your device — nothing is sent or stored.
             </p>
-            <p className="text-teal-300 text-sm mt-4 italic">
+            <p className="text-[#E7D549] text-sm mt-4 italic">
               This quiz provides an educational indication only. It is not a medical diagnosis.
             </p>
           </div>
@@ -92,15 +92,15 @@ export default function AmIAtRiskPage() {
           {/* Bottom info strip */}
           <div className="mt-12 pt-10 border-t border-slate-200 grid grid-cols-1 sm:grid-cols-3 gap-6 text-center max-w-2xl mx-auto">
             <div>
-              <p className="text-2xl font-extrabold text-teal-700 mb-1">500,000+</p>
+              <p className="text-2xl font-extrabold text-slate-700 mb-1">500,000+</p>
               <p className="text-sm text-slate-600">people in Ireland have osteoporosis</p>
             </div>
             <div>
-              <p className="text-2xl font-extrabold text-teal-700 mb-1">1 in 2</p>
+              <p className="text-2xl font-extrabold text-slate-700 mb-1">1 in 2</p>
               <p className="text-sm text-slate-600">women over 50 will have a fracture</p>
             </div>
             <div>
-              <p className="text-2xl font-extrabold text-teal-700 mb-1">1 in 5</p>
+              <p className="text-2xl font-extrabold text-slate-700 mb-1">1 in 5</p>
               <p className="text-sm text-slate-600">men over 50 will have a fracture</p>
             </div>
           </div>

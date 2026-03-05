@@ -84,9 +84,9 @@ export default function RecoveryRehabPage() {
         prevent a second fracture. FLS is a &ldquo;secondary fracture prevention&rdquo; initiative.
       </p>
 
-      <div className="bg-teal-50 border border-teal-200 rounded-xl p-6 my-6">
-        <h3 className="text-teal-800 font-bold text-base mb-3">What an FLS typically does:</h3>
-        <ul className="space-y-2 text-sm text-teal-900">
+      <div className="bg-[#F9F9F9] border border-slate-200 rounded-xl p-6 my-6">
+        <h3 className="text-slate-800 font-bold text-base mb-3">What an FLS typically does:</h3>
+        <ul className="space-y-2 text-sm text-slate-900">
           <li>&#x2714;&nbsp; Identifies patients who have had a fragility fracture</li>
           <li>&#x2714;&nbsp; Arranges or reviews a DXA bone density scan</li>
           <li>&#x2714;&nbsp; Assesses fall risk factors</li>

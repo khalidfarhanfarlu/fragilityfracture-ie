@@ -57,7 +57,7 @@ const articles = [
 const categoryColours: Record<string, string> = {
   Testing: "bg-blue-100 text-blue-700",
   Nutrition: "bg-emerald-100 text-emerald-700",
-  Prevention: "bg-teal-100 text-teal-700",
+  Prevention: "bg-[#E7D549]/15 text-slate-700",
   Treatment: "bg-violet-100 text-violet-700",
   Awareness: "bg-amber-100 text-amber-700",
   Research: "bg-rose-100 text-rose-700",
@@ -81,7 +81,7 @@ export default function NewsPage() {
           <Link
             key={href}
             href={href}
-            className="group bg-white border border-slate-200 rounded-2xl p-6 hover:border-teal-300 hover:shadow-md transition-all flex flex-col"
+            className="group bg-white border border-slate-200 rounded-2xl p-6 hover:border-[#E7D549] hover:shadow-md transition-all flex flex-col"
           >
             <div className="flex items-center justify-between mb-4">
               <span className={`text-xs font-semibold px-3 py-1 rounded-full ${categoryColours[category] || "bg-slate-100 text-slate-600"}`}>
@@ -89,19 +89,19 @@ export default function NewsPage() {
               </span>
               <span className="text-xs text-slate-400">{date}</span>
             </div>
-            <h2 className="font-bold text-slate-800 text-lg mb-3 leading-snug group-hover:text-teal-700 transition-colors">
+            <h2 className="font-bold text-slate-800 text-lg mb-3 leading-snug group-hover:text-slate-700 transition-colors">
               {title}
             </h2>
             <p className="text-slate-500 text-sm leading-relaxed flex-1 mb-4">{excerpt}</p>
-            <span className="inline-flex items-center gap-1.5 text-sm text-teal-600 font-semibold">
+            <span className="inline-flex items-center gap-1.5 text-sm text-slate-600 font-semibold">
               Read article <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
             </span>
           </Link>
         ))}
       </div>
 
-      <div className="mt-10 bg-teal-50 border border-teal-200 rounded-xl p-6">
-        <p className="text-teal-900 text-sm">
+      <div className="mt-10 bg-[#F9F9F9] border border-slate-200 rounded-xl p-6">
+        <p className="text-slate-900 text-sm">
           <strong>About our content:</strong> All articles on FragilityFracture.ie are written in plain English and
           reviewed against current clinical guidelines (HSE, NICE, International Osteoporosis Foundation). Content
           is reviewed and updated regularly. Each article displays a &ldquo;last reviewed&rdquo; date.

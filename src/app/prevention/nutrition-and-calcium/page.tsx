@@ -53,7 +53,7 @@ export default function NutritionAndCalciumPage() {
       <div className="overflow-x-auto my-6">
         <table className="w-full text-sm border-collapse">
           <thead>
-            <tr className="bg-teal-700 text-white">
+            <tr className="bg-slate-800 text-white">
               <th className="px-4 py-3 text-left">Life Stage</th>
               <th className="px-4 py-3 text-left">Recommended Daily Calcium</th>
             </tr>
@@ -68,7 +68,7 @@ export default function NutritionAndCalciumPage() {
             ].map(([stage, amount], i) => (
               <tr key={stage} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
                 <td className="px-4 py-3 border-b border-slate-100">{stage}</td>
-                <td className="px-4 py-3 border-b border-slate-100 font-semibold text-teal-700">{amount}</td>
+                <td className="px-4 py-3 border-b border-slate-100 font-semibold text-slate-700">{amount}</td>
               </tr>
             ))}
           </tbody>
@@ -100,7 +100,7 @@ export default function NutritionAndCalciumPage() {
               <tr key={food} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
                 <td className="px-4 py-3 border-b border-slate-100">{food}</td>
                 <td className="px-4 py-3 border-b border-slate-100 text-slate-600">{serving}</td>
-                <td className="px-4 py-3 border-b border-slate-100 font-semibold text-teal-700">{calcium}</td>
+                <td className="px-4 py-3 border-b border-slate-100 font-semibold text-slate-700">{calcium}</td>
               </tr>
             ))}
           </tbody>

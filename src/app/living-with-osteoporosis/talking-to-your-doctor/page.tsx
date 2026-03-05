@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 const questionSets = [
   {
     title: "At Your First Appointment (Bone Health Discussion)",
-    colour: "bg-teal-50 border-teal-200",
+    colour: "bg-[#F9F9F9] border-slate-200",
     questions: [
       "Based on my age, medical history, and risk factors, am I at risk of osteoporosis?",
       "Should I have a bone density (DXA) scan? If not, why not?",
@@ -80,8 +80,8 @@ export default function TalkingToYourDoctorPage() {
         Below are questions grouped by situation — pick the ones that are most relevant to you.
       </p>
 
-      <div className="bg-teal-50 border border-teal-200 rounded-xl p-5 mb-8">
-        <p className="text-teal-900 text-sm">
+      <div className="bg-[#F9F9F9] border border-slate-200 rounded-xl p-5 mb-8">
+        <p className="text-slate-900 text-sm">
           <strong>Tip:</strong> Write down your questions before your appointment. If you have a lot of concerns, let
           the receptionist know when booking so a longer appointment can be arranged. You can also bring a family
           member or carer for support.
@@ -95,7 +95,7 @@ export default function TalkingToYourDoctorPage() {
             <ul className="space-y-3">
               {questions.map((q) => (
                 <li key={q} className="flex items-start gap-3 text-sm text-slate-700">
-                  <span className="text-teal-600 font-bold mt-0.5 shrink-0">Q:</span>
+                  <span className="text-slate-600 font-bold mt-0.5 shrink-0">Q:</span>
                   <span>{q}</span>
                 </li>
               ))}

@@ -59,8 +59,8 @@ export default function SecondaryFracturePreventionPage() {
         treatment and subsequent DXA scanning.
       </p>
 
-      <div className="bg-teal-50 border border-teal-200 rounded-xl p-6 my-6">
-        <h3 className="text-teal-800 font-bold text-base mb-3 mt-0">What a well-functioning FLS provides:</h3>
+      <div className="bg-[#F9F9F9] border border-slate-200 rounded-xl p-6 my-6">
+        <h3 className="text-slate-800 font-bold text-base mb-3 mt-0">What a well-functioning FLS provides:</h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           {[
             "Systematic identification of all fragility fracture patients",
@@ -72,8 +72,8 @@ export default function SecondaryFracturePreventionPage() {
             "Communication with GP for ongoing monitoring",
             "Follow-up to ensure treatment compliance",
           ].map((item) => (
-            <div key={item} className="flex items-start gap-2 text-sm text-teal-900">
-              <span className="text-teal-500 mt-0.5 shrink-0">&#x2714;</span>
+            <div key={item} className="flex items-start gap-2 text-sm text-slate-900">
+              <span className="text-slate-500 mt-0.5 shrink-0">&#x2714;</span>
               <span>{item}</span>
             </div>
           ))}

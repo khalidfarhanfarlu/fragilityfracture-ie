@@ -126,8 +126,8 @@ export default function UnderstandingResultsPage() {
         <li>Read our <a href="/living-with-osteoporosis/treatment-options">Treatment Options page</a> for an overview of what may be offered</li>
       </ul>
 
-      <div className="bg-teal-50 border border-teal-200 rounded-xl p-6 mt-6">
-        <p className="text-teal-900 text-sm">
+      <div className="bg-[#F9F9F9] border border-slate-200 rounded-xl p-6 mt-6">
+        <p className="text-slate-900 text-sm">
           <strong>Important:</strong> Your results should always be interpreted by your GP in the context of your full
           medical history. A number on a report only tells part of the story. Never change medication or start new
           supplements without speaking to your GP or pharmacist first.

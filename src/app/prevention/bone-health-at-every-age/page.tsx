@@ -115,7 +115,7 @@ export default function BoneHealthAtEveryAgePage() {
               <ul className="space-y-1">
                 {actions.map((a) => (
                   <li key={a} className="text-sm text-slate-700 flex items-start gap-2">
-                    <span className="text-teal-600 mt-0.5">&#x2714;</span> {a}
+                    <span className="text-slate-600 mt-0.5">&#x2714;</span> {a}
                   </li>
                 ))}
               </ul>

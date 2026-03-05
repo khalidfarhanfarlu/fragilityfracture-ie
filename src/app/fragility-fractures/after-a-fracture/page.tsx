@@ -70,7 +70,7 @@ export default function AfterAFracturePage() {
           },
         ].map(({ step, title, detail }) => (
           <div key={step} className="flex gap-4 items-start">
-            <div className="bg-teal-700 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">
+            <div className="bg-slate-800 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">
               {step}
             </div>
             <div>

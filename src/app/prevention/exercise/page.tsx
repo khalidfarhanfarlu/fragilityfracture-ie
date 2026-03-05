@@ -24,8 +24,8 @@ export default function ExercisePage() {
         of fractures. It is never too early or too late to start.
       </p>
 
-      <div className="bg-teal-50 border border-teal-200 rounded-xl p-5 mb-8">
-        <p className="text-teal-900 text-sm">
+      <div className="bg-[#F9F9F9] border border-slate-200 rounded-xl p-5 mb-8">
+        <p className="text-slate-900 text-sm">
           <strong>Key message:</strong> Bones respond to the forces placed on them. Just as muscles grow stronger
           when exercised, bones become denser when subject to mechanical loading. This is sometimes called the
           &ldquo;use it or lose it&rdquo; principle.
@@ -134,10 +134,10 @@ export default function ExercisePage() {
         <li>Check if your local leisure centre or sports partnership offers supervised classes for older adults or those with health conditions</li>
       </ul>
 
-      <div className="bg-teal-50 border border-teal-200 rounded-xl p-5 mt-6">
-        <p className="text-teal-900 text-sm">
+      <div className="bg-[#F9F9F9] border border-slate-200 rounded-xl p-5 mt-6">
+        <p className="text-slate-900 text-sm">
           <strong>Falls Prevention:</strong> Exercise for falls prevention is just as important as exercise for bone
-          density. See our <a href="/living-with-osteoporosis/falls-prevention" className="text-teal-700 underline">Falls Prevention page</a>{" "}
+          density. See our <a href="/living-with-osteoporosis/falls-prevention" className="text-slate-700 underline">Falls Prevention page</a>{" "}
           for more specific balance and strength exercises.
         </p>
       </div>

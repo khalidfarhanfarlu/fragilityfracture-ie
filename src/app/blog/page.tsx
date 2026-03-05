@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 const categoryColours: Record<string, string> = {
   Awareness: "bg-amber-100 text-amber-700",
   Nutrition: "bg-emerald-100 text-emerald-700",
-  Prevention: "bg-teal-100 text-teal-700",
+  Prevention: "bg-[#E7D549]/15 text-slate-700",
   Treatment: "bg-violet-100 text-violet-700",
   Research: "bg-blue-100 text-blue-700",
   "Patient Stories": "bg-rose-100 text-rose-700",
@@ -39,10 +39,10 @@ export default function BlogPage() {
           <Link
             key={post.slug}
             href={`/blog/${post.slug}`}
-            className="group flex flex-col sm:flex-row gap-6 bg-white border border-slate-200 rounded-2xl p-6 hover:border-teal-300 hover:shadow-md transition-all"
+            className="group flex flex-col sm:flex-row gap-6 bg-white border border-slate-200 rounded-2xl p-6 hover:border-[#E7D549] hover:shadow-md transition-all"
           >
             {/* Number */}
-            <div className="hidden sm:flex items-center justify-center w-12 h-12 rounded-xl bg-teal-50 text-teal-700 font-extrabold text-xl shrink-0">
+            <div className="hidden sm:flex items-center justify-center w-12 h-12 rounded-xl bg-[#F9F9F9] text-slate-700 font-extrabold text-xl shrink-0">
               {String(posts.length - i).padStart(2, "0")}
             </div>
 
@@ -59,12 +59,12 @@ export default function BlogPage() {
                 </span>
               </div>
 
-              <h2 className="font-bold text-slate-800 text-xl mb-2 leading-snug group-hover:text-teal-700 transition-colors">
+              <h2 className="font-bold text-slate-800 text-xl mb-2 leading-snug group-hover:text-slate-700 transition-colors">
                 {post.title}
               </h2>
               <p className="text-slate-500 text-sm leading-relaxed mb-4">{post.excerpt}</p>
 
-              <span className="inline-flex items-center gap-1.5 text-sm text-teal-600 font-semibold">
+              <span className="inline-flex items-center gap-1.5 text-sm text-slate-600 font-semibold">
                 Read article <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
               </span>
             </div>
@@ -72,9 +72,9 @@ export default function BlogPage() {
         ))}
       </div>
 
-      <div className="mt-10 bg-teal-50 border border-teal-200 rounded-2xl p-6">
-        <h2 className="font-bold text-teal-800 text-base mb-2">A new post every month</h2>
-        <p className="text-teal-700 text-sm leading-relaxed">
+      <div className="mt-10 bg-[#F9F9F9] border border-slate-200 rounded-2xl p-6">
+        <h2 className="font-bold text-slate-800 text-base mb-2">A new post every month</h2>
+        <p className="text-slate-700 text-sm leading-relaxed">
           We publish one new in-depth article each month on osteoporosis, bone health, and fracture prevention.
           All content is reviewed against current HSE and International Osteoporosis Foundation guidelines and
           marked with a &ldquo;last reviewed&rdquo; date.

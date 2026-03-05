@@ -54,7 +54,7 @@ export default function HowToGetTestedPage() {
       </div>
       <p>
         To find your nearest HSE radiology service, visit{" "}
-        <a href="https://www.hse.ie" target="_blank" rel="noopener noreferrer" className="text-teal-700 underline">
+        <a href="https://www.hse.ie" target="_blank" rel="noopener noreferrer" className="text-slate-700 underline">
           hse.ie
         </a>{" "}
         and search for bone density or DXA services in your area.

@@ -25,11 +25,11 @@ export default function FraxToolPage() {
         fracture (hip, spine, wrist, or shoulder) based on a combination of risk factors.
       </p>
 
-      <div className="bg-teal-50 border border-teal-200 rounded-xl p-6 mb-8 flex items-start gap-4">
-        <ExternalLink className="w-6 h-6 text-teal-600 shrink-0 mt-0.5" aria-hidden="true" />
+      <div className="bg-[#F9F9F9] border border-slate-200 rounded-xl p-6 mb-8 flex items-start gap-4">
+        <ExternalLink className="w-6 h-6 text-slate-600 shrink-0 mt-0.5" aria-hidden="true" />
         <div>
-          <p className="font-bold text-teal-900 mb-1">Access the FRAX Tool</p>
-          <p className="text-teal-800 text-sm mb-3">
+          <p className="font-bold text-slate-900 mb-1">Access the FRAX Tool</p>
+          <p className="text-slate-800 text-sm mb-3">
             The official FRAX tool is freely available online. Select &ldquo;Ireland&rdquo; as your country for the
             most relevant fracture probability data.
           </p>
@@ -37,7 +37,7 @@ export default function FraxToolPage() {
             href="https://www.sheffield.ac.uk/FRAX/"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-teal-700 hover:bg-teal-800 text-white font-semibold px-4 py-2 rounded-lg text-sm transition-colors"
+            className="inline-flex items-center gap-2 bg-slate-800 hover:bg-slate-900 text-white font-semibold px-4 py-2 rounded-lg text-sm transition-colors"
           >
             Open FRAX Calculator <ExternalLink className="w-4 h-4" />
           </a>

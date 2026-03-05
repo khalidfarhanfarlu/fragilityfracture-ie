@@ -33,7 +33,7 @@ export default function CookiePolicyPage() {
       <div className="overflow-x-auto my-6">
         <table className="w-full text-sm border-collapse">
           <thead>
-            <tr className="bg-teal-700 text-white">
+            <tr className="bg-slate-800 text-white">
               <th className="px-4 py-3 text-left">Category</th>
               <th className="px-4 py-3 text-left">Name / Provider</th>
               <th className="px-4 py-3 text-left">Purpose</th>
@@ -49,7 +49,7 @@ export default function CookiePolicyPage() {
               ["Analytics", "_gid (Google Analytics)", "Used to distinguish users", "24 hours", "Yes"],
             ].map(([cat, name, purpose, duration, consent], i) => (
               <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
-                <td className="px-4 py-3 border-b border-slate-100 font-semibold text-teal-700">{cat}</td>
+                <td className="px-4 py-3 border-b border-slate-100 font-semibold text-slate-700">{cat}</td>
                 <td className="px-4 py-3 border-b border-slate-100 font-mono text-xs">{name}</td>
                 <td className="px-4 py-3 border-b border-slate-100 text-slate-600">{purpose}</td>
                 <td className="px-4 py-3 border-b border-slate-100 text-slate-500">{duration}</td>

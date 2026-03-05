@@ -65,8 +65,8 @@ export default function WhatIsOsteoporosisPage() {
           honeycomb with larger holes than normal.
         </p>
 
-        <div className="bg-teal-50 border border-teal-200 rounded-xl p-6 mb-8">
-          <p className="text-teal-900 font-semibold text-base">
+        <div className="bg-[#F9F9F9] border border-slate-200 rounded-xl p-6 mb-8">
+          <p className="text-slate-900 font-semibold text-base">
             In Ireland, an estimated 300,000 to 500,000 people have osteoporosis — yet most are undiagnosed because
             the condition causes no symptoms until a fracture occurs.
           </p>
@@ -148,9 +148,9 @@ export default function WhatIsOsteoporosisPage() {
               key={faq.name}
               className="border border-slate-200 rounded-xl overflow-hidden group"
             >
-              <summary className="flex items-center justify-between px-5 py-4 font-semibold text-slate-800 cursor-pointer hover:bg-teal-50 transition-colors list-none">
+              <summary className="flex items-center justify-between px-5 py-4 font-semibold text-slate-800 cursor-pointer hover:bg-[#F9F9F9] transition-colors list-none">
                 {faq.name}
-                <span className="text-teal-600 text-xl group-open:rotate-45 transition-transform shrink-0 ml-3">+</span>
+                <span className="text-slate-600 text-xl group-open:rotate-45 transition-transform shrink-0 ml-3">+</span>
               </summary>
               <div className="px-5 pb-4 pt-2 text-slate-600 text-sm leading-relaxed bg-slate-50">
                 {faq.acceptedAnswer.text}

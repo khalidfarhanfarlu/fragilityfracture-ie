@@ -102,7 +102,7 @@ export default function ResourcesPage() {
             <h2 className="text-xl font-bold text-slate-800 mb-5">{category}</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {items.map(({ name, desc, url, note }) => (
-                <div key={name} className="bg-white border border-slate-200 rounded-xl p-5 hover:border-teal-300 hover:shadow-sm transition-all">
+                <div key={name} className="bg-white border border-slate-200 rounded-xl p-5 hover:border-[#E7D549] hover:shadow-sm transition-all">
                   <div className="flex items-start justify-between gap-2 mb-2">
                     <h3 className="font-bold text-slate-800 text-base">{name}</h3>
                     <a
@@ -110,18 +110,18 @@ export default function ResourcesPage() {
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label={`Visit ${name} website (opens in new tab)`}
-                      className="text-teal-600 hover:text-teal-800 shrink-0 mt-0.5"
+                      className="text-slate-600 hover:text-slate-800 shrink-0 mt-0.5"
                     >
                       <ExternalLink className="w-4 h-4" />
                     </a>
                   </div>
                   <p className="text-sm text-slate-600 leading-relaxed mb-2">{desc}</p>
-                  {note && <p className="text-xs font-semibold text-teal-700">{note}</p>}
+                  {note && <p className="text-xs font-semibold text-slate-700">{note}</p>}
                   <a
                     href={url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-xs text-slate-400 hover:text-teal-600 break-all"
+                    className="text-xs text-slate-400 hover:text-slate-600 break-all"
                   >
                     {url}
                   </a>

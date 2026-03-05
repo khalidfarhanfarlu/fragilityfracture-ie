@@ -89,9 +89,9 @@ export default function TreatmentOptionsPage() {
           },
         ].map(({ name, examples, how, notes }) => (
           <div key={name} className="bg-white border border-slate-200 rounded-2xl overflow-hidden">
-            <div className="bg-teal-700 px-6 py-4">
+            <div className="bg-slate-800 px-6 py-4">
               <h3 className="text-white font-bold text-lg m-0">{name}</h3>
-              <p className="text-teal-200 text-sm mt-1"><em>Examples: {examples}</em></p>
+              <p className="text-slate-300 text-sm mt-1"><em>Examples: {examples}</em></p>
             </div>
             <div className="px-6 py-5 space-y-3">
               <div>
@@ -118,11 +118,11 @@ export default function TreatmentOptionsPage() {
         abruptly (particularly denosumab) can have significant effects on bone density.
       </p>
 
-      <div className="bg-teal-50 border border-teal-200 rounded-xl p-5 mt-4">
-        <p className="text-teal-900 text-sm">
+      <div className="bg-[#F9F9F9] border border-slate-200 rounded-xl p-5 mt-4">
+        <p className="text-slate-900 text-sm">
           For a guide on how to talk to your GP about these options, including questions to ask about any recommended
           medication, visit our{" "}
-          <a href="/living-with-osteoporosis/talking-to-your-doctor" className="text-teal-700 underline">
+          <a href="/living-with-osteoporosis/talking-to-your-doctor" className="text-slate-700 underline">
             Talking to Your Doctor page
           </a>.
         </p>

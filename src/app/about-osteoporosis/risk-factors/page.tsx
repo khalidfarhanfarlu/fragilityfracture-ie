@@ -88,8 +88,8 @@ export default function RiskFactorsPage() {
 
       <div className="space-y-3 my-5">
         {modifiable.map(({ factor, detail }) => (
-          <div key={factor} className="flex gap-3 items-start bg-teal-50 rounded-xl p-4 border border-teal-200">
-            <CheckCircle className="w-5 h-5 text-teal-500 shrink-0 mt-0.5" aria-hidden="true" />
+          <div key={factor} className="flex gap-3 items-start bg-[#F9F9F9] rounded-xl p-4 border border-slate-200">
+            <CheckCircle className="w-5 h-5 text-slate-500 shrink-0 mt-0.5" aria-hidden="true" />
             <div>
               <p className="font-semibold text-slate-800 text-sm">{factor}</p>
               <p className="text-sm text-slate-600 mt-0.5">{detail}</p>

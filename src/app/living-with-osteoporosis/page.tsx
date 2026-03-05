@@ -35,11 +35,11 @@ export default function LivingWithOsteoporosisPage() {
           <Link
             key={page.href}
             href={page.href}
-            className="group flex flex-col gap-3 p-6 bg-white rounded-2xl border border-slate-200 hover:border-teal-400 hover:shadow-md transition-all"
+            className="group flex flex-col gap-3 p-6 bg-white rounded-2xl border border-slate-200 hover:border-[#E7D549] hover:shadow-md transition-all"
           >
-            <h2 className="text-lg font-bold text-slate-800 group-hover:text-teal-700 transition-colors">{page.title}</h2>
+            <h2 className="text-lg font-bold text-slate-800 group-hover:text-slate-700 transition-colors">{page.title}</h2>
             <p className="text-sm text-slate-500 leading-relaxed flex-1">{page.desc}</p>
-            <span className="inline-flex items-center gap-1 text-sm text-teal-600 font-semibold">
+            <span className="inline-flex items-center gap-1 text-sm text-slate-600 font-semibold">
               Read more <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
             </span>
           </Link>
