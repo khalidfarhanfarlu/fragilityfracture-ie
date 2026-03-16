@@ -22,7 +22,7 @@ const pages = [
   },
   {
     title: "How to Get Tested in Ireland",
-    desc: "GP referral pathways, public and private options, and what to bring to your appointment.",
+    desc: "HCP referral pathways, public and private options, and what to bring to your appointment.",
     href: "/bone-density-testing/how-to-get-tested-in-ireland",
   },
   {
@@ -70,7 +70,7 @@ export default function BoneDensityTestingPage() {
           <Link href="/about-osteoporosis/risk-factors" className="text-[#555555] underline">
             Risk Factors page
           </Link>{" "}
-          to see which factors might make a DXA scan worthwhile for you, then speak to your GP.
+          to see which factors might make a DXA scan worthwhile for you, then speak to your HCP.
         </p>
       </div>
     </PageLayout>

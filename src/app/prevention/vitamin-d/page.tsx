@@ -14,7 +14,7 @@ export default function VitaminDPage() {
         { label: "Prevention", href: "/prevention" },
         { label: "Vitamin D" },
       ]}
-      gpCTAContext="If you are unsure whether you are getting enough Vitamin D, or if you think you may be deficient, speak to your GP. A simple blood test can measure your Vitamin D level."
+      gpCTAContext="If you are unsure whether you are getting enough Vitamin D, or if you think you may be deficient, speak to your HCP. A simple blood test can measure your Vitamin D level."
     >
       <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Vitamin D</h1>
 
@@ -73,8 +73,8 @@ export default function VitaminDPage() {
           <tbody>
             {[
               ["General adult population (19–64)", "10 micrograms (400 IU)/day"],
-              ["Adults 65 and over", "15–20 micrograms (600–800 IU)/day — discuss with GP"],
-              ["People at high risk of deficiency", "May need higher amounts — GP assessment recommended"],
+              ["Adults 65 and over", "15–20 micrograms (600–800 IU)/day — discuss with your HCP"],
+              ["People at high risk of deficiency", "May need higher amounts — HCP assessment recommended"],
               ["Pregnant/breastfeeding women", "10 micrograms (400 IU)/day minimum"],
             ].map(([group, amount], i) => (
               <tr key={group} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
@@ -87,7 +87,7 @@ export default function VitaminDPage() {
       </div>
       <p className="text-xs text-[#888888]">
         Based on FSAI recommendations. Higher doses may be recommended for people with osteoporosis, those with
-        confirmed deficiency, or those on bone-protective medications — always discuss with your GP.
+        confirmed deficiency, or those on bone-protective medications — always discuss with your HCP.
       </p>
 
       <h2>Food Sources of Vitamin D</h2>

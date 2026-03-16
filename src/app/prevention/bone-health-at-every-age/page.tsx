@@ -42,7 +42,7 @@ const stages = [
       "Women approaching perimenopause (typically 45–55) may start to notice early symptoms of hormonal change. Bone density can begin to decrease more rapidly in perimenopause even before periods stop.",
       "This is a good decade to review lifestyle risk factors, optimise nutrition, and consider whether a baseline DXA scan might be appropriate — particularly if you have multiple risk factors.",
     ],
-    actions: ["Continue or increase exercise", "Review calcium and Vitamin D intake", "Discuss bone health at GP check-ups", "Be aware of perimenopausal changes"],
+    actions: ["Continue or increase exercise", "Review calcium and Vitamin D intake", "Discuss bone health at HCP check-ups", "Be aware of perimenopausal changes"],
   },
   {
     age: "50s & Menopause — The Critical Window",
@@ -51,11 +51,11 @@ const stages = [
     content: [
       "Menopause marks the most significant period of bone loss for women. In the first 5–10 years following menopause, some women can lose 10–20% of their bone density.",
       "The loss of oestrogen at menopause removes a protective effect on bone. This is why post-menopausal women have a much higher risk of osteoporosis than men of the same age.",
-      "A DXA scan should be discussed with your GP, particularly if you have additional risk factors or have experienced early menopause.",
-      "Hormone replacement therapy (HRT) is protective for bone density and is sometimes used for this purpose, as well as for managing menopausal symptoms — discuss with your GP.",
+      "A DXA scan should be discussed with your HCP, particularly if you have additional risk factors or have experienced early menopause.",
+      "Hormone replacement therapy (HRT) is protective for bone density and is sometimes used for this purpose, as well as for managing menopausal symptoms — discuss with your HCP.",
       "This is also the time when wrist fractures most commonly occur — often a first signal of underlying bone density issues.",
     ],
-    actions: ["Discuss DXA scan with GP", "Consider HRT discussion with GP", "Intensify exercise, especially strength training", "Optimise calcium and Vitamin D", "Review family history and risk factors"],
+    actions: ["Discuss DXA scan with your HCP", "Consider HRT discussion with your HCP", "Intensify exercise, especially strength training", "Optimise calcium and Vitamin D", "Review family history and risk factors"],
   },
   {
     age: "60s & 70s — Prevention and Monitoring",
@@ -63,7 +63,7 @@ const stages = [
     headerColour: "text-orange-800",
     content: [
       "By the 60s and 70s, fracture risk is increasingly influenced by both bone density and fall risk. Falls prevention becomes as important as bone density itself.",
-      "Regular DXA monitoring is recommended. If you have not had a DXA scan by your mid-60s, ask your GP.",
+      "Regular DXA monitoring is recommended. If you have not had a DXA scan by your mid-60s, ask your HCP.",
       "If you are on osteoporosis treatment, you should have regular monitoring of bone density and medication reviews.",
       "Balance exercises, home safety assessments, and medication reviews (some medications affect balance and coordination) are all important at this stage.",
       "Adequate protein intake becomes more important for muscle maintenance — which in turn supports falls prevention.",
@@ -79,7 +79,7 @@ const stages = [
       "Maintaining mobility and muscle strength through gentle exercise (chair-based if needed) remains beneficial.",
       "Nutrition remains important — appetite often decreases with age, making supplementation more likely to be needed.",
       "If you are in residential care, ensure staff are aware of your bone health status and that you are receiving appropriate Vitamin D supplementation.",
-      "Hip protector garments may be considered for those at very high fall risk — discuss with your GP or physio.",
+      "Hip protector garments may be considered for those at very high fall risk — discuss with your HCP or physio.",
     ],
     actions: ["Focus on fall prevention above all", "Gentle exercise: walking, chair-based exercises", "Ensure Vitamin D supplementation", "Home and care environment safety assessment"],
   },
@@ -93,7 +93,7 @@ export default function BoneHealthAtEveryAgePage() {
         { label: "Bone Health at Every Age" },
       ]}
       showGPCTA={true}
-      gpCTAContext="Whatever your age, it is never too early or too late to discuss your bone health with your GP. Book an appointment to talk about your individual risk and what you can do."
+      gpCTAContext="Whatever your age, it is never too early or too late to discuss your bone health with your HCP. Book an appointment to talk about your individual risk and what you can do."
     >
       <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Bone Health at Every Age</h1>
 
