@@ -15,7 +15,7 @@ export default function FraxToolPage() {
         { label: "Bone Density & Testing", href: "/bone-density-testing" },
         { label: "FRAX Fracture Risk Tool" },
       ]}
-      gpCTAContext="Your FRAX score should be interpreted by your GP alongside other clinical information. Discuss your result at your next appointment."
+      gpCTAContext="Your FRAX score should be interpreted by your HCP alongside other clinical information. Discuss your result at your next appointment."
     >
       <h1 className="text-4xl font-extrabold text-[#434343] mb-6">The FRAX Fracture Risk Tool</h1>
 
@@ -94,7 +94,7 @@ export default function FraxToolPage() {
         <li>Click &ldquo;Calculate&rdquo; — your results appear immediately</li>
       </ol>
       <p>
-        Print or save your results and bring them to your next GP appointment. Your GP can use your FRAX score
+        Print or save your results and bring them to your next HCP appointment. Your HCP can use your FRAX score
         alongside other clinical factors to decide whether treatment is recommended.
       </p>
 
@@ -125,7 +125,7 @@ export default function FraxToolPage() {
         <li>It is designed for untreated patients and should not be used to assess treatment response</li>
       </ul>
       <p>
-        FRAX complements but does <strong>not replace</strong> a DXA scan. Used together, they give your GP the most
+        FRAX complements but does <strong>not replace</strong> a DXA scan. Used together, they give your HCP the most
         complete picture of your fracture risk.
       </p>
     </PageLayout>

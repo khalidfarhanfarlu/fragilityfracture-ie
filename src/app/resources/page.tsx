@@ -20,7 +20,7 @@ const resources = [
       },
       {
         name: "HSE — Health Service Executive",
-        desc: "The HSE website provides information on accessing bone density testing, GP services, specialist referrals, and public hospital services across Ireland.",
+        desc: "The HSE website provides information on accessing bone density testing, HCP services, specialist referrals, and public hospital services across Ireland.",
         url: "https://www.hse.ie",
       },
       {

@@ -11,7 +11,7 @@ export default function MedicalDisclaimer() {
       <p>
         <strong>Important:</strong> This page provides general information only. It is not a substitute for
         professional medical advice, diagnosis, or treatment. If you have concerns about your bone health, please
-        speak to your GP.
+        speak to your HCP.
       </p>
     </div>
   );

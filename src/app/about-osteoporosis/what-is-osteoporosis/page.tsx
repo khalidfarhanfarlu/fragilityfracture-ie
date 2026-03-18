@@ -59,10 +59,9 @@ export default function WhatIsOsteoporosisPage() {
         <h1 className="text-4xl font-extrabold text-[#434343] mb-6">What Is Osteoporosis?</h1>
 
         <p className="text-lg text-[#666666] mb-6 leading-relaxed">
-          Osteoporosis is a condition in which bones lose density and become porous, fragile, and much more likely to
-          break. The word comes from the Greek for &ldquo;porous bones&rdquo; — and that is exactly what happens.
-          Healthy bones are dense and strong; osteoporotic bones, when viewed under a microscope, look like a
-          honeycomb with larger holes than normal.
+          Osteoporosis is a condition where bones become weak, thin, and fragile, making them much more likely to
+          break (fracture). It happens when the body loses too much bone, makes too little bone, or both. Over time
+          the internal structure of the bone becomes porous (full of holes) and less dense.
         </p>
 
         <div className="bg-[#F9F9F9] border border-[#e0e0e0] rounded-xl p-6 mb-8">
@@ -97,10 +96,17 @@ export default function WhatIsOsteoporosisPage() {
           only discover they have osteoporosis after they suffer a fracture from a surprisingly minor event, such as
           a gentle fall, a cough, or lifting a light object.
         </p>
+        <h2>Symptoms</h2>
         <p>
-          This is also why bone density testing (a DXA scan) is so important for people with risk factors. It is the
-          only reliable way to detect osteoporosis before a fracture occurs.
+          There often are no symptoms in the early stages of bone loss. But once osteoporosis weakens your bones,
+          you might have symptoms of a fracture that include:
         </p>
+        <ul>
+          <li>Back pain caused by a broken or collapsed bone in the spine.</li>
+          <li>Loss of height over time.</li>
+          <li>A stooped posture.</li>
+          <li>A bone that breaks much more easily than expected.</li>
+        </ul>
 
         <h2>Who Is Most at Risk?</h2>
         <p>Osteoporosis can affect anyone, but it is most common in:</p>
@@ -136,7 +142,7 @@ export default function WhatIsOsteoporosisPage() {
           changes including exercise.
         </p>
         <p>
-          The most important thing is to be diagnosed early. If you think you may be at risk, speak to your GP about
+          The most important thing is to be diagnosed early. If you think you may be at risk, speak to your HCP about
           a bone density scan.
         </p>
 

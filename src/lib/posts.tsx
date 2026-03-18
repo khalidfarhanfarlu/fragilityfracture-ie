@@ -39,7 +39,7 @@ export const posts: Post[] = [
         <p>
           And yet, the vast majority of the estimated 300,000 to 500,000 people in Ireland who have osteoporosis
           do not know they have it. They have never had a bone density scan. They have never discussed their fracture
-          risk with a GP. They are, in the language of public health, &ldquo;undetected cases&rdquo; — people
+          risk with an HCP. They are, in the language of public health, &ldquo;undetected cases&rdquo; — people
           carrying a serious condition without a diagnosis, without treatment, and without the opportunity to prevent
           the fractures that will eventually, for many of them, change the course of their lives.
         </p>
@@ -54,12 +54,12 @@ export const posts: Post[] = [
         <p>
           This distinguishes osteoporosis from most other serious chronic conditions. Heart disease announces
           itself through chest pain and breathlessness. Diabetes triggers thirst and fatigue. High blood pressure,
-          another &ldquo;silent&rdquo; condition, is routinely screened in GP surgeries without patients needing
+          another &ldquo;silent&rdquo; condition, is routinely screened in HCP surgeries without patients needing
           to request it. Osteoporosis, by contrast, requires a specific referral for a specific scan — and that
-          referral only happens if someone thinks to ask, and if the GP judges it appropriate.
+          referral only happens if someone thinks to ask, and if the HCP judges it appropriate.
         </p>
         <p>
-          In many cases, neither the patient nor the GP raises bone health as a priority. Patients do not know
+          In many cases, neither the patient nor the HCP raises bone health as a priority. Patients do not know
           they are at risk. GPs, under enormous time pressure in a primary care system that is chronically under-resourced,
           cannot proactively screen every patient who might benefit. And so the disease progresses, silently, until
           a fracture reveals what the absence of symptoms concealed.
@@ -122,14 +122,14 @@ export const posts: Post[] = [
         </p>
         <p>
           At an individual level, the most important change is awareness. People need to know what osteoporosis
-          is, what their risk factors are, and what to ask their GP. The evidence is clear: awareness drives
+          is, what their risk factors are, and what to ask their HCP. The evidence is clear: awareness drives
           earlier diagnosis, earlier diagnosis drives earlier treatment, and earlier treatment prevents fractures.
         </p>
 
         <h2>What You Can Do Now</h2>
         <p>
           If you are over 50 — or younger with significant risk factors — we would encourage you to speak to
-          your GP about your bone health. Ask specifically whether a DXA scan (bone density test) would be
+          your HCP about your bone health. Ask specifically whether a DXA scan (bone density test) would be
           appropriate for you. You can use our{" "}
           <Link href="/about-osteoporosis/risk-factors">Risk Factors page</Link> to understand which factors
           apply to your situation.
@@ -227,14 +227,14 @@ export const posts: Post[] = [
         <p>
           In practice, this pathway is followed inconsistently. Some hospitals have excellent Fracture Liaison
           Services that capture most patients. Others do not have FLS, and patients are discharged having been
-          told only to return to their GP &ldquo;if needed&rdquo;.
+          told only to return to their HCP &ldquo;if needed&rdquo;.
         </p>
 
         <h2>If This Has Happened to You</h2>
         <p>
           If you have had a wrist fracture — recently or in the past few years — and you have not had a bone
-          density scan or a discussion about osteoporosis with your GP, please take this as your prompt to
-          act. You can ask your GP specifically:
+          density scan or a discussion about osteoporosis with your HCP, please take this as your prompt to
+          act. You can ask your HCP specifically:
         </p>
         <ul>
           <li>&ldquo;My wrist fracture was from a fall — could this be a fragility fracture?&rdquo;</li>
@@ -255,14 +255,14 @@ export const posts: Post[] = [
         </p>
         <p>
           A wrist fracture may be the most important warning sign you have received. Do not let it be ignored.
-          Use it. Ask the questions. Start the conversation with your GP. Give yourself the chance to prevent
+          Use it. Ask the questions. Start the conversation with your HCP. Give yourself the chance to prevent
           the fractures that matter most.
         </p>
         <p>
           For more information, see our pages on{" "}
           <Link href="/fragility-fractures/wrist-fractures">Wrist Fractures</Link>,{" "}
           <Link href="/fragility-fractures/secondary-fracture-prevention">Secondary Fracture Prevention</Link>,
-          and <Link href="/living-with-osteoporosis/talking-to-your-doctor">Talking to Your Doctor</Link>.
+          and <Link href="/living-with-osteoporosis/talking-to-your-doctor">Talking to Your HCP</Link>.
         </p>
       </>
     ),
@@ -282,7 +282,7 @@ export const posts: Post[] = [
     Content: () => (
       <>
         <p>
-          Ask an Irish GP what single nutritional supplement they most commonly recommend, and the answer,
+          Ask an Irish HCP what single nutritional supplement they most commonly recommend, and the answer,
           overwhelmingly, is Vitamin D. Ask an Irish dietitian the same question, and you will likely get the
           same answer. It is not a trend or a fad — it is a response to a clear and well-documented public
           health reality: Ireland does not get enough sunlight for most of its population to produce adequate
@@ -376,7 +376,7 @@ export const posts: Post[] = [
         <ul>
           <li>Take a daily supplement of <strong>10 micrograms (400 IU) of Vitamin D3</strong></li>
           <li>Take it year-round, or at minimum October to March</li>
-          <li>If you are over 65, housebound, or have osteoporosis, discuss whether a higher dose is appropriate with your GP</li>
+          <li>If you are over 65, housebound, or have osteoporosis, discuss whether a higher dose is appropriate with your HCP</li>
           <li>Do not take more than 100 micrograms (4,000 IU) per day without medical supervision</li>
         </ul>
         <p>

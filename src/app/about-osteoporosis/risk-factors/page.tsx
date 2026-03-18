@@ -24,7 +24,7 @@ const modifiable = [
   { factor: "Smoking", detail: "Smoking directly harms bone-forming cells and reduces oestrogen levels. It doubles the risk of fracture." },
   { factor: "Excess alcohol", detail: "More than 14 units per week interferes with bone formation and increases fall risk." },
   { factor: "Low body weight", detail: "BMI below 18.5 is a significant independent risk factor for osteoporosis." },
-  { factor: "Long-term corticosteroid use", detail: "Medicines like prednisolone, taken for 3+ months, significantly reduce bone density. Never stop without GP advice." },
+  { factor: "Long-term corticosteroid use", detail: "Medicines like prednisolone, taken for 3+ months, significantly reduce bone density. Never stop without HCP advice." },
 ];
 
 const medicalConditions = [
@@ -47,7 +47,7 @@ export default function RiskFactorsPage() {
         { label: "About Osteoporosis", href: "/about-osteoporosis" },
         { label: "Risk Factors" },
       ]}
-      gpCTAContext="If you recognise several risk factors that apply to you, speak to your GP. They can assess your risk and arrange a bone density (DXA) scan if appropriate."
+      gpCTAContext="If you recognise several risk factors that apply to you, speak to your HCP. They can assess your risk and arrange a bone density (DXA) scan if appropriate."
     >
       <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Osteoporosis Risk Factors</h1>
 
@@ -61,12 +61,12 @@ export default function RiskFactorsPage() {
         <p className="text-blue-900 text-sm">
           <strong>Important:</strong> Having risk factors does not mean you will definitely develop osteoporosis —
           it means your risk is higher than average. A DXA scan is the only way to know your actual bone density.
-          Talk to your GP if you are concerned.
+          Talk to your HCP if you are concerned.
         </p>
       </div>
 
       <h2>Non-Modifiable Risk Factors</h2>
-      <p>These are factors you cannot change, but knowing about them helps you and your GP assess your overall risk.</p>
+      <p>These are factors you cannot change, but knowing about them helps you and your HCP assess your overall risk.</p>
 
       <div className="space-y-3 my-5">
         {nonModifiable.map(({ factor, detail }) => (
@@ -101,7 +101,7 @@ export default function RiskFactorsPage() {
       <h2>Medical Conditions That Increase Risk</h2>
       <p>
         A number of underlying health conditions are associated with lower bone density. If you have any of the
-        following, make sure your GP is aware and discuss whether bone density monitoring is appropriate for you:
+        following, make sure your HCP is aware and discuss whether bone density monitoring is appropriate for you:
       </p>
       <ul>
         {medicalConditions.map((c) => <li key={c}>{c}</li>)}
@@ -109,14 +109,14 @@ export default function RiskFactorsPage() {
       <p>
         Certain medications beyond corticosteroids can also affect bone density — including some anti-epileptic drugs,
         aromatase inhibitors (used in breast cancer treatment), and proton pump inhibitors (PPIs) when used long-term.
-        If you take any of these, do not stop without speaking to your GP, but do ask about bone health monitoring.
+        If you take any of these, do not stop without speaking to your HCP, but do ask about bone health monitoring.
       </p>
 
       <h2>The FRAX Tool</h2>
       <p>
         The <strong>FRAX fracture risk assessment tool</strong> (developed by the University of Sheffield for the WHO)
         combines several of these risk factors to calculate your 10-year probability of a hip fracture or major
-        osteoporotic fracture. Your GP may use it alongside a DXA scan to guide decisions about treatment.
+        osteoporotic fracture. Your HCP may use it alongside a DXA scan to guide decisions about treatment.
       </p>
       <p>
         You can learn more on our <a href="/bone-density-testing/frax-fracture-risk-tool">FRAX Fracture Risk Tool page</a>.

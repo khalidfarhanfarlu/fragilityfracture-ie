@@ -137,10 +137,10 @@ const resultConfig = {
       "Your answers suggest a lower risk profile for osteoporosis based on the factors you've shared.",
     advice:
       "This is reassuring, but bone health matters at every age. A diet rich in calcium, adequate vitamin D (especially important in Ireland), regular weight-bearing exercise, and avoiding smoking all help protect your bones long-term.",
-    cta: "If your circumstances change or you have any concerns, speak to your GP about your bone health.",
+    cta: "If your circumstances change or you have any concerns, speak to your HCP about your bone health.",
   },
   moderate: {
-    label: "Moderate Risk — Worth Discussing with Your GP",
+    label: "Moderate Risk — Worth Discussing with Your HCP",
     bg: "bg-amber-50",
     border: "border-amber-200",
     badge: "bg-amber-100 text-amber-800",
@@ -150,11 +150,11 @@ const resultConfig = {
     summary:
       "Your answers suggest you have some risk factors associated with osteoporosis.",
     advice:
-      "While this quiz is not a diagnosis, a moderate number of risk factors means it would be worth raising the topic with your GP. They can assess your full picture and, if appropriate, arrange a DXA bone density scan — a quick, painless X-ray that measures bone strength.",
-    cta: "We recommend mentioning your bone health to your GP at your next visit, or sooner if you are concerned.",
+      "While this quiz is not a diagnosis, a moderate number of risk factors means it would be worth raising the topic with your HCP. They can assess your full picture and, if appropriate, arrange a DXA bone density scan — a quick, painless X-ray that measures bone strength.",
+    cta: "We recommend mentioning your bone health to your HCP at your next visit, or sooner if you are concerned.",
   },
   high: {
-    label: "Higher Risk — Please Speak to Your GP",
+    label: "Higher Risk — Please Speak to Your HCP",
     bg: "bg-red-50",
     border: "border-red-200",
     badge: "bg-red-100 text-red-800",
@@ -164,8 +164,8 @@ const resultConfig = {
     summary:
       "Your answers suggest several significant risk factors for osteoporosis.",
     advice:
-      "This quiz is not a medical diagnosis, but your responses indicate that a conversation with your GP about bone health is strongly recommended. A DXA scan can give a definitive picture of your bone density, and effective treatments are available if needed. Early detection makes a real difference.",
-    cta: "Please speak to your GP about bone density testing. Don't wait for a fracture to find out.",
+      "This quiz is not a medical diagnosis, but your responses indicate that a conversation with your HCP about bone health is strongly recommended. A DXA scan can give a definitive picture of your bone density, and effective treatments are available if needed. Early detection makes a real difference.",
+    cta: "Please speak to your HCP about bone density testing. Don't wait for a fracture to find out.",
   },
 };
 
@@ -243,7 +243,7 @@ export default function RiskQuiz() {
             href="/living-with-osteoporosis/talking-to-your-doctor"
             className="flex-1 text-center bg-[#434343] hover:bg-[#434343] text-white font-semibold px-6 py-3 rounded-xl transition-colors"
           >
-            Questions to Ask Your GP
+            Questions to Ask Your HCP
           </Link>
           <Link
             href="/bone-density-testing/what-is-a-dxa-scan"
@@ -268,7 +268,7 @@ export default function RiskQuiz() {
             <strong>not a medical diagnosis</strong>. It is based on established
             osteoporosis risk factors used in clinical practice but cannot account for
             your full medical history, current medications, or all relevant clinical
-            factors. Always consult your GP or a qualified healthcare professional for
+            factors. Always consult your HCP or a qualified healthcare professional for
             personalised advice.
           </p>
         </div>

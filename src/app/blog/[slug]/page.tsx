@@ -101,15 +101,15 @@ export default async function BlogPostPage({ params }: Props) {
             ))}
           </div>
 
-          {/* GP CTA */}
+          {/* HCP CTA */}
           <div className="bg-[#434343] rounded-2xl p-8 mt-10 text-white">
-            <h2 className="text-xl font-bold mb-2">Talk to Your GP</h2>
+            <h2 className="text-xl font-bold mb-2">Talk to Your HCP</h2>
             <p className="text-[#cccccc] mb-4 text-base">
-              If this article has raised concerns about your bone health, don&apos;t wait. Your GP can assess
+              If this article has raised concerns about your bone health, don&apos;t wait. Your HCP can assess
               your risk and discuss whether a DXA scan is appropriate for you.
             </p>
             <p className="text-[#bbbbbb] text-sm mb-4 italic">
-              &ldquo;Ask your GP about a bone density (DXA) scan.&rdquo;
+              &ldquo;Ask your HCP about a bone density (DXA) scan.&rdquo;
             </p>
             <Link
               href="/living-with-osteoporosis/talking-to-your-doctor"

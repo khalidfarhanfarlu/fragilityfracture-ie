@@ -10,8 +10,8 @@ export const metadata: Metadata = {
 };
 
 const pages = [
-  { title: "Nutrition & Calcium", desc: "Which foods are richest in calcium and how much you need at each life stage.", href: "/prevention/nutrition-and-calcium" },
-  { title: "Vitamin D", desc: "Why Ireland's northern latitude makes supplementation especially important — and how much to take.", href: "/prevention/vitamin-d" },
+  { title: "Nutrition", desc: "Which foods are richest in nutrients that support bone health and how much you need at each life stage.", href: "/prevention/nutrition-and-calcium" },
+  { title: "Calcium and Vitamin D", desc: "Why calcium and Vitamin D are essential for bone health, and why Ireland's northern latitude makes supplementation especially important.", href: "/prevention/vitamin-d" },
   { title: "Exercise & Physical Activity", desc: "Weight-bearing and resistance exercise to strengthen bones and reduce fall risk.", href: "/prevention/exercise" },
   { title: "Lifestyle Factors", desc: "How smoking, alcohol, body weight, and certain medications affect your bones.", href: "/prevention/lifestyle" },
   { title: "Bone Health at Every Age", desc: "What you should be doing for your bones at each stage of life — from childhood to older age.", href: "/prevention/bone-health-at-every-age" },

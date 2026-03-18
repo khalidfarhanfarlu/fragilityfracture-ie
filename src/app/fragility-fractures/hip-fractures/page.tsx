@@ -14,7 +14,7 @@ export default function HipFracturesPage() {
         { label: "Fragility Fractures", href: "/fragility-fractures" },
         { label: "Hip Fractures" },
       ]}
-      gpCTAContext="If you or a family member have had a hip fracture, ensure that bone density assessment and secondary fracture prevention treatment are arranged before or after discharge. Ask the hospital team or your GP."
+      gpCTAContext="If you or a family member have had a hip fracture, ensure that bone density assessment and secondary fracture prevention treatment are arranged before or after discharge. Ask the hospital team or your HCP."
     >
       <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Hip Fractures</h1>
 

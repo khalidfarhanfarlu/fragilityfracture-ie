@@ -7,11 +7,11 @@ import RiskQuiz from "@/components/RiskQuiz";
 export const metadata: Metadata = {
   title: "Am I at Risk of Osteoporosis?",
   description:
-    "Take our free 10-question osteoporosis risk quiz. Based on established clinical risk factors, it takes under 3 minutes and helps you decide whether to speak to your GP.",
+    "Take our free 10-question osteoporosis risk quiz. Based on established clinical risk factors, it takes under 3 minutes and helps you decide whether to speak to your HCP.",
   openGraph: {
     title: "Am I at Risk of Osteoporosis? — Free Quiz",
     description:
-      "Answer 10 quick questions based on established risk factors to get a personalised risk indication. Not a diagnosis — a starting point for a GP conversation.",
+      "Answer 10 quick questions based on established risk factors to get a personalised risk indication. Not a diagnosis — a starting point for an HCP conversation.",
   },
 };
 

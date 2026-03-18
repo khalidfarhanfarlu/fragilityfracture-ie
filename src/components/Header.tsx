@@ -45,7 +45,7 @@ const navItems = [
       { label: "Falls Prevention", href: "/living-with-osteoporosis/falls-prevention" },
       { label: "Recovery & Rehabilitation", href: "/living-with-osteoporosis/recovery-and-rehabilitation" },
       { label: "Mental Health & Wellbeing", href: "/living-with-osteoporosis/mental-health-and-wellbeing" },
-      { label: "Talking to Your Doctor", href: "/living-with-osteoporosis/talking-to-your-doctor" },
+      { label: "Talking to Your HCP", href: "/living-with-osteoporosis/talking-to-your-doctor" },
     ],
   },
   {

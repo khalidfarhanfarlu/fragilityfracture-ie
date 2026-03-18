@@ -14,7 +14,7 @@ export default function VertebralFracturesPage() {
         { label: "Fragility Fractures", href: "/fragility-fractures" },
         { label: "Vertebral Fractures" },
       ]}
-      gpCTAContext="If you have persistent back pain, loss of height, or a stooped posture — especially if you have risk factors for osteoporosis — speak to your GP. You may have a vertebral fracture that has not been diagnosed."
+      gpCTAContext="If you have persistent back pain, loss of height, or a stooped posture — especially if you have risk factors for osteoporosis — speak to your HCP. You may have a vertebral fracture that has not been diagnosed."
     >
       <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Vertebral (Spinal) Fractures</h1>
 
@@ -79,7 +79,7 @@ export default function VertebralFracturesPage() {
         <li><strong>CT scan</strong> — may be used for detailed fracture assessment</li>
       </ul>
       <p>
-        If your GP suspects a vertebral fracture, they will arrange appropriate imaging. If you are having a DXA scan,
+        If your HCP suspects a vertebral fracture, they will arrange appropriate imaging. If you are having a DXA scan,
         ask whether a vertebral fracture assessment can be included.
       </p>
 
@@ -116,7 +116,7 @@ export default function VertebralFracturesPage() {
       </p>
       <p>
         If you have persistent back pain, have noticed a loss of height, or have a stooped posture, please raise
-        this with your GP — particularly if you have known osteoporosis or risk factors.
+        this with your HCP — particularly if you have known osteoporosis or risk factors.
       </p>
     </PageLayout>
   );

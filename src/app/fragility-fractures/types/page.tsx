@@ -46,7 +46,7 @@ export default function TypesOfFragilityFracturesPage() {
         { label: "Fragility Fractures", href: "/fragility-fractures" },
         { label: "Types of Fragility Fractures" },
       ]}
-      gpCTAContext="If you have had any fracture from a low-energy impact, please discuss this with your GP — it should prompt an assessment of your bone density regardless of your age."
+      gpCTAContext="If you have had any fracture from a low-energy impact, please discuss this with your HCP — it should prompt an assessment of your bone density regardless of your age."
     >
       <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Types of Fragility Fractures</h1>
 
