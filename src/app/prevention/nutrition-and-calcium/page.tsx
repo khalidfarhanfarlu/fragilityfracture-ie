@@ -8,16 +8,16 @@ export const metadata: Metadata = {
 };
 
 const calciumSources = [
-  { food: "Milk (full fat or low fat)", serving: "200ml glass", calcium: "~240 mg" },
-  { food: "Yoghurt (natural or flavoured)", serving: "125g pot", calcium: "~200 mg" },
-  { food: "Hard cheese (e.g. Cheddar)", serving: "30g", calcium: "~220 mg" },
-  { food: "Tinned sardines (with bones)", serving: "100g", calcium: "~350 mg" },
-  { food: "Tinned salmon (with bones)", serving: "100g", calcium: "~250 mg" },
-  { food: "Fortified plant milk (e.g. oat, soy, almond)", serving: "200ml", calcium: "~240 mg (if fortified)" },
-  { food: "Tofu (set with calcium)", serving: "100g", calcium: "~200–300 mg" },
-  { food: "Broccoli (cooked)", serving: "100g", calcium: "~40 mg" },
-  { food: "Kale (cooked)", serving: "100g", calcium: "~130 mg" },
-  { food: "Almonds", serving: "30g", calcium: "~75 mg" },
+  { food: "Milk (full fat or low fat)", serving: "200ml (a small glass)", calcium: "~240 mg" },
+  { food: "Yoghurt (natural or flavoured)", serving: "125g (a standard single pot)", calcium: "~200 mg" },
+  { food: "Hard cheese (e.g. Cheddar)", serving: "30g (about 2 tablespoons grated, or a matchbox-sized piece)", calcium: "~220 mg" },
+  { food: "Tinned sardines (with bones)", serving: "100g (about half a standard tin)", calcium: "~350 mg" },
+  { food: "Tinned salmon (with bones)", serving: "100g (about half a standard tin)", calcium: "~250 mg" },
+  { food: "Fortified plant milk (e.g. oat, soy, almond)", serving: "200ml (a small glass)", calcium: "~240 mg (if fortified)" },
+  { food: "Tofu (set with calcium)", serving: "100g (a slice about the size of a deck of cards)", calcium: "~200–300 mg" },
+  { food: "Broccoli (cooked)", serving: "100g (about 4–5 medium florets or ½ cup)", calcium: "~40 mg" },
+  { food: "Kale (cooked)", serving: "100g (about ¾ cup cooked, roughly a large handful raw)", calcium: "~130 mg" },
+  { food: "Almonds", serving: "30g (about a small handful, roughly 20–25 nuts)", calcium: "~75 mg" },
   { food: "White bread (fortified)", serving: "2 slices", calcium: "~100 mg" },
 ];
 
@@ -124,9 +124,6 @@ export default function NutritionAndCalciumPage() {
 
       <h3>Tips for taking calcium supplements</h3>
       <ul>
-        <li>Take no more than <strong>500 mg at one time</strong> — absorption drops above this amount</li>
-        <li>Calcium carbonate (found in many supplements) is best absorbed with food</li>
-        <li>Calcium citrate can be taken with or without food and may be better tolerated</li>
         <li>Do not exceed the recommended total daily intake — more is not always better</li>
         <li>Calcium supplements can interact with some medications (e.g. certain antibiotics, thyroid medication) — take them at different times</li>
       </ul>

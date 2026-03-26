@@ -77,8 +77,8 @@ export default function Home() {
                   href: "/about-osteoporosis/what-is-osteoporosis",
                   cta: "About Osteoporosis",
                   colour: "bg-[#434343]",
-                  img: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=600&q=80",
-                  imgAlt: "Active older woman representing lifelong bone health",
+                  img: "/couple-walking.png",
+                  imgAlt: "Couple walking together — staying active for bone health",
                   delay: 0,
                 },
                 {
@@ -88,8 +88,8 @@ export default function Home() {
                   href: "/bone-density-testing/what-is-a-dxa-scan",
                   cta: "Bone Density & Testing",
                   colour: "bg-emerald-700",
-                  img: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=600&q=80",
-                  imgAlt: "Medical professional reviewing bone density scan",
+                  img: "/dxa-scan.png",
+                  imgAlt: "DXA bone density scan being performed",
                   delay: 100,
                 },
                 {
