@@ -14,7 +14,7 @@ export default function RecoveryRehabPage() {
         { label: "Living With Osteoporosis", href: "/living-with-osteoporosis" },
         { label: "Recovery & Rehabilitation" },
       ]}
-      gpCTAContext="After a fragility fracture, ask your hospital team or HCP about referral to a Fracture Liaison Service. Getting assessed and treated promptly can significantly reduce your risk of a second fracture."
+      gpCTAContext="After a fragility fracture, ask your hospital team or doctor about referral to a Fracture Liaison Service. Getting assessed and treated promptly can significantly reduce your risk of a second fracture."
     >
       <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Recovery &amp; Rehabilitation</h1>
 
@@ -52,7 +52,7 @@ export default function RecoveryRehabPage() {
         <li>Guide you through specific exercises to regain function in the affected area</li>
       </ul>
       <p>
-        Ask your HCP or hospital team for a referral to physiotherapy as soon as possible after your fracture. In many
+        Ask your doctor or hospital team for a referral to physiotherapy as soon as possible after your fracture. In many
         hospitals, physiotherapy begins within days of a hip fracture surgery.
       </p>
 
@@ -93,7 +93,7 @@ export default function RecoveryRehabPage() {
           <li>&#x2714;&nbsp; Initiates or recommends bone-protective medication</li>
           <li>&#x2714;&nbsp; Ensures calcium and Vitamin D supplementation</li>
           <li>&#x2714;&nbsp; Provides education on osteoporosis and prevention</li>
-          <li>&#x2714;&nbsp; Coordinates with HCP for ongoing monitoring</li>
+          <li>&#x2714;&nbsp; Coordinates with doctor for ongoing monitoring</li>
         </ul>
       </div>
 
@@ -109,7 +109,7 @@ export default function RecoveryRehabPage() {
       </p>
       <ul>
         <li>Ask the orthopaedic team before you are discharged: &ldquo;Have I been assessed for osteoporosis and referred for secondary fracture prevention?&rdquo;</li>
-        <li>Contact your HCP after discharge to arrange a bone density assessment and discuss osteoporosis treatment</li>
+        <li>Contact your doctor after discharge to arrange a bone density assessment and discuss osteoporosis treatment</li>
         <li>Ask for a referral to a rheumatologist or metabolic bone clinic if your fracture risk is complex</li>
       </ul>
       <p>
@@ -128,7 +128,7 @@ export default function RecoveryRehabPage() {
         <li>Assistive equipment recommendations</li>
       </ul>
       <p>
-        OT referrals can be arranged through your HCP or hospital team. In Ireland, occupational therapy services are
+        OT referrals can be arranged through your doctor or hospital team. In Ireland, occupational therapy services are
         available through the HSE in both hospital and community settings.
       </p>
     </PageLayout>

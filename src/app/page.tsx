@@ -77,8 +77,8 @@ export default function Home() {
                   href: "/about-osteoporosis/what-is-osteoporosis",
                   cta: "About Osteoporosis",
                   colour: "bg-[#434343]",
-                  img: "https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?auto=format&fit=crop&w=600&q=80",
-                  imgAlt: "Doctor reviewing patient x-ray",
+                  img: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=600&q=80",
+                  imgAlt: "Active older woman representing lifelong bone health",
                   delay: 0,
                 },
                 {
@@ -220,8 +220,8 @@ export default function Home() {
                 <div className="rounded-2xl overflow-hidden border border-[#e0e0e0] shadow-sm group">
                   <div className="relative h-64">
                     <Image
-                      src="https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?auto=format&fit=crop&w=800&q=80"
-                      alt="X-ray showing healthy bone structure"
+                      src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=800&q=80"
+                      alt="Older adults exercising to maintain healthy bone density"
                       fill
                       className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
                       sizes="(max-width: 768px) 100vw, 50vw"
@@ -252,8 +252,8 @@ export default function Home() {
                 <div className="rounded-2xl overflow-hidden border border-[#e0e0e0] shadow-sm group">
                   <div className="relative h-64">
                     <Image
-                      src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=800&q=80"
-                      alt="Medical imaging showing osteoporotic bone changes"
+                      src="https://plus.unsplash.com/premium_photo-1677507322117-0a3ff1132626?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixlib=rb-4.1.0&q=85&w=800"
+                      alt="Three anatomical views of human bones showing osteoporotic changes"
                       fill
                       className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
                       sizes="(max-width: 768px) 100vw, 50vw"
@@ -424,8 +424,8 @@ export default function Home() {
                 <div className="space-y-4">
                   <div className="relative h-56 rounded-2xl overflow-hidden border border-[#e0e0e0]">
                     <Image
-                      src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=700&q=80"
-                      alt="Medical consultation about bone fracture risk"
+                      src="https://plus.unsplash.com/premium_photo-1763572177492-c0fa332c7ec2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixlib=rb-4.1.0&q=85&w=700"
+                      alt="X-ray of human torso and arms showing common osteoporosis fracture sites"
                       fill
                       className="object-cover object-center"
                       sizes="(max-width: 1024px) 100vw, 50vw"
@@ -492,7 +492,7 @@ export default function Home() {
               <AnimateOnScroll direction="right">
                 <div className="relative h-64 rounded-2xl overflow-hidden">
                   <Image
-                    src="https://images.unsplash.com/photo-1584467735871-8e69ad42f4d4?auto=format&fit=crop&w=700&q=80"
+                    src="https://images.unsplash.com/photo-1509909756405-be0199881695?auto=format&fit=crop&w=700&q=80"
                     alt="Vitamin D supplements and sunlight — essential for bone health"
                     fill
                     className="object-cover object-center"
@@ -679,7 +679,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* ── TRUST + HCP CTA ───────────────────────────────────────────── */}
+        {/* ── TRUST + doctor CTA ───────────────────────────────────────────── */}
         <section className="py-14 bg-[#F9F9F9] border-t border-[#eeeeee]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
@@ -696,7 +696,7 @@ export default function Home() {
                   </p>
                   <p className="text-[#666666] text-sm leading-relaxed">
                     We are not affiliated with any pharmaceutical company and do not recommend specific products or brands.
-                    This site does not provide medical advice — always speak to your HCP.
+                    This site does not provide medical advice — always speak to your doctor.
                   </p>
                   <div className="flex flex-wrap gap-4 mt-5">
                     <a href="https://www.irishosteoporosis.ie" target="_blank" rel="noopener noreferrer"
@@ -716,11 +716,11 @@ export default function Home() {
                   <div className="absolute top-0 left-0 right-0 h-1 bg-[#E7D549]" />
                   <h2 className="text-xl font-bold mb-3">Concerned about your bones?</h2>
                   <p className="text-[#bbbbbb] mb-4 leading-relaxed text-sm">
-                    If you&apos;re worried about osteoporosis, have had a fracture, or have risk factors, your HCP is your
+                    If you&apos;re worried about osteoporosis, have had a fracture, or have risk factors, your doctor is your
                     first port of call. Bone density testing (a DXA scan) is the only way to diagnose osteoporosis.
                   </p>
                   <p className="text-[#999999] text-sm mb-5 italic">
-                    &ldquo;Ask your HCP about a bone density (DXA) scan.&rdquo;
+                    &ldquo;Ask your doctor about a bone density (DXA) scan.&rdquo;
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3">
                     <Link
@@ -746,7 +746,7 @@ export default function Home() {
         <div className="bg-[#F9F9F9] border-t border-[#e0e0e0] py-4">
           <p className="text-center text-xs text-[#666666] max-w-3xl mx-auto px-4">
             <strong>Medical Disclaimer:</strong> This site provides educational information only and does not constitute
-            medical advice. Always consult your HCP or qualified healthcare provider.
+            medical advice. Always consult your doctor or qualified healthcare provider.
           </p>
         </div>
       </main>

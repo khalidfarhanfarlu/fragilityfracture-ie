@@ -85,7 +85,7 @@ export default function OsteopeniaVsOsteoporosisPage() {
       <p>
         Your DXA report may also include a <strong>Z-score</strong>. Unlike the T-score, the Z-score compares your
         bone density to others of your own age and sex. A very low Z-score (typically below −2.0) suggests your bone
-        loss may be greater than expected for your age, which may prompt your HCP to investigate for secondary causes
+        loss may be greater than expected for your age, which may prompt your doctor to investigate for secondary causes
         of bone loss (such as coeliac disease, hyperparathyroidism, or medication side effects).
       </p>
       <p>
@@ -107,8 +107,8 @@ export default function OsteopeniaVsOsteoporosisPage() {
         <li>Ensure your <a href="/prevention/vitamin-d">Vitamin D levels</a> are sufficient, especially important in Ireland</li>
         <li>Incorporate <a href="/prevention/exercise">weight-bearing and resistance exercise</a> into your routine</li>
         <li>Review modifiable lifestyle risk factors (smoking, alcohol, low body weight)</li>
-        <li>Discuss with your HCP whether medication may be appropriate in your case</li>
-        <li>Arrange follow-up DXA scan (typically every 1–2 years, as advised by your HCP)</li>
+        <li>Discuss with your doctor whether medication may be appropriate in your case</li>
+        <li>Arrange follow-up DXA scan (typically every 1–2 years, as advised by your doctor)</li>
       </ul>
 
       <h2>What to Do After an Osteoporosis Diagnosis</h2>
@@ -119,14 +119,14 @@ export default function OsteopeniaVsOsteoporosisPage() {
       </p>
       <p>
         Visit our <a href="/living-with-osteoporosis/treatment-options">Treatment Options page</a> for an overview
-        of what your HCP may recommend, and our{" "}
-        <a href="/living-with-osteoporosis/talking-to-your-doctor">Talking to Your HCP page</a> for help
+        of what your doctor may recommend, and our{" "}
+        <a href="/living-with-osteoporosis/talking-to-your-doctor">Talking to Your Doctor page</a> for help
         preparing for your appointment.
       </p>
 
       <div className="bg-[#F9F9F9] border border-[#e0e0e0] rounded-xl p-6 mt-6">
         <p className="text-[#434343]">
-          <strong>Remember:</strong> Your T-score is just one part of the picture. Your HCP will also consider your
+          <strong>Remember:</strong> Your T-score is just one part of the picture. Your doctor will also consider your
           overall fracture risk using tools like the{" "}
           <a href="/bone-density-testing/frax-fracture-risk-tool" className="text-[#555555]">FRAX tool</a>, your
           history of previous fractures, and your individual health circumstances before recommending any treatment.

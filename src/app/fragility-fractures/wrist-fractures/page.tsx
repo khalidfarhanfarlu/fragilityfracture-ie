@@ -14,7 +14,7 @@ export default function WristFracturesPage() {
         { label: "Fragility Fractures", href: "/fragility-fractures" },
         { label: "Wrist Fractures" },
       ]}
-      gpCTAContext="If you have broken your wrist after a fall, talk to your HCP about having a bone density assessment. A wrist fracture is an important warning sign and should not be treated in isolation."
+      gpCTAContext="If you have broken your wrist after a fall, talk to your doctor about having a bone density assessment. A wrist fracture is an important warning sign and should not be treated in isolation."
     >
       <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Wrist Fractures</h1>
 
@@ -98,13 +98,13 @@ export default function WristFracturesPage() {
         have a DXA scan, and very few are started on bone-protective treatment.
       </p>
       <p>
-        If you have had a wrist fracture and have not been assessed for osteoporosis, please raise this with your HCP.
+        If you have had a wrist fracture and have not been assessed for osteoporosis, please raise this with your doctor.
         This gap in care is preventable — and the consequences of a subsequent hip fracture can be devastating.
       </p>
 
       <div className="bg-[#F9F9F9] border border-[#e0e0e0] rounded-xl p-5 mt-4">
         <p className="text-[#434343] text-sm">
-          <strong>What to say to your HCP:</strong> &ldquo;I broke my wrist in a fall and I haven&apos;t been assessed
+          <strong>What to say to your doctor:</strong> &ldquo;I broke my wrist in a fall and I haven&apos;t been assessed
           for osteoporosis. Could I be referred for a bone density (DXA) scan?&rdquo;
         </p>
       </div>

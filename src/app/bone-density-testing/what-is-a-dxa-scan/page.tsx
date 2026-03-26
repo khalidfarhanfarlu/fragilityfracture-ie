@@ -14,7 +14,7 @@ export default function WhatIsADxaScanPage() {
         { label: "Bone Density & Testing", href: "/bone-density-testing" },
         { label: "What Is a DXA Scan?" },
       ]}
-      gpCTAContext="If you think you may benefit from a DXA scan, speak to your HCP. They can assess whether a referral is appropriate based on your risk factors."
+      gpCTAContext="If you think you may benefit from a DXA scan, speak to your doctor. They can assess whether a referral is appropriate based on your risk factors."
     >
       <h1 className="text-4xl font-extrabold text-[#434343] mb-6">What Is a DXA Scan?</h1>
 
@@ -86,7 +86,7 @@ export default function WhatIsADxaScanPage() {
       </p>
 
       <h2>Who Should Have a DXA Scan?</h2>
-      <p>Your HCP may refer you for a DXA scan if you:</p>
+      <p>Your doctor may refer you for a DXA scan if you:</p>
       <ul>
         <li>Have had a fragility fracture (broken bone from a low-energy impact)</li>
         <li>Are a post-menopausal woman, particularly under 65 with additional risk factors</li>
@@ -100,7 +100,7 @@ export default function WhatIsADxaScanPage() {
 
       <h2>Results and Follow-Up</h2>
       <p>
-        Results are typically sent to your referring HCP within 1–2 weeks. Your HCP will explain the findings and
+        Results are typically sent to your referring doctor within 1–2 weeks. Your doctor will explain the findings and
         discuss next steps. Results are given as a <strong>T-score</strong> (and sometimes a Z-score).
       </p>
       <p>

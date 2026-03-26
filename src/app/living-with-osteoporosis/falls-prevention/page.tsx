@@ -13,7 +13,7 @@ const homeChecklist = [
   { area: "Stairs", items: ["Ensure handrails are secure and extend the full length of the stairs", "Avoid carrying items that block your view of steps", "Keep stairs clear of clutter and trailing cables", "Consider a stair lift if stairs are a significant challenge"] },
   { area: "Living areas", items: ["Remove or secure loose rugs (a major fall hazard)", "Arrange furniture so there are clear pathways", "Ensure all areas are well lit; use night lights", "Keep frequently used items at waist height to avoid bending or reaching"] },
   { area: "Bedroom", items: ["Keep a lamp within easy reach of the bed", "Consider a bed rail if you have difficulty getting in or out of bed", "Ensure the path to the bathroom is well lit at night", "Wear non-slip slippers rather than socks when getting up at night"] },
-  { area: "Outdoors", items: ["Wear supportive, flat, non-slip footwear outdoors", "Use a walking stick or frame if recommended by your HCP or physio", "Be especially careful on wet, icy, or uneven surfaces", "Carry a mobile phone when going out alone"] },
+  { area: "Outdoors", items: ["Wear supportive, flat, non-slip footwear outdoors", "Use a walking stick or frame if recommended by your doctor or physio", "Be especially careful on wet, icy, or uneven surfaces", "Carry a mobile phone when going out alone"] },
 ];
 
 export default function FallsPreventionPage() {
@@ -23,7 +23,7 @@ export default function FallsPreventionPage() {
         { label: "Living With Osteoporosis", href: "/living-with-osteoporosis" },
         { label: "Falls Prevention" },
       ]}
-      gpCTAContext="If you are worried about your risk of falling, ask your HCP for a falls assessment. They may refer you to a physiotherapist, occupational therapist, or a structured falls prevention programme."
+      gpCTAContext="If you are worried about your risk of falling, ask your doctor for a falls assessment. They may refer you to a physiotherapist, occupational therapist, or a structured falls prevention programme."
     >
       <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Falls Prevention</h1>
 
@@ -65,7 +65,7 @@ export default function FallsPreventionPage() {
         <li><strong>Functional exercises</strong> — practice getting up from a chair without using hands; step practice</li>
       </ul>
       <p>
-        Aim for at least three sessions of balance-focused exercise per week. Your HCP can refer you to a
+        Aim for at least three sessions of balance-focused exercise per week. Your doctor can refer you to a
         physiotherapist for an individualised programme.
       </p>
 
@@ -101,7 +101,7 @@ export default function FallsPreventionPage() {
         <li>Wear shoes or slippers with a good grip sole and closed heel</li>
         <li>Avoid loose slippers, flip-flops, or high heels</li>
         <li>Ensure shoes fit well — loose footwear increases trip risk</li>
-        <li>Consider asking your HCP for a referral to a podiatrist if you have foot problems affecting your gait or balance</li>
+        <li>Consider asking your doctor for a referral to a podiatrist if you have foot problems affecting your gait or balance</li>
       </ul>
 
       <h2>Vision</h2>
@@ -128,7 +128,7 @@ export default function FallsPreventionPage() {
         <li>Parkinson&apos;s medications</li>
       </ul>
       <p>
-        Ask your HCP or pharmacist to review your medications to identify any that may be contributing to falls risk.
+        Ask your doctor or pharmacist to review your medications to identify any that may be contributing to falls risk.
         Never stop a prescribed medication without medical advice, but do raise the question.
       </p>
 

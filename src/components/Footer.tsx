@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4">
           <p className="text-sm text-[#bbbbbb] text-center">
             <strong className="text-white">Medical Disclaimer:</strong> The information on this site is for educational
-            purposes only and does not constitute medical advice. Always consult your HCP or qualified healthcare
+            purposes only and does not constitute medical advice. Always consult your doctor or qualified healthcare
             provider.
           </p>
         </div>
@@ -80,7 +80,7 @@ export default function Footer() {
             &copy; {currentYear} FragilityFracture.ie — All content is for general educational information only.
           </p>
           <p className="text-xs text-[#888888]">
-            Not a substitute for professional medical advice. Always consult your HCP.
+            Not a substitute for professional medical advice. Always consult your doctor.
           </p>
         </div>
       </div>

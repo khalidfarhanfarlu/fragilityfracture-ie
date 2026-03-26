@@ -3,9 +3,9 @@
 import { useEffect, useRef, useState } from "react";
 
 // ── Chart geometry ──────────────────────────────────────────────────────────
-const W = 580;
-const H = 300;
-const PAD = { top: 30, right: 30, bottom: 55, left: 58 };
+const W = 820;
+const H = 420;
+const PAD = { top: 40, right: 40, bottom: 65, left: 68 };
 const CW = W - PAD.left - PAD.right;
 const CH = H - PAD.top - PAD.bottom;
 
@@ -66,7 +66,7 @@ export default function BoneDensityChart() {
   }, []);
 
   return (
-    <div ref={containerRef} className="w-full max-w-2xl mx-auto select-none">
+    <div ref={containerRef} className="w-full max-w-4xl mx-auto select-none">
       <svg
         viewBox={`0 0 ${W} ${H}`}
         className="w-full h-auto"
@@ -89,7 +89,7 @@ export default function BoneDensityChart() {
               x={PAD.left - 8}
               y={sy(v) + 4}
               textAnchor="end"
-              fontSize={11}
+              fontSize={13}
               fill="#999999"
             >
               {v}%
@@ -112,7 +112,7 @@ export default function BoneDensityChart() {
               x={sx(age)}
               y={sy(0) + 18}
               textAnchor="middle"
-              fontSize={11}
+              fontSize={13}
               fill="#888888"
             >
               {age}
@@ -125,7 +125,7 @@ export default function BoneDensityChart() {
           x={PAD.left + CW / 2}
           y={H - 5}
           textAnchor="middle"
-          fontSize={12}
+          fontSize={14}
           fill="#888888"
           fontWeight="500"
         >
@@ -135,7 +135,7 @@ export default function BoneDensityChart() {
           x={16}
           y={PAD.top + CH / 2}
           textAnchor="middle"
-          fontSize={12}
+          fontSize={14}
           fill="#888888"
           fontWeight="500"
           transform={`rotate(-90, 16, ${PAD.top + CH / 2})`}
@@ -155,7 +155,7 @@ export default function BoneDensityChart() {
         <text
           x={PAD.left + 6}
           y={sy(70) - 5}
-          fontSize={10}
+          fontSize={12}
           fill="#ef4444"
           opacity={0.7}
         >
@@ -179,7 +179,7 @@ export default function BoneDensityChart() {
               x={sx(age)}
               y={PAD.top + 10 + dy}
               textAnchor="middle"
-              fontSize={10}
+              fontSize={12}
               fill={color}
               fontWeight="600"
             >
@@ -196,7 +196,7 @@ export default function BoneDensityChart() {
           d={FEMALE_PATH}
           fill="none"
           stroke="#ef4444"
-          strokeWidth={2.5}
+          strokeWidth={3}
           strokeLinecap="round"
           strokeLinejoin="round"
           style={{
@@ -211,7 +211,7 @@ export default function BoneDensityChart() {
           d={MALE_PATH}
           fill="none"
           stroke="#3b82f6"
-          strokeWidth={2.5}
+          strokeWidth={3}
           strokeLinecap="round"
           strokeLinejoin="round"
           style={{
@@ -234,10 +234,10 @@ export default function BoneDensityChart() {
         {/* ── Legend ── */}
         <g transform={`translate(${W - PAD.right - 140}, ${PAD.top + 8})`}>
           <rect x={0} y={0} width={130} height={56} rx={7} fill="white" stroke="#e0e0e0" strokeWidth={1} />
-          <line x1={10} y1={18} x2={30} y2={18} stroke="#ef4444" strokeWidth={2.5} strokeLinecap="round" />
-          <text x={36} y={22} fontSize={12} fill="#434343">Women</text>
-          <line x1={10} y1={36} x2={30} y2={36} stroke="#3b82f6" strokeWidth={2.5} strokeLinecap="round" />
-          <text x={36} y={40} fontSize={12} fill="#434343">Men</text>
+          <line x1={10} y1={18} x2={30} y2={18} stroke="#ef4444" strokeWidth={3} strokeLinecap="round" />
+          <text x={36} y={22} fontSize={14} fill="#434343">Women</text>
+          <line x1={10} y1={36} x2={30} y2={36} stroke="#3b82f6" strokeWidth={3} strokeLinecap="round" />
+          <text x={36} y={40} fontSize={14} fill="#434343">Men</text>
         </g>
       </svg>
 

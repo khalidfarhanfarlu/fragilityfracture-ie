@@ -14,7 +14,7 @@ export default function AfterAFracturePage() {
         { label: "Fragility Fractures", href: "/fragility-fractures" },
         { label: "After a Fracture: What Next?" },
       ]}
-      gpCTAContext="After any fragility fracture, speak to your HCP or hospital team about bone density assessment and secondary fracture prevention. Do not leave the hospital without asking about this."
+      gpCTAContext="After any fragility fracture, speak to your doctor or hospital team about bone density assessment and secondary fracture prevention. Do not leave the hospital without asking about this."
     >
       <h1 className="text-4xl font-extrabold text-[#434343] mb-6">After a Fracture: What Next?</h1>
 
@@ -46,22 +46,22 @@ export default function AfterAFracturePage() {
           {
             step: "2",
             title: "Ask about bone density assessment",
-            detail: "While in hospital or at your HCP, ask: 'Was this fracture caused by osteoporosis? Should I have a bone density scan if I haven't had one?' A DXA scan should be arranged if it has not been done recently.",
+            detail: "While in hospital or at your doctor, ask: 'Was this fracture caused by osteoporosis? Should I have a bone density scan if I haven't had one?' A DXA scan should be arranged if it has not been done recently.",
           },
           {
             step: "3",
             title: "Ask about Fracture Liaison Service referral",
-            detail: "Many Irish hospitals have a Fracture Liaison Service (FLS) — a specialist team that coordinates bone health assessment and secondary prevention after a fracture. Ask your hospital team or HCP if an FLS is available and whether you can be referred.",
+            detail: "Many Irish hospitals have a Fracture Liaison Service (FLS) — a specialist team that coordinates bone health assessment and secondary prevention after a fracture. Ask your hospital team or doctor if an FLS is available and whether you can be referred.",
           },
           {
             step: "4",
             title: "Discuss bone-protective medication",
-            detail: "If you have osteoporosis (confirmed or suspected), the evidence for starting bone-protective medication promptly after a fracture is strong. Treatment should ideally be started before hospital discharge or at the first HCP visit afterwards.",
+            detail: "If you have osteoporosis (confirmed or suspected), the evidence for starting bone-protective medication promptly after a fracture is strong. Treatment should ideally be started before hospital discharge or at the first doctor visit afterwards.",
           },
           {
             step: "5",
             title: "Ensure calcium and Vitamin D",
-            detail: "Adequate calcium and Vitamin D are essential alongside any medication. If you are not already taking these, discuss with your HCP or hospital team.",
+            detail: "Adequate calcium and Vitamin D are essential alongside any medication. If you are not already taking these, discuss with your doctor or hospital team.",
           },
           {
             step: "6",

@@ -14,7 +14,7 @@ export default function LifestylePage() {
         { label: "Prevention", href: "/prevention" },
         { label: "Lifestyle Factors" },
       ]}
-      gpCTAContext="If you are taking medications that affect bone health, do not stop them without speaking to your HCP first. Your HCP can advise on bone protection measures alongside your existing treatment."
+      gpCTAContext="If you are taking medications that affect bone health, do not stop them without speaking to your doctor first. Your doctor can advise on bone protection measures alongside your existing treatment."
     >
       <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Lifestyle Factors</h1>
 
@@ -96,7 +96,7 @@ export default function LifestylePage() {
       <h2>Medications That Affect Bone Health</h2>
       <p>
         Several commonly prescribed medications can reduce bone density with long-term use. It is important to know
-        about these — but <strong>never stop a prescribed medication without speaking to your HCP</strong>. In most
+        about these — but <strong>never stop a prescribed medication without speaking to your doctor</strong>. In most
         cases, the condition being treated poses a greater risk than the effect on bones, and bone protection
         strategies can be put in place.
       </p>
@@ -109,7 +109,7 @@ export default function LifestylePage() {
           },
           {
             med: "Proton pump inhibitors (PPIs, e.g. omeprazole, lansoprazole)",
-            detail: "Long-term use (over a year) has been associated with modest increases in fracture risk, possibly by reducing calcium absorption. Discuss with your HCP whether ongoing PPI use is necessary and whether bone protection is appropriate.",
+            detail: "Long-term use (over a year) has been associated with modest increases in fracture risk, possibly by reducing calcium absorption. Discuss with your doctor whether ongoing PPI use is necessary and whether bone protection is appropriate.",
           },
           {
             med: "Anti-epileptic drugs (e.g. phenytoin, carbamazepine, valproate)",
@@ -137,7 +137,7 @@ export default function LifestylePage() {
 
       <div className="bg-[#F9F9F9] border border-[#e0e0e0] rounded-xl p-5 mt-4">
         <p className="text-[#434343] text-sm">
-          <strong>Key message:</strong> If you are taking any of the medications above, ask your HCP at your next
+          <strong>Key message:</strong> If you are taking any of the medications above, ask your doctor at your next
           appointment whether your bone health is being monitored and whether any preventive measures are in place.
           You should not have to wait for a fracture to find out.
         </p>

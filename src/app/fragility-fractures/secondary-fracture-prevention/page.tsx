@@ -14,7 +14,7 @@ export default function SecondaryFracturePreventionPage() {
         { label: "Fragility Fractures", href: "/fragility-fractures" },
         { label: "Secondary Fracture Prevention" },
       ]}
-      gpCTAContext="After a fracture, speak to your HCP about secondary fracture prevention. Ask for a referral to a Fracture Liaison Service if one is available. Treatment can significantly reduce your risk of a second fracture."
+      gpCTAContext="After a fracture, speak to your doctor about secondary fracture prevention. Ask for a referral to a Fracture Liaison Service if one is available. Treatment can significantly reduce your risk of a second fracture."
     >
       <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Secondary Fracture Prevention</h1>
 
@@ -69,7 +69,7 @@ export default function SecondaryFracturePreventionPage() {
             "Initiation of bone-protective medication",
             "Calcium and Vitamin D assessment and supplementation",
             "Patient education about osteoporosis",
-            "Communication with HCP for ongoing monitoring",
+            "Communication with doctor for ongoing monitoring",
             "Follow-up to ensure treatment compliance",
           ].map((item) => (
             <div key={item} className="flex items-start gap-2 text-sm text-[#434343]">
@@ -99,11 +99,11 @@ export default function SecondaryFracturePreventionPage() {
       </p>
       <ol>
         <li>Ask the orthopaedic team before discharge about bone health assessment</li>
-        <li>Follow up with your HCP after discharge specifically to discuss osteoporosis assessment and treatment</li>
+        <li>Follow up with your doctor after discharge specifically to discuss osteoporosis assessment and treatment</li>
         <li>Ask for a DXA scan if one has not been done recently</li>
         <li>Ask for a FRAX score calculation to assess your 10-year fracture risk</li>
         <li>Ask about starting bone-protective medication</li>
-        <li>Ask for referral to a rheumatologist or endocrinologist if your HCP is unsure about management</li>
+        <li>Ask for referral to a rheumatologist or endocrinologist if your doctor is unsure about management</li>
       </ol>
 
       <h2>Components of Secondary Prevention</h2>
@@ -120,7 +120,7 @@ export default function SecondaryFracturePreventionPage() {
 
       <h2>Long-Term Follow-Up</h2>
       <p>
-        Osteoporosis management is lifelong. Once treatment is started, regular follow-up with your HCP is important to:
+        Osteoporosis management is lifelong. Once treatment is started, regular follow-up with your doctor is important to:
       </p>
       <ul>
         <li>Monitor treatment compliance and side effects</li>
@@ -130,7 +130,7 @@ export default function SecondaryFracturePreventionPage() {
         <li>Adjust treatment if fractures occur despite therapy</li>
       </ul>
       <p>
-        Do not stop osteoporosis medication without discussing it with your HCP. Treatment works — but only while
+        Do not stop osteoporosis medication without discussing it with your doctor. Treatment works — but only while
         you are taking it.
       </p>
     </PageLayout>

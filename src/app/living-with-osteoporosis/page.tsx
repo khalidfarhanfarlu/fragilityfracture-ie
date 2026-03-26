@@ -14,7 +14,7 @@ const pages = [
   { title: "Falls Prevention", desc: "Why falls cause most fractures — and practical steps to reduce your risk at home and outdoors.", href: "/living-with-osteoporosis/falls-prevention" },
   { title: "Recovery & Rehabilitation", desc: "What to expect after a fragility fracture, and how Fracture Liaison Services can help.", href: "/living-with-osteoporosis/recovery-and-rehabilitation" },
   { title: "Mental Health & Wellbeing", desc: "Managing fear of falling, maintaining confidence, and finding support in Ireland.", href: "/living-with-osteoporosis/mental-health-and-wellbeing" },
-  { title: "Talking to Your HCP", desc: "Questions to ask your HCP about diagnosis, DXA results, and treatment — so you get the most from every appointment.", href: "/living-with-osteoporosis/talking-to-your-doctor" },
+  { title: "Talking to Your Doctor", desc: "Questions to ask your doctor about diagnosis, DXA results, and treatment — so you get the most from every appointment.", href: "/living-with-osteoporosis/talking-to-your-doctor" },
 ];
 
 export default function LivingWithOsteoporosisPage() {

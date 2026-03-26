@@ -28,7 +28,7 @@ export default function NutritionAndCalciumPage() {
         { label: "Prevention", href: "/prevention" },
         { label: "Nutrition & Calcium" },
       ]}
-      gpCTAContext="If you are unsure whether your calcium intake is adequate, or whether you need a supplement, speak to your HCP or a registered dietitian."
+      gpCTAContext="If you are unsure whether your calcium intake is adequate, or whether you need a supplement, speak to your doctor or a registered dietitian."
     >
       <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Nutrition &amp; Calcium</h1>
 
@@ -76,7 +76,7 @@ export default function NutritionAndCalciumPage() {
       </div>
       <p className="text-xs text-[#888888]">
         Based on FSAI (Food Safety Authority of Ireland) and European Food Safety Authority recommendations. Always
-        discuss your personal requirements with your HCP or dietitian.
+        discuss your personal requirements with your doctor or dietitian.
       </p>
 
       <h2>Best Food Sources of Calcium</h2>
@@ -114,7 +114,7 @@ export default function NutritionAndCalciumPage() {
         absorbed and comes with other nutrients (protein, phosphorus, vitamins) that also benefit bones.
       </p>
       <p>
-        Supplements may be recommended by your HCP if you:
+        Supplements may be recommended by your doctor if you:
       </p>
       <ul>
         <li>Cannot meet your requirements through diet (e.g. due to lactose intolerance, dairy-free diet, or poor appetite)</li>
@@ -135,7 +135,7 @@ export default function NutritionAndCalciumPage() {
         <p className="text-amber-900 text-sm">
           <strong>Important:</strong> Excessive calcium supplementation (more than 2,000 mg total per day, from food
           and supplements combined) is not recommended and may have risks. Never exceed recommended amounts without
-          discussing with your HCP. Always check that any supplement contains Vitamin D alongside calcium, as they
+          discussing with your doctor. Always check that any supplement contains Vitamin D alongside calcium, as they
           work together.
         </p>
       </div>

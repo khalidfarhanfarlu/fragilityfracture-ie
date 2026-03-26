@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import PageLayout from "@/components/PageLayout";
 
 export const metadata: Metadata = {
-  title: "Talking to Your HCP About Osteoporosis",
+  title: "Talking to Your Doctor About Osteoporosis",
   description:
-    "Questions to ask your HCP about bone health, DXA results, and treatment options. A guide to getting the most from your appointments.",
+    "Questions to ask your doctor about bone health, DXA results, and treatment options. A guide to getting the most from your appointments.",
 };
 
 const questionSets = [
@@ -66,14 +66,14 @@ export default function TalkingToYourDoctorPage() {
     <PageLayout
       breadcrumbs={[
         { label: "Living With Osteoporosis", href: "/living-with-osteoporosis" },
-        { label: "Talking to Your HCP" },
+        { label: "Talking to Your Doctor" },
       ]}
       showGPCTA={false}
     >
-      <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Talking to Your HCP</h1>
+      <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Talking to Your Doctor</h1>
 
       <p className="text-lg text-[#666666] mb-6 leading-relaxed">
-        HCP appointments can feel short, and it is easy to forget important questions in the moment. Coming prepared
+        Appointments with your doctor can feel short, and it is easy to forget important questions in the moment. Coming prepared
         with the right questions can help you get the information you need and take an active role in your bone health.
         Below are questions grouped by situation — pick the ones that are most relevant to you.
       </p>
@@ -102,11 +102,11 @@ export default function TalkingToYourDoctorPage() {
         ))}
       </div>
 
-      <h2>General Tips for HCP Appointments</h2>
+      <h2>General Tips for Doctor Appointments</h2>
       <ul>
         <li><strong>Bring a list of all your medications</strong> — including over-the-counter drugs and supplements. Some interactions are relevant to osteoporosis treatment.</li>
-        <li><strong>Bring previous scan results</strong> — if you have had a previous DXA scan elsewhere, bring the report so your HCP can compare results.</li>
-        <li><strong>Be honest about lifestyle factors</strong> — your HCP needs accurate information about smoking, alcohol, and activity levels to assess your risk properly. There is no judgment; it helps them help you.</li>
+        <li><strong>Bring previous scan results</strong> — if you have had a previous DXA scan elsewhere, bring the report so your doctor can compare results.</li>
+        <li><strong>Be honest about lifestyle factors</strong> — your doctor needs accurate information about smoking, alcohol, and activity levels to assess your risk properly. There is no judgment; it helps them help you.</li>
         <li><strong>Follow up</strong> — if you were told you would be referred somewhere, or that a letter would be sent, check in with the surgery if you have not heard within a few weeks.</li>
       </ul>
 

@@ -28,7 +28,7 @@ export default function ContactPage() {
           <p className="font-bold mb-1">We cannot provide medical advice</p>
           <p>
             This form is for general enquiries only. Please do not use it to seek medical guidance about your
-            condition, medications, or symptoms. For medical concerns, contact your HCP or, in an emergency, call
+            condition, medications, or symptoms. For medical concerns, contact your doctor or, in an emergency, call
             999 / 112.
           </p>
         </div>

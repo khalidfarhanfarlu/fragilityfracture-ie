@@ -14,7 +14,7 @@ export default function WhatIsAFragilityFracturePage() {
         { label: "About Osteoporosis", href: "/about-osteoporosis" },
         { label: "What Is a Fragility Fracture?" },
       ]}
-      gpCTAContext="If you have had a fracture from a low-energy impact, talk to your HCP. It may be the first sign of osteoporosis, and getting tested and treated promptly can prevent future fractures."
+      gpCTAContext="If you have had a fracture from a low-energy impact, talk to your doctor. It may be the first sign of osteoporosis, and getting tested and treated promptly can prevent future fractures."
     >
       <h1 className="text-4xl font-extrabold text-[#434343] mb-6">What Is a Fragility Fracture?</h1>
 
@@ -102,7 +102,7 @@ export default function WhatIsAFragilityFracturePage() {
 
       <h2>When Should I Seek Help?</h2>
       <p>
-        You should see your HCP promptly if:
+        You should see your doctor promptly if:
       </p>
       <ul>
         <li>You have had a fracture from a low-energy impact (a fall from standing height or less)</li>
@@ -111,7 +111,7 @@ export default function WhatIsAFragilityFracturePage() {
         <li>You have several risk factors for osteoporosis and have never had a bone density test</li>
       </ul>
       <p>
-        Your HCP can arrange a <a href="/bone-density-testing/what-is-a-dxa-scan">DXA scan</a> to assess your bone
+        Your doctor can arrange a <a href="/bone-density-testing/what-is-a-dxa-scan">DXA scan</a> to assess your bone
         density and advise on treatment or prevention.
       </p>
 
@@ -119,7 +119,7 @@ export default function WhatIsAFragilityFracturePage() {
       <p>
         After a fragility fracture, the priority is to prevent a second one. In Ireland, <strong>Fracture Liaison
         Services (FLS)</strong> exist in many hospitals to identify people who have had fractures and ensure they
-        receive appropriate assessment and treatment. If you have had a fracture, ask your hospital team or HCP whether
+        receive appropriate assessment and treatment. If you have had a fracture, ask your hospital team or doctor whether
         a Fracture Liaison Service is available to you.
       </p>
       <p>

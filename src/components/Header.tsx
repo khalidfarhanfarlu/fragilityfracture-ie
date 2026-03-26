@@ -4,60 +4,62 @@ import { useState } from "react";
 import Link from "next/link";
 import { Menu, X, ChevronDown } from "lucide-react";
 
-const navItems = [
-  {
-    label: "About Osteoporosis",
-    href: "/about-osteoporosis",
-    children: [
-      { label: "What Is Osteoporosis?", href: "/about-osteoporosis/what-is-osteoporosis" },
-      { label: "What Is a Fragility Fracture?", href: "/about-osteoporosis/what-is-a-fragility-fracture" },
-      { label: "Osteopenia vs Osteoporosis", href: "/about-osteoporosis/osteopenia-vs-osteoporosis" },
-      { label: "Risk Factors", href: "/about-osteoporosis/risk-factors" },
-      { label: "Osteoporosis in Men", href: "/about-osteoporosis/osteoporosis-in-men" },
-    ],
-  },
-  {
-    label: "Bone Density & Testing",
-    href: "/bone-density-testing",
-    children: [
-      { label: "What Is a DXA Scan?", href: "/bone-density-testing/what-is-a-dxa-scan" },
-      { label: "Understanding Your Results", href: "/bone-density-testing/understanding-your-results" },
-      { label: "How to Get Tested in Ireland", href: "/bone-density-testing/how-to-get-tested-in-ireland" },
-      { label: "FRAX Fracture Risk Tool", href: "/bone-density-testing/frax-fracture-risk-tool" },
-    ],
-  },
+type NavChild =
+  | { type?: "link"; label: string; href: string }
+  | { type: "divider"; label: string };
+
+type NavItem = {
+  label: string;
+  href: string;
+  children: NavChild[];
+};
+
+const navItems: NavItem[] = [
   {
     label: "Prevention",
     href: "/prevention",
     children: [
-      { label: "Nutrition & Calcium", href: "/prevention/nutrition-and-calcium" },
-      { label: "Vitamin D", href: "/prevention/vitamin-d" },
+      { label: "Nutrition & Calcium",         href: "/prevention/nutrition-and-calcium" },
+      { label: "Vitamin D",                    href: "/prevention/vitamin-d" },
       { label: "Exercise & Physical Activity", href: "/prevention/exercise" },
-      { label: "Lifestyle Factors", href: "/prevention/lifestyle" },
-      { label: "Bone Health at Every Age", href: "/prevention/bone-health-at-every-age" },
+      { label: "Lifestyle Factors",            href: "/prevention/lifestyle" },
+      { label: "Bone Health at Every Age",     href: "/prevention/bone-health-at-every-age" },
+    ],
+  },
+  {
+    label: "About Osteoporosis",
+    href: "/about-osteoporosis",
+    children: [
+      { label: "What Is Osteoporosis?",           href: "/about-osteoporosis/what-is-osteoporosis" },
+      { label: "What Is a Fragility Fracture?",   href: "/about-osteoporosis/what-is-a-fragility-fracture" },
+      { label: "Osteopenia vs Osteoporosis",      href: "/about-osteoporosis/osteopenia-vs-osteoporosis" },
+      { label: "Risk Factors",                    href: "/about-osteoporosis/risk-factors" },
+      { label: "Osteoporosis in Men",             href: "/about-osteoporosis/osteoporosis-in-men" },
+      { type: "divider", label: "Fragility Fractures" },
+      { label: "Fragility Fractures Overview",    href: "/fragility-fractures" },
+      { label: "Types of Fragility Fractures",    href: "/fragility-fractures/types" },
+      { label: "Hip Fractures",                   href: "/fragility-fractures/hip-fractures" },
+      { label: "Vertebral Fractures",             href: "/fragility-fractures/vertebral-fractures" },
+      { label: "Wrist Fractures",                 href: "/fragility-fractures/wrist-fractures" },
+      { label: "After a Fracture: What Next?",    href: "/fragility-fractures/after-a-fracture" },
+      { label: "Secondary Fracture Prevention",   href: "/fragility-fractures/secondary-fracture-prevention" },
     ],
   },
   {
     label: "Living With Osteoporosis",
     href: "/living-with-osteoporosis",
     children: [
-      { label: "Treatment Options", href: "/living-with-osteoporosis/treatment-options" },
-      { label: "Falls Prevention", href: "/living-with-osteoporosis/falls-prevention" },
-      { label: "Recovery & Rehabilitation", href: "/living-with-osteoporosis/recovery-and-rehabilitation" },
-      { label: "Mental Health & Wellbeing", href: "/living-with-osteoporosis/mental-health-and-wellbeing" },
-      { label: "Talking to Your HCP", href: "/living-with-osteoporosis/talking-to-your-doctor" },
-    ],
-  },
-  {
-    label: "Fragility Fractures",
-    href: "/fragility-fractures",
-    children: [
-      { label: "Types of Fragility Fractures", href: "/fragility-fractures/types" },
-      { label: "Hip Fractures", href: "/fragility-fractures/hip-fractures" },
-      { label: "Vertebral Fractures", href: "/fragility-fractures/vertebral-fractures" },
-      { label: "Wrist Fractures", href: "/fragility-fractures/wrist-fractures" },
-      { label: "After a Fracture: What Next?", href: "/fragility-fractures/after-a-fracture" },
-      { label: "Secondary Fracture Prevention", href: "/fragility-fractures/secondary-fracture-prevention" },
+      { label: "Treatment Options",          href: "/living-with-osteoporosis/treatment-options" },
+      { label: "Falls Prevention",           href: "/living-with-osteoporosis/falls-prevention" },
+      { label: "Recovery & Rehabilitation",  href: "/living-with-osteoporosis/recovery-and-rehabilitation" },
+      { label: "Mental Health & Wellbeing",  href: "/living-with-osteoporosis/mental-health-and-wellbeing" },
+      { label: "Talking to Your Doctor",     href: "/living-with-osteoporosis/talking-to-your-doctor" },
+      { type: "divider", label: "Bone Density & Testing" },
+      { label: "Bone Density & Testing Overview",  href: "/bone-density-testing" },
+      { label: "What Is a DXA Scan?",              href: "/bone-density-testing/what-is-a-dxa-scan" },
+      { label: "Understanding Your Results",       href: "/bone-density-testing/understanding-your-results" },
+      { label: "How to Get Tested in Ireland",     href: "/bone-density-testing/how-to-get-tested-in-ireland" },
+      { label: "FRAX Fracture Risk Tool",          href: "/bone-density-testing/frax-fracture-risk-tool" },
     ],
   },
   {
@@ -81,6 +83,7 @@ export default function Header() {
     <header className="bg-white shadow-sm border-b border-[#e0e0e0] sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-16 md:h-20">
+
           {/* Logo */}
           <Link
             href="/"
@@ -108,17 +111,27 @@ export default function Header() {
                   {item.label}
                   {item.children.length > 0 && <ChevronDown className="w-3.5 h-3.5" aria-hidden="true" />}
                 </Link>
+
                 {item.children.length > 0 && openDropdown === item.href && (
-                  <div className="absolute top-full left-0 w-64 bg-white rounded-lg shadow-lg border border-[#e0e0e0] py-2 mt-1">
-                    {item.children.map((child) => (
-                      <Link
-                        key={child.href}
-                        href={child.href}
-                        className="block px-4 py-2 text-sm text-[#555555] hover:bg-[#F9F9F9] hover:text-[#434343] transition-colors"
-                      >
-                        {child.label}
-                      </Link>
-                    ))}
+                  <div className="absolute top-full left-0 w-72 bg-white rounded-lg shadow-lg border border-[#e0e0e0] py-2 mt-1">
+                    {item.children.map((child, idx) =>
+                      child.type === "divider" ? (
+                        <div key={idx} className="px-4 pt-3 pb-1">
+                          <p className="text-[10px] font-bold uppercase tracking-widest text-[#aaaaaa]">
+                            {child.label}
+                          </p>
+                          <div className="mt-1 border-t border-[#eeeeee]" />
+                        </div>
+                      ) : (
+                        <Link
+                          key={(child as { href: string }).href}
+                          href={(child as { href: string }).href}
+                          className="block px-4 py-2 text-sm text-[#555555] hover:bg-[#F9F9F9] hover:text-[#434343] transition-colors"
+                        >
+                          {child.label}
+                        </Link>
+                      )
+                    )}
                   </div>
                 )}
               </div>
@@ -131,7 +144,7 @@ export default function Header() {
               href="/am-i-at-risk"
               className="hidden md:inline-flex items-center gap-2 bg-[#E7D549] hover:bg-[#d4c43e] text-[#434343] font-semibold px-4 py-2 rounded-lg text-sm transition-colors"
             >
-              Am I at Risk?
+              Check Your Risk
             </Link>
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
@@ -155,7 +168,7 @@ export default function Header() {
                 <div className="flex items-center justify-between">
                   <Link
                     href={item.href}
-                    className="flex-1 py-2 text-base font-semibold text-[#434343] hover:text-[#434343]"
+                    className="flex-1 py-2 text-base font-semibold text-[#434343]"
                     onClick={() => setMobileOpen(false)}
                   >
                     {item.label}
@@ -172,29 +185,37 @@ export default function Header() {
                     </button>
                   )}
                 </div>
+
                 {item.children.length > 0 && mobileExpanded === item.href && (
-                  <div className="pl-4 space-y-1 pb-2">
-                    {item.children.map((child) => (
-                      <Link
-                        key={child.href}
-                        href={child.href}
-                        className="block py-1.5 text-sm text-[#666666] hover:text-[#434343]"
-                        onClick={() => setMobileOpen(false)}
-                      >
-                        {child.label}
-                      </Link>
-                    ))}
+                  <div className="pl-4 space-y-0.5 pb-2">
+                    {item.children.map((child, idx) =>
+                      child.type === "divider" ? (
+                        <p key={idx} className="pt-3 pb-1 text-[10px] font-bold uppercase tracking-widest text-[#aaaaaa]">
+                          {child.label}
+                        </p>
+                      ) : (
+                        <Link
+                          key={(child as { href: string }).href}
+                          href={(child as { href: string }).href}
+                          className="block py-1.5 text-sm text-[#666666] hover:text-[#434343]"
+                          onClick={() => setMobileOpen(false)}
+                        >
+                          {child.label}
+                        </Link>
+                      )
+                    )}
                   </div>
                 )}
               </div>
             ))}
+
             <div className="pt-3 border-t border-[#e0e0e0]">
               <Link
                 href="/am-i-at-risk"
                 className="block w-full text-center bg-[#E7D549] hover:bg-[#d4c43e] text-[#434343] font-semibold px-4 py-3 rounded-lg transition-colors"
                 onClick={() => setMobileOpen(false)}
               >
-                Am I at Risk?
+                Check Your Risk
               </Link>
             </div>
           </nav>

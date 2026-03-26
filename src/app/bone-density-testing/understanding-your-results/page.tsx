@@ -14,7 +14,7 @@ export default function UnderstandingResultsPage() {
         { label: "Bone Density & Testing", href: "/bone-density-testing" },
         { label: "Understanding Your Results" },
       ]}
-      gpCTAContext="Always discuss your DXA results with your HCP. They will consider your full clinical picture — including your age, risk factors, and fracture history — to decide whether treatment or lifestyle changes are needed."
+      gpCTAContext="Always discuss your DXA results with your doctor. They will consider your full clinical picture — including your age, risk factors, and fracture history — to decide whether treatment or lifestyle changes are needed."
     >
       <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Understanding Your DXA Scan Results</h1>
 
@@ -55,7 +55,7 @@ export default function UnderstandingResultsPage() {
             <tr className="bg-orange-50">
               <td className="px-5 py-4 font-bold text-orange-800">Osteoporosis</td>
               <td className="px-5 py-4 font-mono text-orange-700">−2.5 or below</td>
-              <td className="px-5 py-4 text-[#555555]">Bone density is significantly reduced. Treatment is usually recommended. Your HCP will advise.</td>
+              <td className="px-5 py-4 text-[#555555]">Bone density is significantly reduced. Treatment is usually recommended. Your doctor will advise.</td>
             </tr>
             <tr className="bg-red-50">
               <td className="px-5 py-4 font-bold text-red-800">Severe Osteoporosis</td>
@@ -82,7 +82,7 @@ export default function UnderstandingResultsPage() {
       </p>
       <p>
         A Z-score below <strong>−2.0</strong> suggests your bone loss may be greater than expected for your age. This
-        can prompt your HCP to investigate for <strong>secondary causes</strong> of bone loss — such as coeliac
+        can prompt your doctor to investigate for <strong>secondary causes</strong> of bone loss — such as coeliac
         disease, thyroid problems, vitamin D deficiency, or medication side effects.
       </p>
       <p>
@@ -104,23 +104,23 @@ export default function UnderstandingResultsPage() {
       <h3>If Your Result Is Normal</h3>
       <p>
         Continue to maintain good bone health through adequate calcium and Vitamin D, regular weight-bearing exercise,
-        and a healthy lifestyle. Your HCP may recommend a repeat DXA scan in 2–5 years depending on your risk factors.
+        and a healthy lifestyle. Your doctor may recommend a repeat DXA scan in 2–5 years depending on your risk factors.
       </p>
 
       <h3>If Your Result Shows Osteopenia</h3>
       <ul>
-        <li>Discuss your lifestyle and diet with your HCP</li>
+        <li>Discuss your lifestyle and diet with your doctor</li>
         <li>Ensure adequate calcium (from food, and supplementation if needed) and Vitamin D</li>
         <li>Increase weight-bearing and resistance exercise</li>
         <li>Address any modifiable risk factors (smoking, alcohol, low body weight)</li>
         <li>Ask about a repeat DXA scan — typically recommended every 1–2 years</li>
-        <li>Your HCP may calculate your FRAX score to assess whether medication is appropriate</li>
+        <li>Your doctor may calculate your FRAX score to assess whether medication is appropriate</li>
       </ul>
 
       <h3>If Your Result Shows Osteoporosis</h3>
       <ul>
-        <li>Your HCP will discuss treatment options, which will likely include medication</li>
-        <li>Ensure adequate calcium and Vitamin D intake (your HCP may recommend supplements)</li>
+        <li>Your doctor will discuss treatment options, which will likely include medication</li>
+        <li>Ensure adequate calcium and Vitamin D intake (your doctor may recommend supplements)</li>
         <li>Review your falls risk and home safety</li>
         <li>Start or continue appropriate exercise</li>
         <li>Read our <a href="/living-with-osteoporosis/treatment-options">Treatment Options page</a> for an overview of what may be offered</li>
@@ -128,9 +128,9 @@ export default function UnderstandingResultsPage() {
 
       <div className="bg-[#F9F9F9] border border-[#e0e0e0] rounded-xl p-6 mt-6">
         <p className="text-[#434343] text-sm">
-          <strong>Important:</strong> Your results should always be interpreted by your HCP in the context of your full
+          <strong>Important:</strong> Your results should always be interpreted by your doctor in the context of your full
           medical history. A number on a report only tells part of the story. Never change medication or start new
-          supplements without speaking to your HCP or pharmacist first.
+          supplements without speaking to your doctor or pharmacist first.
         </p>
       </div>
     </PageLayout>

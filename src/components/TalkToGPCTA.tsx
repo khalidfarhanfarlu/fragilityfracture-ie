@@ -16,10 +16,10 @@ export default function TalkToGPCTA({ context }: TalkToGPCTAProps) {
             <Stethoscope className="w-7 h-7 text-[#E7D549]" aria-hidden="true" />
           </div>
           <div>
-            <h2 className="text-xl font-bold mb-2">Talk to Your HCP</h2>
+            <h2 className="text-xl font-bold mb-2">Talk to Your Doctor</h2>
             <p className="text-[#bbbbbb] mb-4 text-base">
               {context ||
-                "If you have concerns about your bone health, don't wait. Your HCP can assess your risk, arrange a bone density (DXA) scan, and discuss next steps with you."}
+                "If you have concerns about your bone health, don't wait. Your doctor can assess your risk, arrange a bone density (DXA) scan, and discuss next steps with you."}
             </p>
             <p className="text-[#bbbbbb] mb-4 text-sm font-medium">
               You can say: <em className="text-white">&ldquo;I&apos;d like to discuss my bone health and whether I should have a DXA scan.&rdquo;</em>

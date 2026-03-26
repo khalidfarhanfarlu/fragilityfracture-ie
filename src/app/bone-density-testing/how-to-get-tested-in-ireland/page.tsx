@@ -4,7 +4,7 @@ import PageLayout from "@/components/PageLayout";
 export const metadata: Metadata = {
   title: "How to Get a Bone Density Test in Ireland",
   description:
-    "A guide to accessing DXA bone density scanning in Ireland — HCP referrals, public and private pathways, medical cards, and what to expect.",
+    "A guide to accessing DXA bone density scanning in Ireland — doctor referrals, public and private pathways, medical cards, and what to expect.",
 };
 
 export default function HowToGetTestedPage() {
@@ -14,18 +14,18 @@ export default function HowToGetTestedPage() {
         { label: "Bone Density & Testing", href: "/bone-density-testing" },
         { label: "How to Get Tested in Ireland" },
       ]}
-      gpCTAContext="Start with your HCP. Tell them you are concerned about your bone health and would like to discuss whether a DXA scan is appropriate for you."
+      gpCTAContext="Start with your doctor. Tell them you are concerned about your bone health and would like to discuss whether a DXA scan is appropriate for you."
     >
       <h1 className="text-4xl font-extrabold text-[#434343] mb-6">How to Get Tested in Ireland</h1>
 
       <p className="text-lg text-[#666666] mb-6 leading-relaxed">
-        Getting a bone density (DXA) scan in Ireland requires either an HCP referral into the public system, or
+        Getting a bone density (DXA) scan in Ireland requires either a doctor referral into the public system, or
         self-referral to a private clinic. This page explains both pathways and what to expect.
       </p>
 
-      <h2>Step 1 — Talk to Your HCP</h2>
+      <h2>Step 1 — Talk to Your Doctor</h2>
       <p>
-        The most common route to a DXA scan in Ireland is through your <strong>HCP</strong>. Your HCP will:
+        The most common route to a DXA scan in Ireland is through your <strong>doctor</strong>. Your doctor will:
       </p>
       <ul>
         <li>Review your risk factors for osteoporosis (age, family history, menopause status, medical history, medications)</li>
@@ -41,7 +41,7 @@ export default function HowToGetTestedPage() {
 
       <h2>The Public (HSE) Pathway</h2>
       <p>
-        If you are referred through the public system, your HCP will send a referral to a DXA service at a public
+        If you are referred through the public system, your doctor will send a referral to a DXA service at a public
         hospital. DXA scanning is available at most large public hospitals in Ireland.
       </p>
       <div className="bg-slate-50 border border-[#e0e0e0] rounded-xl p-5 mb-4">
@@ -67,7 +67,7 @@ export default function HowToGetTestedPage() {
       </p>
       <ul>
         <li>Shorter waiting times — often within days</li>
-        <li>Some private centres accept self-referral (no HCP letter required)</li>
+        <li>Some private centres accept self-referral (no doctor letter required)</li>
         <li>Flexible appointment times</li>
       </ul>
       <p>
@@ -86,17 +86,17 @@ export default function HowToGetTestedPage() {
       <h2>Medical Card Holders</h2>
       <p>
         If you have a medical card, you are entitled to public hospital services, including DXA scanning, free of
-        charge with a valid HCP referral. There is no separate application required — your medical card number and HCP
+        charge with a valid doctor referral. There is no separate application required — your medical card number and doctor
         referral letter are sufficient.
       </p>
       <p>
-        If you are an HCP visit card holder (but not a full medical card holder), charges may apply for hospital
-        outpatient services. Check with your HCP and the relevant hospital before attending.
+        If you are a doctor visit card holder (but not a full medical card holder), charges may apply for hospital
+        outpatient services. Check with your doctor and the relevant hospital before attending.
       </p>
 
       <h2>What to Bring</h2>
       <ul>
-        <li>Your HCP referral letter (for public or private scan)</li>
+        <li>Your doctor referral letter (for public or private scan)</li>
         <li>Your medical card or private health insurance details (if applicable)</li>
         <li>A list of your current medications (some medications are noted on the report)</li>
         <li>Any previous DXA scan results, if you have them</li>
@@ -109,8 +109,8 @@ export default function HowToGetTestedPage() {
 
       <h2>After the Scan</h2>
       <p>
-        Results are typically sent to your referring HCP within 1–2 weeks. Your HCP will then contact you to discuss
-        the results and next steps. If you have not heard within two weeks of your scan, contact your HCP&apos;s
+        Results are typically sent to your referring doctor within 1–2 weeks. Your doctor will then contact you to discuss
+        the results and next steps. If you have not heard within two weeks of your scan, contact your doctor&apos;s
         surgery to follow up.
       </p>
       <p>

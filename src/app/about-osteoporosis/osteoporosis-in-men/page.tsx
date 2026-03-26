@@ -14,7 +14,7 @@ export default function OsteoporosisInMenPage() {
         { label: "About Osteoporosis", href: "/about-osteoporosis" },
         { label: "Osteoporosis in Men" },
       ]}
-      gpCTAContext="If you are a man over 50 with risk factors for osteoporosis, speak to your HCP. Ask whether a bone density (DXA) scan would be appropriate. Osteoporosis in men is treatable — but only if it is diagnosed."
+      gpCTAContext="If you are a man over 50 with risk factors for osteoporosis, speak to your doctor. Ask whether a bone density (DXA) scan would be appropriate. Osteoporosis in men is treatable — but only if it is diagnosed."
     >
       <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Osteoporosis in Men</h1>
 
@@ -96,7 +96,7 @@ export default function OsteoporosisInMenPage() {
         <li>Have a condition associated with bone loss (coeliac disease, IBD, etc.)</li>
       </ul>
       <p>
-        If you are a man and recognise any of these factors, speak to your HCP. A bone density test is painless, quick,
+        If you are a man and recognise any of these factors, speak to your doctor. A bone density test is painless, quick,
         and can provide important information about your fracture risk.
       </p>
 

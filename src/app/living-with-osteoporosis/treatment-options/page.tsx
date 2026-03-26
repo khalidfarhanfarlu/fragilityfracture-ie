@@ -4,7 +4,7 @@ import PageLayout from "@/components/PageLayout";
 export const metadata: Metadata = {
   title: "Osteoporosis Treatment Options",
   description:
-    "An overview of osteoporosis treatment — including bisphosphonates, denosumab, HRT, and anabolic agents — in plain English. Always discuss with your HCP.",
+    "An overview of osteoporosis treatment — including bisphosphonates, denosumab, HRT, and anabolic agents — in plain English. Always discuss with your doctor.",
 };
 
 export default function TreatmentOptionsPage() {
@@ -14,7 +14,7 @@ export default function TreatmentOptionsPage() {
         { label: "Living With Osteoporosis", href: "/living-with-osteoporosis" },
         { label: "Treatment Options" },
       ]}
-      gpCTAContext="All treatment decisions must be made with your HCP or specialist. This page provides general information only. If you have been diagnosed with osteoporosis, ask your HCP what treatment options are right for you."
+      gpCTAContext="All treatment decisions must be made with your doctor or specialist. This page provides general information only. If you have been diagnosed with osteoporosis, ask your doctor what treatment options are right for you."
     >
       <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Treatment Options</h1>
 
@@ -28,13 +28,13 @@ export default function TreatmentOptionsPage() {
         <p className="text-amber-900 text-sm">
           <strong>Important:</strong> This page provides a general overview for educational purposes only. It does not
           include dosage information or recommendations. All treatment decisions must be made in consultation with your
-          HCP or specialist, taking into account your individual circumstances, medical history, and test results.
+          doctor or specialist, taking into account your individual circumstances, medical history, and test results.
         </p>
       </div>
 
       <h2>The Foundation: Calcium, Vitamin D, and Exercise</h2>
       <p>
-        Regardless of which medication (if any) your HCP recommends, the following are considered essential for
+        Regardless of which medication (if any) your doctor recommends, the following are considered essential for
         everyone with osteoporosis:
       </p>
       <ul>
@@ -50,7 +50,7 @@ export default function TreatmentOptionsPage() {
 
       <h2>Medication Classes</h2>
       <p>
-        Your HCP or specialist will decide whether medication is appropriate based on your bone density results,
+        Your doctor or specialist will decide whether medication is appropriate based on your bone density results,
         fracture history, fracture risk score, age, and other health factors. The most commonly used medication
         classes are:
       </p>
@@ -61,19 +61,19 @@ export default function TreatmentOptionsPage() {
             name: "Bisphosphonates",
             examples: "Alendronate (Fosamax), risedronate, ibandronate, zoledronic acid",
             how: "Bisphosphonates are the most widely prescribed first-line treatment for osteoporosis worldwide. They work by slowing down the breakdown of bone (reducing osteoclast activity), which allows bone-building to keep pace with bone breakdown, increasing bone density over time.",
-            notes: "They are available as weekly oral tablets, monthly oral tablets, or annual infusions (zoledronic acid). The oral forms should be taken on an empty stomach with a full glass of water, and you should stay upright for at least 30 minutes afterwards. Rare side effects (jaw problems, atypical fractures) should be discussed with your HCP — the benefits significantly outweigh the risks for most people. Treatment breaks (drug holidays) may be considered after 5 years on oral bisphosphonates.",
+            notes: "They are available as weekly oral tablets, monthly oral tablets, or annual infusions (zoledronic acid). The oral forms should be taken on an empty stomach with a full glass of water, and you should stay upright for at least 30 minutes afterwards. Rare side effects (jaw problems, atypical fractures) should be discussed with your doctor — the benefits significantly outweigh the risks for most people. Treatment breaks (drug holidays) may be considered after 5 years on oral bisphosphonates.",
           },
           {
             name: "Denosumab",
             examples: "Prolia (brand name)",
             how: "Denosumab is a monoclonal antibody — a biological medicine — that blocks RANK ligand, a protein essential to osteoclast (bone breakdown cell) function. By blocking this protein, it significantly reduces bone breakdown and increases bone density.",
-            notes: "Given as a subcutaneous injection every 6 months, usually at an HCP surgery or hospital clinic. It is effective for both post-menopausal osteoporosis and for bone loss in men on androgen deprivation therapy. It is important not to miss or delay injections, as stopping denosumab without a transition plan can lead to a rapid increase in fracture risk.",
+            notes: "Given as a subcutaneous injection every 6 months, usually at a doctor surgery or hospital clinic. It is effective for both post-menopausal osteoporosis and for bone loss in men on androgen deprivation therapy. It is important not to miss or delay injections, as stopping denosumab without a transition plan can lead to a rapid increase in fracture risk.",
           },
           {
             name: "Hormone Replacement Therapy (HRT)",
             examples: "Various forms of oestrogen (with or without progestogen for women with a uterus)",
             how: "Oestrogen plays a key role in maintaining bone density in women. HRT replaces the oestrogen lost at menopause and has been shown to reduce fracture risk. It is often used for women who need treatment for menopausal symptoms (hot flushes, night sweats, etc.) and who also have osteoporosis or are at high risk.",
-            notes: "HRT is not a one-size-fits-all treatment. Your HCP will discuss the benefits and risks of HRT in relation to your individual medical history. Modern HRT (particularly transdermal forms) is considered much safer than older formulations in most women. Bone protective effect is maintained while HRT is being taken.",
+            notes: "HRT is not a one-size-fits-all treatment. Your doctor will discuss the benefits and risks of HRT in relation to your individual medical history. Modern HRT (particularly transdermal forms) is considered much safer than older formulations in most women. Bone protective effect is maintained while HRT is being taken.",
           },
           {
             name: "Anabolic Agents (Bone Builders)",
@@ -110,20 +110,20 @@ export default function TreatmentOptionsPage() {
       <h2>How Long Is Treatment?</h2>
       <p>
         Osteoporosis treatment is typically long-term — often years rather than months. However, treatment is not
-        necessarily lifelong. Your HCP will monitor your bone density periodically (usually every 1–2 years) and
+        necessarily lifelong. Your doctor will monitor your bone density periodically (usually every 1–2 years) and
         reassess whether treatment should continue, be changed, or include a treatment break.
       </p>
       <p>
-        Do not stop any osteoporosis medication without discussing it with your HCP first. Stopping some treatments
+        Do not stop any osteoporosis medication without discussing it with your doctor first. Stopping some treatments
         abruptly (particularly denosumab) can have significant effects on bone density.
       </p>
 
       <div className="bg-[#F9F9F9] border border-[#e0e0e0] rounded-xl p-5 mt-4">
         <p className="text-[#434343] text-sm">
-          For a guide on how to talk to your HCP about these options, including questions to ask about any recommended
+          For a guide on how to talk to your doctor about these options, including questions to ask about any recommended
           medication, visit our{" "}
           <a href="/living-with-osteoporosis/talking-to-your-doctor" className="text-[#555555] underline">
-            Talking to Your HCP page
+            Talking to Your Doctor page
           </a>.
         </p>
       </div>

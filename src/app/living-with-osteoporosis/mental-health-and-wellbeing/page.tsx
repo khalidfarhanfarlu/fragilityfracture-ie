@@ -14,7 +14,7 @@ export default function MentalHealthPage() {
         { label: "Living With Osteoporosis", href: "/living-with-osteoporosis" },
         { label: "Mental Health & Wellbeing" },
       ]}
-      gpCTAContext="If you are feeling anxious, depressed, or isolated because of osteoporosis, speak to your HCP. They can provide support, refer you to a counsellor or psychologist, or connect you with appropriate services."
+      gpCTAContext="If you are feeling anxious, depressed, or isolated because of osteoporosis, speak to your doctor. They can provide support, refer you to a counsellor or psychologist, or connect you with appropriate services."
     >
       <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Mental Health &amp; Wellbeing</h1>
 
@@ -63,7 +63,7 @@ export default function MentalHealthPage() {
         Some things that can help include:
       </p>
       <ul>
-        <li>Talking to someone you trust about how you are feeling — a family member, friend, or HCP</li>
+        <li>Talking to someone you trust about how you are feeling — a family member, friend, or doctor</li>
         <li>Learning more about osteoporosis (as you are doing now) — understanding the condition can reduce fear of the unknown</li>
         <li>Focusing on what you <em>can</em> do to help yourself, rather than what you cannot control</li>
         <li>Connecting with others who have similar experiences — peer support can be invaluable</li>
@@ -76,7 +76,7 @@ export default function MentalHealthPage() {
         fracture — but the goal is always to find ways to do as much as possible safely.
       </p>
       <ul>
-        <li>Work with your physiotherapist and HCP to identify activities that are safe for you</li>
+        <li>Work with your physiotherapist and doctor to identify activities that are safe for you</li>
         <li>Make home adaptations early, before a crisis — proactive safety measures can prevent falls that would otherwise limit independence</li>
         <li>Use assistive devices (walking sticks, grab rails) as tools that extend your independence, not signs of weakness</li>
         <li>Stay socially connected — social engagement is associated with better mental and physical health outcomes</li>
@@ -92,7 +92,7 @@ export default function MentalHealthPage() {
           },
           {
             org: "HSE Mental Health Services",
-            desc: "Your HCP can refer you to HSE counselling or psychology services. Free psychotherapy may be available through primary care psychology in your area.",
+            desc: "Your doctor can refer you to HSE counselling or psychology services. Free psychotherapy may be available through primary care psychology in your area.",
             href: "https://www.hse.ie/eng/services/list/4/mental-health-services/",
           },
           {
@@ -119,7 +119,7 @@ export default function MentalHealthPage() {
       <div className="bg-blue-50 border border-blue-200 rounded-xl p-5 mt-6">
         <p className="text-blue-900 text-sm">
           <strong>If you are in crisis:</strong> If you are feeling very low or having thoughts of self-harm, please
-          contact your HCP, go to your nearest emergency department, or call the Samaritans on{" "}
+          contact your doctor, go to your nearest emergency department, or call the Samaritans on{" "}
           <strong>116 123</strong> (free, 24/7). You are not alone.
         </p>
       </div>

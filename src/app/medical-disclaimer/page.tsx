@@ -21,7 +21,7 @@ export default function MedicalDisclaimerPage() {
         <p className="text-amber-800">
           The information on FragilityFracture.ie is provided for <strong>general educational purposes only</strong>.
           It is not intended to be, and should not be used as, a substitute for professional medical advice,
-          diagnosis, or treatment. Always seek the advice of your HCP or another qualified healthcare provider with
+          diagnosis, or treatment. Always seek the advice of your doctor or another qualified healthcare provider with
           any questions you may have regarding your health.
         </p>
       </div>
@@ -85,10 +85,10 @@ export default function MedicalDisclaimerPage() {
         endorsement of their content.
       </p>
 
-      <h2>Contact Your HCP</h2>
+      <h2>Contact Your Doctor</h2>
       <p>
         If you have any concerns about your bone health, have experienced a fracture, or have questions about
-        osteoporosis, the most important thing you can do is speak to your HCP. A brief HCP consultation is the
+        osteoporosis, the most important thing you can do is speak to your doctor. A brief doctor consultation is the
         first step to getting a proper assessment of your individual situation.
       </p>
     </PageLayout>

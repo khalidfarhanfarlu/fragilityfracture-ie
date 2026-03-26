@@ -142,7 +142,7 @@ export default function WhatIsOsteoporosisPage() {
           changes including exercise.
         </p>
         <p>
-          The most important thing is to be diagnosed early. If you think you may be at risk, speak to your HCP about
+          The most important thing is to be diagnosed early. If you think you may be at risk, speak to your doctor about
           a bone density scan.
         </p>
 

@@ -14,7 +14,7 @@ export default function ExercisePage() {
         { label: "Prevention", href: "/prevention" },
         { label: "Exercise & Physical Activity" },
       ]}
-      gpCTAContext="Before starting a new exercise programme, especially if you have been diagnosed with osteoporosis or have had a recent fracture, speak to your HCP or physiotherapist. They can recommend the right exercises for your situation."
+      gpCTAContext="Before starting a new exercise programme, especially if you have been diagnosed with osteoporosis or have had a recent fracture, speak to your doctor or physiotherapist. They can recommend the right exercises for your situation."
     >
       <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Exercise &amp; Physical Activity</h1>
 
@@ -108,7 +108,7 @@ export default function ExercisePage() {
         <p className="font-bold text-amber-900 mb-2">If you have been diagnosed with osteoporosis</p>
         <p className="text-amber-800 text-sm mb-3">
           Exercise is still strongly recommended and beneficial — but certain movements should be approached
-          carefully or modified. Always discuss exercise plans with your HCP or physiotherapist before starting.
+          carefully or modified. Always discuss exercise plans with your doctor or physiotherapist before starting.
         </p>
         <ul className="text-sm text-amber-800 space-y-1.5 list-disc pl-4">
           <li><strong>Forward spinal flexion under load</strong> — such as sit-ups, crunches, rowing with a rounded back, or heavy lifting with a bent spine — increases the risk of vertebral fractures and should generally be avoided</li>
@@ -129,7 +129,7 @@ export default function ExercisePage() {
       </p>
       <ul>
         <li>Start with gentle walking — 10–15 minutes per day and build up gradually</li>
-        <li>Ask your HCP for a referral to a physiotherapist for an individualised exercise plan</li>
+        <li>Ask your doctor for a referral to a physiotherapist for an individualised exercise plan</li>
         <li>Look for Sláintecare-supported exercise programmes through the HSE — some are specifically designed for older adults</li>
         <li>Check if your local leisure centre or sports partnership offers supervised classes for older adults or those with health conditions</li>
       </ul>
