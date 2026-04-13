@@ -23,6 +23,7 @@ export default function ImpactStats() {
   const sectionRef = useRef<HTMLElement>(null);
   const [visible, setVisible] = useState(false);
 
+  const population = useCountUp(400000, 2400, visible); // 0 → 400,000
   const fractures = useCountUp(30000, 2400, visible);
   const womenDenom = useCountUp(3, 1200, visible);    // 0 → 3
   const menDenom   = useCountUp(5, 1600, visible);    // 0 → 5
@@ -42,7 +43,7 @@ export default function ImpactStats() {
   const stats = [
     {
       label: "People in Ireland",
-      value: "300,000–500,000",
+      value: visible ? population.toLocaleString() : "0",
       note: "estimated to have osteoporosis",
       sub: "Many undiagnosed — often found after a fracture",
     },

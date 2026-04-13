@@ -90,6 +90,12 @@ export default function BoneHeroSlider() {
             >
               Learn More
             </Link>
+            <Link
+              href="/research/findings-2023"
+              className="inline-flex items-center justify-center gap-2 border-2 border-[#E7D549]/50 bg-[#E7D549]/10 hover:bg-[#E7D549]/20 text-[#E7D549] font-bold px-7 py-3.5 rounded-xl text-base transition-colors"
+            >
+              Irish Research Findings
+            </Link>
           </div>
         </div>
       </div>
