@@ -8,7 +8,6 @@ import {
 } from "lucide-react";
 import { getAllPostMeta } from "@/lib/posts";
 import BoneHeroSlider from "@/components/BoneHeroSlider";
-import BoneDensityChart from "@/components/BoneDensityChart";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
 import BoneMicroscopyAnimation from "@/components/BoneMicroscopyAnimation";
 import ImpactStats from "@/components/ImpactStats";
@@ -144,7 +143,7 @@ export default function Home() {
         {/* ── BONE LIFECYCLE CHART ──────────────────────────────────────── */}
         <section className="py-16 bg-[#F9F9F9] border-y border-[#e0e0e0]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="grid grid-cols-1 lg:grid-cols-[2fr_3fr] gap-12 items-center">
 
               {/* Left: explanation */}
               <AnimateOnScroll direction="left">
@@ -191,10 +190,16 @@ export default function Home() {
                 </div>
               </AnimateOnScroll>
 
-              {/* Right: animated chart */}
+              {/* Right: bone density chart image */}
               <AnimateOnScroll direction="right">
-                <div className="bg-white rounded-2xl border border-[#e0e0e0] p-5 shadow-sm">
-                  <BoneDensityChart />
+                <div className="bg-white rounded-2xl border border-[#e0e0e0] p-4 shadow-sm">
+                  <Image
+                    src="/bone-density-change.png"
+                    alt="Graph showing how bone density changes over a lifetime for men and women, with a sharp decline in women after menopause"
+                    width={800}
+                    height={500}
+                    className="w-full h-auto rounded-xl"
+                  />
                 </div>
               </AnimateOnScroll>
             </div>
