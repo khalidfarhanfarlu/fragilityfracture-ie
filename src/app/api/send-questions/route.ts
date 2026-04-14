@@ -1,8 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 const questions = [
   {
     title: "At Your First Appointment (Bone Health Discussion)",
@@ -104,6 +102,12 @@ export async function POST(req: NextRequest) {
     if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
       return NextResponse.json({ error: "Invalid email address." }, { status: 400 });
     }
+
+    if (!process.env.RESEND_API_KEY) {
+      return NextResponse.json({ error: "Email service not configured." }, { status: 503 });
+    }
+
+    const resend = new Resend(process.env.RESEND_API_KEY);
 
     const { error } = await resend.emails.send({
       from: "FragilityFracture.ie <questions@fragilityfracture.ie>",
