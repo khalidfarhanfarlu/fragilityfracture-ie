@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Menu, X, ChevronDown, ChevronRight } from "lucide-react";
+import SearchModal from "@/components/SearchModal";
 
 type NavLink     = { type?: "link"; label: string; href: string };
 type NavDivider  = { type: "divider"; label: string };
@@ -20,8 +21,8 @@ const navItems: NavItem[] = [
     label: "Prevention",
     href: "/prevention",
     children: [
-      { label: "Nutrition & Calcium",         href: "/prevention/nutrition-and-calcium" },
-      { label: "Vitamin D",                    href: "/prevention/vitamin-d" },
+      { label: "Nutrition",                     href: "/prevention/nutrition-and-calcium" },
+      { label: "Calcium and Vitamin D",         href: "/prevention/calcium-and-vitamin-d" },
       { label: "Exercise & Physical Activity", href: "/prevention/exercise" },
       { label: "Lifestyle Factors",            href: "/prevention/lifestyle" },
       { label: "Bone Health at Every Age",     href: "/prevention/bone-health-at-every-age" },
@@ -189,8 +190,9 @@ export default function Header() {
             ))}
           </nav>
 
-          {/* CTA + Mobile button */}
+          {/* CTA + Search + Mobile button */}
           <div className="flex items-center gap-3">
+            <SearchModal />
             <Link
               href="/am-i-at-risk"
               className="hidden md:inline-flex items-center gap-2 bg-[#E7D549] hover:bg-[#d4c43e] text-[#434343] font-semibold px-4 py-2 rounded-lg text-sm transition-colors"

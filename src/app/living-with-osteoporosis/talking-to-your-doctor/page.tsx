@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import PageLayout from "@/components/PageLayout";
+import QuestionEmailForm from "@/components/QuestionEmailForm";
 
 export const metadata: Metadata = {
   title: "Talking to Your Doctor About Osteoporosis",
@@ -110,15 +111,8 @@ export default function TalkingToYourDoctorPage() {
         <li><strong>Follow up</strong> — if you were told you would be referred somewhere, or that a letter would be sent, check in with the surgery if you have not heard within a few weeks.</li>
       </ul>
 
-      <div className="bg-[#f0f0f0] rounded-2xl p-6 mt-6">
-        <h3 className="font-bold text-[#434343] mb-2">Printable Question Card</h3>
-        <p className="text-sm text-[#666666] mb-3">
-          You can print this page before your appointment and bring it with you. Simply select the questions most
-          relevant to your situation and tick them off as you go.
-        </p>
-        <p className="text-xs text-[#888888]">
-          Tip: Use your browser&apos;s print function (Ctrl+P / Cmd+P) to print this page.
-        </p>
+      <div className="mt-8">
+        <QuestionEmailForm />
       </div>
     </PageLayout>
   );

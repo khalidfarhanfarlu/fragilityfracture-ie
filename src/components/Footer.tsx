@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -32,6 +33,16 @@ export default function Footer() {
               Ireland&apos;s plain-language guide to osteoporosis, bone density, and fragility fractures.
             </p>
             <p className="text-xs text-[#888888] mt-3">Last site review: February 2026</p>
+            <div className="mt-5 pt-5 border-t border-[#555555]">
+              <p className="text-[10px] font-bold uppercase tracking-widest text-[#777777] mb-3">Supported By</p>
+              <Image
+                src="/athena-pharm-logo-white.png"
+                alt="Athena Pharma"
+                width={120}
+                height={40}
+                className="opacity-80 hover:opacity-100 transition-opacity"
+              />
+            </div>
           </div>
 
           {/* About */}

@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import PageLayout from "@/components/PageLayout";
 
 export const metadata: Metadata = {
-  title: "Nutrition & Calcium for Bone Health",
+  title: "Nutrition for Bone Health",
   description:
-    "How much calcium do you need? Best food sources of calcium, supplements, and Irish dietary recommendations for bone health.",
+    "How diet and nutrition support bone health throughout life. Foods that help build and protect bone density in Ireland.",
 };
 
 const calciumSources = [
@@ -26,11 +26,11 @@ export default function NutritionAndCalciumPage() {
     <PageLayout
       breadcrumbs={[
         { label: "Prevention", href: "/prevention" },
-        { label: "Nutrition & Calcium" },
+        { label: "Nutrition" },
       ]}
       gpCTAContext="If you are unsure whether your calcium intake is adequate, or whether you need a supplement, speak to your doctor or a registered dietitian."
     >
-      <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Nutrition &amp; Calcium</h1>
+      <h1 className="text-4xl font-extrabold text-[#434343] mb-6">Nutrition for Bone Health</h1>
 
       <p className="text-lg text-[#666666] mb-6 leading-relaxed">
         Calcium is the most important mineral for bone health. About 99% of the body&apos;s calcium is stored in

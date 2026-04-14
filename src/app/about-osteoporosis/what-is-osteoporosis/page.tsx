@@ -146,6 +146,59 @@ export default function WhatIsOsteoporosisPage() {
           a bone density scan.
         </p>
 
+        {/* ── VENN DIAGRAM ─────────────────────────────────────────── */}
+        <h2>Three Things to Improve Your Osteoporosis</h2>
+        <p>
+          While osteoporosis cannot be fully reversed, three lifestyle changes have strong evidence behind them
+          for improving bone health and reducing fracture risk. Together, their effect is greater than any one alone.
+        </p>
+
+        <div className="my-8 flex flex-col items-center">
+          <svg
+            viewBox="0 0 420 380"
+            xmlns="http://www.w3.org/2000/svg"
+            className="w-full max-w-md"
+            aria-label="Venn diagram: stopping smoking, regular exercise, and healthy eating all intersect at better bone health"
+            role="img"
+          >
+            {/* Circle 1 — top: Stopping Smoking */}
+            <circle cx="210" cy="130" r="120" fill="#1e293b" fillOpacity="0.85" />
+            {/* Circle 2 — bottom-left: Regular Exercise */}
+            <circle cx="140" cy="260" r="120" fill="#1e293b" fillOpacity="0.75" />
+            {/* Circle 3 — bottom-right: Healthy Eating */}
+            <circle cx="280" cy="260" r="120" fill="#1e293b" fillOpacity="0.75" />
+
+            {/* Labels — outer */}
+            <text x="210" y="62" textAnchor="middle" fill="white" fontSize="13" fontWeight="700" fontFamily="sans-serif">Stopping</text>
+            <text x="210" y="78" textAnchor="middle" fill="white" fontSize="13" fontWeight="700" fontFamily="sans-serif">Smoking</text>
+
+            <text x="62" y="308" textAnchor="middle" fill="white" fontSize="13" fontWeight="700" fontFamily="sans-serif">Regular</text>
+            <text x="62" y="324" textAnchor="middle" fill="white" fontSize="13" fontWeight="700" fontFamily="sans-serif">Exercise</text>
+
+            <text x="358" y="308" textAnchor="middle" fill="white" fontSize="13" fontWeight="700" fontFamily="sans-serif">Healthy</text>
+            <text x="358" y="324" textAnchor="middle" fill="white" fontSize="13" fontWeight="700" fontFamily="sans-serif">Eating</text>
+
+            {/* Centre label */}
+            <text x="210" y="208" textAnchor="middle" fill="#E7D549" fontSize="12" fontWeight="800" fontFamily="sans-serif">Better</text>
+            <text x="210" y="223" textAnchor="middle" fill="#E7D549" fontSize="12" fontWeight="800" fontFamily="sans-serif">Bone</text>
+            <text x="210" y="238" textAnchor="middle" fill="#E7D549" fontSize="12" fontWeight="800" fontFamily="sans-serif">Health</text>
+          </svg>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
+          {[
+            { label: "Stopping Smoking", desc: "Smoking reduces bone density and impairs the body's ability to absorb calcium. Quitting at any age helps slow further bone loss." },
+            { label: "Regular Exercise", desc: "Weight-bearing and resistance exercises stimulate bone formation. Activities like walking, dancing, and strength training are particularly beneficial." },
+            { label: "Healthy Eating", desc: "A diet rich in calcium, Vitamin D, protein, and vegetables provides the building blocks your bones need to stay strong throughout life." },
+          ].map(({ label, desc }) => (
+            <div key={label} className="bg-[#F9F9F9] border border-[#e0e0e0] rounded-xl p-5">
+              <div className="w-3 h-3 rounded-full bg-[#E7D549] mb-3" />
+              <p className="font-bold text-[#434343] text-sm mb-2">{label}</p>
+              <p className="text-[#666666] text-sm leading-relaxed">{desc}</p>
+            </div>
+          ))}
+        </div>
+
         <h2>Frequently Asked Questions</h2>
 
         <div className="space-y-5 mt-4">

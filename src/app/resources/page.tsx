@@ -33,6 +33,11 @@ const resources = [
         desc: "Free HSE smoking cessation service. Smoking is a significant risk factor for osteoporosis — quitting helps protect your bones.",
         url: "https://www.quit.ie",
       },
+      {
+        name: "Exwell Ireland",
+        desc: "Irish exercise and wellness programme supporting older adults. Regular physical activity is one of the most effective ways to maintain bone density and reduce fall risk.",
+        url: "https://www.exwell.ie",
+      },
     ],
   },
   {
@@ -57,6 +62,16 @@ const resources = [
         name: "National Osteoporosis Society (UK)",
         desc: "Provides high-quality patient information resources, including guides to DXA scans, medication, and living with osteoporosis.",
         url: "https://theros.org.uk",
+      },
+      {
+        name: "Osteoporosis Canada",
+        desc: "Canada's leading osteoporosis organisation, with comprehensive patient education, clinical guidelines, and resources on diagnosis, treatment, and fracture prevention.",
+        url: "https://osteoporosis.ca",
+      },
+      {
+        name: "Mayo Clinic — Osteoporosis",
+        desc: "Trusted, evidence-based patient information on osteoporosis from one of the world's leading medical centres. Covers symptoms, causes, diagnosis, and treatment.",
+        url: "https://www.mayoclinic.org/diseases-conditions/osteoporosis/symptoms-causes/syc-20351968",
       },
     ],
   },
