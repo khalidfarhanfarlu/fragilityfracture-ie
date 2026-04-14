@@ -23,18 +23,14 @@ export default function Footer() {
           <div>
             <Link
               href="/"
-              className="inline-flex items-center gap-2 text-white font-bold text-lg mb-4"
+              className="inline-flex items-center gap-2 text-white font-bold text-lg"
               aria-label="FragilityFracture.ie — Home"
             >
               <span className="bg-[#E7D549] text-[#434343] rounded-lg px-2 py-1 text-sm font-bold">FF</span>
               FragilityFracture<span className="text-[#E7D549]">.ie</span>
             </Link>
-            <p className="text-sm text-[#999999] leading-relaxed">
-              Ireland&apos;s plain-language guide to osteoporosis, bone density, and fragility fractures.
-            </p>
-            <p className="text-xs text-[#888888] mt-3">Last site review: February 2026</p>
-            <div className="mt-5 pt-5 border-t border-[#555555]">
-              <p className="text-[10px] font-bold uppercase tracking-widest text-[#777777] mb-3">Supported By</p>
+            <div className="mt-3 mb-4">
+              <p className="text-[10px] font-bold uppercase tracking-widest text-[#777777] mb-2">Supported By</p>
               <Image
                 src="/athena-pharm-logo-white.png"
                 alt="Athena Pharma"
@@ -43,6 +39,10 @@ export default function Footer() {
                 className="opacity-80 hover:opacity-100 transition-opacity"
               />
             </div>
+            <p className="text-sm text-[#999999] leading-relaxed">
+              Ireland&apos;s plain-language guide to osteoporosis, bone density, and fragility fractures.
+            </p>
+            <p className="text-xs text-[#888888] mt-3">Last site review: February 2026</p>
           </div>
 
           {/* About */}

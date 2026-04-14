@@ -111,7 +111,7 @@ export default function Header() {
           </Link>
 
           {/* Desktop nav */}
-          <nav aria-label="Main navigation" className="hidden lg:flex items-center gap-1">
+          <nav aria-label="Main navigation" className="hidden lg:flex items-center gap-0">
             {navItems.map((item) => (
               <div
                 key={item.href}
@@ -121,7 +121,7 @@ export default function Header() {
               >
                 <Link
                   href={item.href}
-                  className="flex items-center gap-1 px-3 py-2 rounded-md text-sm font-medium text-[#555555] hover:text-[#434343] hover:bg-[#F9F9F9] transition-colors"
+                  className="flex items-center gap-1 px-2 py-2 rounded-md text-[13px] font-medium text-[#555555] hover:text-[#434343] hover:bg-[#F9F9F9] transition-colors"
                   aria-expanded={openDropdown === item.href}
                 >
                   {item.label}

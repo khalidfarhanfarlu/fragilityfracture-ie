@@ -155,33 +155,65 @@ export default function WhatIsOsteoporosisPage() {
 
         <div className="my-8 flex flex-col items-center">
           <svg
-            viewBox="0 0 420 380"
+            viewBox="0 0 520 460"
             xmlns="http://www.w3.org/2000/svg"
-            className="w-full max-w-md"
+            className="w-full max-w-lg"
             aria-label="Venn diagram: stopping smoking, regular exercise, and healthy eating all intersect at better bone health"
             role="img"
           >
-            {/* Circle 1 — top: Stopping Smoking */}
-            <circle cx="210" cy="130" r="120" fill="#1e293b" fillOpacity="0.85" />
-            {/* Circle 2 — bottom-left: Regular Exercise */}
-            <circle cx="140" cy="260" r="120" fill="#1e293b" fillOpacity="0.75" />
-            {/* Circle 3 — bottom-right: Healthy Eating */}
-            <circle cx="280" cy="260" r="120" fill="#1e293b" fillOpacity="0.75" />
+            {/* ── Circles ── */}
+            <circle cx="260" cy="158" r="138" fill="#1e293b" fillOpacity="0.82" stroke="#E7D549" strokeWidth="2" strokeOpacity="0.4" />
+            <circle cx="155" cy="322" r="138" fill="#1e293b" fillOpacity="0.72" stroke="#60a5fa" strokeWidth="2" strokeOpacity="0.4" />
+            <circle cx="365" cy="322" r="138" fill="#1e293b" fillOpacity="0.72" stroke="#4ade80" strokeWidth="2" strokeOpacity="0.4" />
 
-            {/* Labels — outer */}
-            <text x="210" y="62" textAnchor="middle" fill="white" fontSize="13" fontWeight="700" fontFamily="sans-serif">Stopping</text>
-            <text x="210" y="78" textAnchor="middle" fill="white" fontSize="13" fontWeight="700" fontFamily="sans-serif">Smoking</text>
+            {/* ── Icon: No Smoking (top circle) ── */}
+            {/* Cigarette body */}
+            <rect x="236" y="75" width="48" height="10" rx="3" fill="#E7D549" opacity="0.9" />
+            <rect x="276" y="75" width="8" height="10" rx="1" fill="#f59e0b" opacity="0.9" />
+            {/* Smoke wisps */}
+            <path d="M258 72 Q256 62 260 55 Q264 48 262 40" stroke="#E7D549" strokeWidth="2" fill="none" strokeLinecap="round" opacity="0.7" />
+            <path d="M268 72 Q270 62 266 55 Q262 48 264 40" stroke="#E7D549" strokeWidth="2" fill="none" strokeLinecap="round" opacity="0.5" />
+            {/* Red cross-out */}
+            <line x1="228" y1="68" x2="292" y2="92" stroke="#ef4444" strokeWidth="3" strokeLinecap="round" />
 
-            <text x="62" y="308" textAnchor="middle" fill="white" fontSize="13" fontWeight="700" fontFamily="sans-serif">Regular</text>
-            <text x="62" y="324" textAnchor="middle" fill="white" fontSize="13" fontWeight="700" fontFamily="sans-serif">Exercise</text>
+            {/* ── Label: Stop Smoking (top) ── */}
+            <text x="260" y="116" textAnchor="middle" fill="white" fontSize="14" fontWeight="800" fontFamily="system-ui,sans-serif" letterSpacing="0.3">STOP</text>
+            <text x="260" y="133" textAnchor="middle" fill="white" fontSize="14" fontWeight="800" fontFamily="system-ui,sans-serif" letterSpacing="0.3">SMOKING</text>
 
-            <text x="358" y="308" textAnchor="middle" fill="white" fontSize="13" fontWeight="700" fontFamily="sans-serif">Healthy</text>
-            <text x="358" y="324" textAnchor="middle" fill="white" fontSize="13" fontWeight="700" fontFamily="sans-serif">Eating</text>
+            {/* ── Icon: Running figure (bottom-left) ── */}
+            {/* Head */}
+            <circle cx="131" cy="252" r="9" fill="#60a5fa" opacity="0.9" />
+            {/* Body */}
+            <line x1="131" y1="261" x2="128" y2="283" stroke="#60a5fa" strokeWidth="3" strokeLinecap="round" />
+            {/* Arms */}
+            <line x1="128" y1="268" x2="118" y2="262" stroke="#60a5fa" strokeWidth="2.5" strokeLinecap="round" />
+            <line x1="128" y1="268" x2="140" y2="273" stroke="#60a5fa" strokeWidth="2.5" strokeLinecap="round" />
+            {/* Legs */}
+            <line x1="128" y1="283" x2="119" y2="298" stroke="#60a5fa" strokeWidth="2.5" strokeLinecap="round" />
+            <line x1="128" y1="283" x2="138" y2="296" stroke="#60a5fa" strokeWidth="2.5" strokeLinecap="round" />
+            {/* Shoe (front foot) */}
+            <line x1="119" y1="298" x2="112" y2="298" stroke="#60a5fa" strokeWidth="2.5" strokeLinecap="round" />
 
-            {/* Centre label */}
-            <text x="210" y="208" textAnchor="middle" fill="#E7D549" fontSize="12" fontWeight="800" fontFamily="sans-serif">Better</text>
-            <text x="210" y="223" textAnchor="middle" fill="#E7D549" fontSize="12" fontWeight="800" fontFamily="sans-serif">Bone</text>
-            <text x="210" y="238" textAnchor="middle" fill="#E7D549" fontSize="12" fontWeight="800" fontFamily="sans-serif">Health</text>
+            {/* ── Label: Regular Exercise (bottom-left) ── */}
+            <text x="155" y="326" textAnchor="middle" fill="white" fontSize="14" fontWeight="800" fontFamily="system-ui,sans-serif" letterSpacing="0.3">REGULAR</text>
+            <text x="155" y="343" textAnchor="middle" fill="white" fontSize="14" fontWeight="800" fontFamily="system-ui,sans-serif" letterSpacing="0.3">EXERCISE</text>
+
+            {/* ── Icon: Leaf / healthy food (bottom-right) ── */}
+            <path d="M365 252 Q378 242 385 255 Q390 265 378 272 Q368 278 360 268 Q354 258 365 252Z" fill="#4ade80" opacity="0.9" />
+            <line x1="365" y1="252" x2="372" y2="272" stroke="#4ade80" strokeWidth="1.5" strokeLinecap="round" opacity="0.7" />
+            {/* Fork */}
+            <line x1="352" y1="248" x2="352" y2="270" stroke="#4ade80" strokeWidth="2" strokeLinecap="round" />
+            <line x1="348" y1="248" x2="348" y2="258" stroke="#4ade80" strokeWidth="1.5" strokeLinecap="round" />
+            <line x1="356" y1="248" x2="356" y2="258" stroke="#4ade80" strokeWidth="1.5" strokeLinecap="round" />
+
+            {/* ── Label: Healthy Eating (bottom-right) ── */}
+            <text x="365" y="326" textAnchor="middle" fill="white" fontSize="14" fontWeight="800" fontFamily="system-ui,sans-serif" letterSpacing="0.3">HEALTHY</text>
+            <text x="365" y="343" textAnchor="middle" fill="white" fontSize="14" fontWeight="800" fontFamily="system-ui,sans-serif" letterSpacing="0.3">EATING</text>
+
+            {/* ── Centre: Better Bone Health ── */}
+            <text x="260" y="248" textAnchor="middle" fill="#E7D549" fontSize="13" fontWeight="900" fontFamily="system-ui,sans-serif">Better</text>
+            <text x="260" y="264" textAnchor="middle" fill="#E7D549" fontSize="13" fontWeight="900" fontFamily="system-ui,sans-serif">Bone</text>
+            <text x="260" y="280" textAnchor="middle" fill="#E7D549" fontSize="13" fontWeight="900" fontFamily="system-ui,sans-serif">Health</text>
           </svg>
         </div>
 

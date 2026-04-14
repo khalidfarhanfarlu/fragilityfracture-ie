@@ -78,7 +78,7 @@ export default function SearchModal() {
       {/* Search trigger button */}
       <button
         onClick={() => setOpen(true)}
-        className="hidden md:flex items-center gap-2 text-sm text-[#888888] border border-[#e0e0e0] rounded-lg px-3 py-1.5 hover:border-[#E7D549] hover:text-[#555555] transition-colors bg-[#F9F9F9]"
+        className="hidden md:flex items-center gap-2 text-sm text-[#888888] border border-[#e0e0e0] rounded-lg px-3 py-1.5 hover:border-[#E7D549] hover:text-[#555555] transition-colors bg-[#F9F9F9] w-44"
         aria-label="Search site"
       >
         <Search className="w-3.5 h-3.5" />

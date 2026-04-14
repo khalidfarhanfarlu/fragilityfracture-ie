@@ -57,7 +57,7 @@ export default function QuestionEmailForm() {
         </div>
         <h3 className="font-bold text-white text-lg">Get the questions by email</h3>
       </div>
-      <p className="text-slate-400 text-sm leading-relaxed mb-6">
+      <p className="text-[#c9b84a] text-sm leading-relaxed mb-6">
         Enter your email and we&apos;ll send you the full list of questions above — formatted and ready to bring to your next appointment.
       </p>
 
@@ -97,7 +97,7 @@ export default function QuestionEmailForm() {
         </div>
       )}
 
-      <p className="text-slate-600 text-xs mt-4">
+      <p className="text-[#a89838] text-xs mt-4">
         We don&apos;t store your email or send any further messages. One email only.
       </p>
     </div>
