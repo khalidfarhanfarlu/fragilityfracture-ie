@@ -210,10 +210,11 @@ export default function WhatIsOsteoporosisPage() {
             <text x="365" y="326" textAnchor="middle" fill="white" fontSize="14" fontWeight="800" fontFamily="system-ui,sans-serif" letterSpacing="0.3">HEALTHY</text>
             <text x="365" y="343" textAnchor="middle" fill="white" fontSize="14" fontWeight="800" fontFamily="system-ui,sans-serif" letterSpacing="0.3">EATING</text>
 
-            {/* ── Centre: Better Bone Health ── */}
-            <text x="260" y="248" textAnchor="middle" fill="#E7D549" fontSize="13" fontWeight="900" fontFamily="system-ui,sans-serif">Better</text>
-            <text x="260" y="264" textAnchor="middle" fill="#E7D549" fontSize="13" fontWeight="900" fontFamily="system-ui,sans-serif">Bone</text>
-            <text x="260" y="280" textAnchor="middle" fill="#E7D549" fontSize="13" fontWeight="900" fontFamily="system-ui,sans-serif">Health</text>
+            {/* ── Centre circle: Better Bone Health ── */}
+            <circle cx="260" cy="262" r="60" fill="#E7D549" stroke="#1e293b" strokeWidth="3" />
+            <text x="260" y="250" textAnchor="middle" fill="#1e293b" fontSize="12" fontWeight="900" fontFamily="system-ui,sans-serif">Better</text>
+            <text x="260" y="265" textAnchor="middle" fill="#1e293b" fontSize="12" fontWeight="900" fontFamily="system-ui,sans-serif">Bone</text>
+            <text x="260" y="280" textAnchor="middle" fill="#1e293b" fontSize="12" fontWeight="900" fontFamily="system-ui,sans-serif">Health</text>
           </svg>
         </div>
 

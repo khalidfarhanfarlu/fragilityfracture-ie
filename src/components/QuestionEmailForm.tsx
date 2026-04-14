@@ -50,14 +50,14 @@ export default function QuestionEmailForm() {
   }
 
   return (
-    <div className="bg-[#1e293b] rounded-2xl p-6 sm:p-8">
+    <div className="bg-[#FFFBDF] border border-[#E7D549] rounded-2xl p-6 sm:p-8">
       <div className="flex items-center gap-3 mb-2">
         <div className="w-8 h-8 rounded-full bg-[#E7D549] flex items-center justify-center shrink-0">
           <Send className="w-4 h-4 text-[#1e293b]" />
         </div>
-        <h3 className="font-bold text-white text-lg">Get the questions by email</h3>
+        <h3 className="font-bold text-[#1e293b] text-lg">Get the questions by email</h3>
       </div>
-      <p className="text-[#c9b84a] text-sm leading-relaxed mb-6">
+      <p className="text-[#555555] text-sm leading-relaxed mb-6">
         Enter your email and we&apos;ll send you the full list of questions above — formatted and ready to bring to your next appointment.
       </p>
 
@@ -69,12 +69,12 @@ export default function QuestionEmailForm() {
           placeholder="your@email.com"
           required
           disabled={status === "loading"}
-          className="flex-1 bg-white/10 border border-white/20 text-white placeholder-slate-500 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-[#E7D549] focus:ring-1 focus:ring-[#E7D549] transition-colors disabled:opacity-60"
+          className="flex-1 bg-white border border-[#d4c43e] text-[#1e293b] placeholder-[#aaaaaa] rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-[#E7D549] focus:ring-2 focus:ring-[#E7D549]/40 transition-colors disabled:opacity-60"
         />
         <button
           type="submit"
           disabled={status === "loading" || !email}
-          className="inline-flex items-center justify-center gap-2 bg-[#E7D549] hover:bg-[#d4c43e] disabled:opacity-60 disabled:cursor-not-allowed text-[#1e293b] font-bold px-6 py-3 rounded-lg text-sm transition-colors shrink-0"
+          className="inline-flex items-center justify-center gap-2 bg-[#1e293b] hover:bg-[#2d3f54] disabled:opacity-60 disabled:cursor-not-allowed text-[#E7D549] font-bold px-6 py-3 rounded-lg text-sm transition-colors shrink-0"
         >
           {status === "loading" ? (
             <>
@@ -91,13 +91,13 @@ export default function QuestionEmailForm() {
       </form>
 
       {status === "error" && (
-        <div className="flex items-center gap-2 mt-3 text-red-400 text-sm">
+        <div className="flex items-center gap-2 mt-3 text-red-600 text-sm">
           <AlertCircle className="w-4 h-4 shrink-0" />
           <span>{errorMsg}</span>
         </div>
       )}
 
-      <p className="text-[#a89838] text-xs mt-4">
+      <p className="text-[#888888] text-xs mt-4">
         We don&apos;t store your email or send any further messages. One email only.
       </p>
     </div>
