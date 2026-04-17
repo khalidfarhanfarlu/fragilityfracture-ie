@@ -212,9 +212,8 @@ export default function Home() {
             <AnimateOnScroll direction="up">
               <div className="text-center mb-10">
                 <h2 className="text-2xl font-bold text-[#434343] mb-3">Why Bone Health Matters</h2>
-                <p className="text-[#888888] max-w-2xl mx-auto text-base">
-                  Osteoporosis is a silent condition — bones weaken gradually with no symptoms until a fracture occurs.
-                  Early awareness and action make a real difference.
+                <p className="text-[#555555] max-w-2xl mx-auto text-base font-semibold">
+                  A person reaches their bone peak bank between the ages of 25 to 30. (This is when your bone density is at its peak).
                 </p>
               </div>
             </AnimateOnScroll>
